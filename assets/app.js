@@ -147,13 +147,18 @@
     if (view === 'library') renderLibrary();
   }
 
+  function updateHomeScroll() {
+    els.body.classList.toggle('home-scrolled', els.body.classList.contains('view-home') && window.scrollY > 70);
+  }
+
   function showView(name) {
     const legal = ['home', 'library', 'reader'];
     const active = legal.includes(name) ? name : 'home';
     els.views.forEach((view) => { view.hidden = view.dataset.view !== active; });
     els.nav.forEach((nav) => nav.classList.toggle('active', nav.dataset.nav === active));
-    els.body.classList.remove('view-home', 'view-library', 'view-reader');
+    els.body.classList.remove('view-home', 'view-library', 'view-reader', 'home-scrolled');
     els.body.classList.add(`view-${active}`);
+    requestAnimationFrame(updateHomeScroll);
   }
 
   function labelFor(item) {
@@ -295,7 +300,10 @@
 
   function bindEvents() {
     window.addEventListener('hashchange', route);
-    window.addEventListener('scroll', () => window.requestAnimationFrame(updateReadingProgress), { passive: true });
+    window.addEventListener('scroll', () => window.requestAnimationFrame(() => {
+      updateReadingProgress();
+      updateHomeScroll();
+    }), { passive: true });
 
     els.searchInput.addEventListener('input', (event) => {
       state.search = event.target.value;
