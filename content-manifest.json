@@ -1,0 +1,10 @@
+{
+  "name": "HaruReader",
+  "source": "src",
+  "structure": {
+    "skits": "src/skits/title.md",
+    "novel": "src/novel/volume/chapter*.md"
+  },
+  "generatedAt": "2026-07-09T23:22:35.073798+00:00",
+  "items": []
+}

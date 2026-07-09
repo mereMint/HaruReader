@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="dark light">
+  <title>HaruReader</title>
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to reader</a>
+
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="HaruReader home">
+      <span class="brand-mark">H</span>
+      <span>
+        <strong>HaruReader</strong>
+        <small>Harutronic archive</small>
+      </span>
+    </a>
+
+    <nav class="nav-tabs" aria-label="Main navigation">
+      <a href="#home" data-nav="home">Home</a>
+      <a href="#library" data-nav="library">Library</a>
+      <a href="#reader" data-nav="reader">Reader</a>
+    </nav>
+
+    <button class="ghost-button" id="themeToggle" type="button" aria-label="Switch color theme">Light</button>
+  </header>
+
+  <main id="main">
+    <section class="view hero-view" id="homeView" data-view="home">
+      <div class="hero-copy">
+        <p class="eyebrow">Minimal local reader</p>
+        <h1>Cyberpunk skits, chapters, and notes without the noise.</h1>
+        <p class="lead">A simple GitHub Pages reader for selected skits from src/skits and future chapters from src/novel. Pick a text and HaruReader remembers where you stopped in this browser.</p>
+        <div class="hero-actions">
+          <a class="solid-button" href="#library">Open Library</a>
+          <button class="soft-button" id="continueButton" type="button">Continue Reading</button>
+        </div>
+      </div>
+
+      <aside class="now-card" aria-label="Reading status">
+        <p class="eyebrow">Current save</p>
+        <h2 id="homeLastTitle">Nothing started yet</h2>
+        <p id="homeLastMeta">Progress is stored locally with localStorage.</p>
+        <div class="meter" aria-hidden="true"><span id="homeProgressBar"></span></div>
+      </aside>
+    </section>
+
+    <section class="view library-view" id="libraryView" data-view="library" hidden>
+      <div class="section-heading">
+        <p class="eyebrow">Library</p>
+        <h1>Everything ready to read.</h1>
+        <p class="lead">Only public files from src/skits and src/novel are shown. Copy in only the texts you want readers to see.</p>
+      </div>
+
+      <div class="toolbar" role="search">
+        <label class="search-box">
+          <span>Search</span>
+          <input id="searchInput" type="search" placeholder="Search title, folder, excerpt…" autocomplete="off">
+        </label>
+        <div class="filter-row" aria-label="Library filters">
+          <button class="filter active" type="button" data-filter="all">All</button>
+          <button class="filter" type="button" data-filter="skit">Skits</button>
+          <button class="filter" type="button" data-filter="novel">Novel</button>
+        </div>
+      </div>
+
+      <div class="library-grid" id="libraryGrid" aria-live="polite"></div>
+      <p class="empty-state" id="emptyState" hidden>No matching entries.</p>
+    </section>
+
+    <section class="view reader-view" id="readerView" data-view="reader" hidden>
+      <div class="reader-shell">
+        <aside class="reader-panel">
+          <a class="back-link" href="#library">← Library</a>
+          <p class="eyebrow" id="readerKind">Reader</p>
+          <h1 id="readerTitle">Choose something from the library</h1>
+          <p class="reader-meta" id="readerMeta">Progress saves automatically in this browser.</p>
+          <div class="meter reader-meter" aria-label="Reading progress"><span id="readerProgressBar"></span></div>
+          <div class="reader-controls">
+            <button class="solid-button" id="playTypewriter" type="button">Replay typewriter</button>
+            <button class="soft-button" id="showInstant" type="button">Show instantly</button>
+          </div>
+          <label class="speed-control">
+            <span>Type speed</span>
+            <input id="speedSlider" type="range" min="1" max="18" value="7">
+          </label>
+        </aside>
+
+        <article class="reader-card" id="readerArticle" tabindex="-1">
+          <div id="readerContent" class="prose">
+            <p class="muted">Open the library and select a text.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <noscript>
+    <div class="noscript">HaruReader needs JavaScript to fetch Markdown/TXT files and save progress locally.</div>
+  </noscript>
+
+  <script src="assets/app.js" defer></script>
+</body>
+</html>
