@@ -3,8 +3,7 @@
   const STORAGE = {
     progress: 'harureader.progress.v1',
     last: 'harureader.last.v1',
-    theme: 'harureader.theme.v1',
-    speed: 'harureader.speed.v1'
+    theme: 'harureader.theme.v1'
   };
 
   const state = {
@@ -14,6 +13,7 @@
     current: null,
     currentHtml: '',
     typeTimer: null,
+    glitchTimer: null,
     restoring: false
   };
 
@@ -21,25 +21,19 @@
   const $$ = (selector) => Array.from(document.querySelectorAll(selector));
 
   const els = {
+    body: document.body,
     views: $$('[data-view]'),
     nav: $$('[data-nav]'),
     libraryGrid: $('#libraryGrid'),
     emptyState: $('#emptyState'),
     searchInput: $('#searchInput'),
     themeToggle: $('#themeToggle'),
-    continueButton: $('#continueButton'),
-    homeLastTitle: $('#homeLastTitle'),
-    homeLastMeta: $('#homeLastMeta'),
-    homeProgressBar: $('#homeProgressBar'),
     readerKind: $('#readerKind'),
     readerTitle: $('#readerTitle'),
     readerMeta: $('#readerMeta'),
     readerProgressBar: $('#readerProgressBar'),
     readerContent: $('#readerContent'),
-    readerArticle: $('#readerArticle'),
-    playTypewriter: $('#playTypewriter'),
-    showInstant: $('#showInstant'),
-    speedSlider: $('#speedSlider')
+    readerArticle: $('#readerArticle')
   };
 
   function readJson(key, fallback) {
@@ -104,7 +98,6 @@
         continue;
       }
       if (inCode) { code.push(rawLine); continue; }
-
       if (!line.trim()) { flushParagraph(); closeList(); continue; }
       if (/^---+$/.test(line.trim())) { flushParagraph(); closeList(); html.push('<hr>'); continue; }
 
@@ -128,7 +121,6 @@
         html.push(`<li>${inlineMarkdown((unordered || ordered)[1])}</li>`);
         continue;
       }
-
       paragraph.push(line.trim());
     }
 
@@ -146,6 +138,10 @@
   function route() {
     const hash = location.hash.replace(/^#/, '') || 'home';
     const [view, id] = hash.split('/');
+    if (view === 'reader' && !id) {
+      location.replace('#library');
+      return;
+    }
     showView(view || 'home');
     if (view === 'reader' && id) openWork(id);
     if (view === 'library') renderLibrary();
@@ -156,22 +152,8 @@
     const active = legal.includes(name) ? name : 'home';
     els.views.forEach((view) => { view.hidden = view.dataset.view !== active; });
     els.nav.forEach((nav) => nav.classList.toggle('active', nav.dataset.nav === active));
-    if (active === 'home') updateHomeStatus();
-  }
-
-  function updateHomeStatus() {
-    const last = readJson(STORAGE.last, null);
-    const item = last && state.manifest.find((entry) => entry.id === last.id);
-    if (!item) {
-      els.homeLastTitle.textContent = 'Nothing started yet';
-      els.homeLastMeta.textContent = 'Progress is stored locally with localStorage.';
-      els.homeProgressBar.style.width = '0%';
-      return;
-    }
-    const progress = getProgress(item.id);
-    els.homeLastTitle.textContent = item.title;
-    els.homeLastMeta.textContent = `${labelFor(item)} · ${Math.round(progress.percent || 0)}% saved`;
-    els.homeProgressBar.style.width = `${Math.min(100, progress.percent || 0)}%`;
+    els.body.classList.remove('view-home', 'view-library', 'view-reader');
+    els.body.classList.add(`view-${active}`);
   }
 
   function labelFor(item) {
@@ -207,11 +189,10 @@
     els.emptyState.hidden = items.length !== 0;
   }
 
-  async function openWork(id, options = {}) {
+  async function openWork(id) {
     const item = state.manifest.find((entry) => entry.id === id);
     if (!item) {
-      els.readerTitle.textContent = 'Text not found';
-      els.readerContent.innerHTML = '<p class="muted">This entry is missing from the manifest.</p>';
+      location.replace('#library');
       return;
     }
 
@@ -230,7 +211,7 @@
       state.currentHtml = markdownToHtml(markdown);
       const saved = getProgress(item.id);
       els.readerProgressBar.style.width = `${Math.min(100, saved.percent || 0)}%`;
-      if (options.instant || saved.percent > 0) {
+      if (saved.percent > 0) {
         showFullText();
         restoreScroll(saved.scroll || 0);
       } else {
@@ -244,8 +225,10 @@
 
   function stopTypewriter() {
     if (state.typeTimer) clearTimeout(state.typeTimer);
+    if (state.glitchTimer) clearTimeout(state.glitchTimer);
     state.typeTimer = null;
-    els.readerContent.classList.remove('type-cursor');
+    state.glitchTimer = null;
+    els.readerContent.classList.remove('type-cursor', 'letter-glitch', 'font-a', 'font-b', 'font-c');
   }
 
   function showFullText() {
@@ -253,24 +236,41 @@
     els.readerContent.innerHTML = state.currentHtml || '<p class="muted">Nothing loaded.</p>';
   }
 
+  function triggerLetterGlitch(step) {
+    els.readerContent.classList.remove('font-a', 'font-b', 'font-c', 'letter-glitch');
+    // Force reflow so the short glitch animation restarts for every visible character.
+    void els.readerContent.offsetWidth;
+    els.readerContent.classList.add(['font-a', 'font-b', 'font-c'][step % 3], 'letter-glitch');
+    if (state.glitchTimer) clearTimeout(state.glitchTimer);
+    state.glitchTimer = setTimeout(() => {
+      els.readerContent.classList.remove('letter-glitch');
+    }, 90);
+  }
+
   function typewriter(html) {
     stopTypewriter();
     els.readerContent.innerHTML = '';
     els.readerContent.classList.add('type-cursor');
-    const speed = Number(els.speedSlider.value || 7);
     let i = 0;
+    let step = 0;
     return new Promise((resolve) => {
       const tick = () => {
-        if (i >= html.length) { stopTypewriter(); resolve(); return; }
-        const nextTag = html[i] === '<';
-        if (nextTag) {
+        if (i >= html.length) { stopTypewriter(); els.readerContent.innerHTML = html; resolve(); return; }
+        let visibleLetter = false;
+        if (html[i] === '<') {
           const close = html.indexOf('>', i);
           i = close === -1 ? html.length : close + 1;
+        } else if (html[i] === '&') {
+          const close = html.indexOf(';', i);
+          i = close === -1 ? i + 1 : close + 1;
+          visibleLetter = true;
         } else {
-          i += html[i] === '&' ? Math.max(1, (html.indexOf(';', i) - i + 1)) : 1;
+          i += 1;
+          visibleLetter = true;
         }
         els.readerContent.innerHTML = html.slice(0, i);
-        state.typeTimer = setTimeout(tick, Math.max(1, 22 - speed));
+        if (visibleLetter) triggerLetterGlitch(step++);
+        state.typeTimer = setTimeout(tick, 3);
       };
       tick();
     });
@@ -285,14 +285,12 @@
   }
 
   function updateReadingProgress() {
-    if (!state.current || state.restoring) return;
+    if (!state.current || state.restoring || !location.hash.startsWith(`#reader/${state.current.id}`)) return;
     const doc = document.documentElement;
     const max = Math.max(1, doc.scrollHeight - window.innerHeight);
     const percent = Math.max(0, Math.min(100, (window.scrollY / max) * 100));
     setProgress(state.current.id, { percent, scroll: window.scrollY });
     els.readerProgressBar.style.width = `${percent}%`;
-    updateHomeStatus();
-    if (location.hash !== `#reader/${state.current.id}`) return;
   }
 
   function bindEvents() {
@@ -312,20 +310,6 @@
     els.themeToggle.addEventListener('click', () => {
       applyTheme(document.documentElement.dataset.theme === 'dark' ? 'light' : 'dark');
     });
-
-    els.continueButton.addEventListener('click', () => {
-      const last = readJson(STORAGE.last, null);
-      location.hash = last?.id ? `#reader/${last.id}` : '#library';
-    });
-
-    els.playTypewriter.addEventListener('click', () => {
-      if (state.currentHtml) typewriter(state.currentHtml);
-    });
-    els.showInstant.addEventListener('click', showFullText);
-
-    const savedSpeed = localStorage.getItem(STORAGE.speed);
-    if (savedSpeed) els.speedSlider.value = savedSpeed;
-    els.speedSlider.addEventListener('input', () => localStorage.setItem(STORAGE.speed, els.speedSlider.value));
   }
 
   async function init() {
@@ -340,7 +324,6 @@
       els.libraryGrid.innerHTML = `<p class="muted">Could not load the library manifest: ${escapeHtml(error.message)}</p>`;
     }
     renderLibrary();
-    updateHomeStatus();
     route();
   }
 
