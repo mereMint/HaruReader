@@ -14,6 +14,8 @@
   var state = {
     manifest: [],
     activeFilter: 'all',
+    includeFilters: [],
+    excludeFilters: [],
     search: '',
     current: null,
     currentHtml: '',
@@ -33,6 +35,8 @@
     els.libraryGrid = document.querySelector('#libraryGrid');
     els.emptyState = document.querySelector('#emptyState');
     els.searchInput = document.querySelector('#searchInput');
+    els.filterButton = document.querySelector('#filterButton');
+    els.filterPanel = document.querySelector('#filterPanel');
     els.readerKind = document.querySelector('#readerKind');
     els.readerTitle = document.querySelector('#readerTitle');
     els.readerMeta = document.querySelector('#readerMeta');
@@ -238,17 +242,29 @@
     var isHome = els.body.classList.contains('view-home');
     var p = isHome ? Math.max(0, Math.min(1, window.scrollY / Math.max(1, window.innerHeight * 0.42))) : 0;
     var e = p * p * (3 - 2 * p);
-    var wo = p < 0.08 ? 0 : Math.min(1, (p - 0.08) / 0.34) * 0.98;
-    var ws = 0.96 + e * 0.04;
-    var to = Math.max(0, 1 - (p / 0.42));
-    var bo = state.gateUnlocked ? Math.max(0, 1 - (p / 0.22)) : 0.45;
-    var ad = isHome ? 0.36 + e * 0.48 : 0.72;
+    function clamp01(v) { return Math.max(0, Math.min(1, v)); }
+    function easeOut(v) { v = clamp01(v); return 1 - Math.pow(1 - v, 3); }
+
+    var titleLeave = easeOut(p / 0.26);
+    var buttonLeave = easeOut(p / 0.12);
+    var sigIn = easeOut((p - 0.34) / 0.28);
+    var warnIn = easeOut((p - 0.50) / 0.30);
+
+    var sigY = ((1 - sigIn) * 1.6).toFixed(2) + 'rem';
+    var wy = ((1 - warnIn) * 1.25).toFixed(2) + 'rem';
+    var to = 1 - titleLeave;
+    var bo = state.gateUnlocked ? 1 - buttonLeave : Math.min(0.45, 1 - buttonLeave);
+    var ad = isHome ? 0.36 + e * 0.42 : 0.72;
     var go = isHome ? 0.82 - e * 0.28 : 0.68;
     els.body.style.setProperty('--home-scroll-progress', e.toFixed(3));
     els.body.style.setProperty('--title-opacity', to.toFixed(3));
     els.body.style.setProperty('--button-opacity', bo.toFixed(3));
-    els.body.style.setProperty('--warning-opacity', wo.toFixed(3));
-    els.body.style.setProperty('--warning-scale', ws.toFixed(3));
+    els.body.style.setProperty('--signature-opacity', (sigIn * 0.98).toFixed(3));
+    els.body.style.setProperty('--signature-scale', (0.985 + sigIn * 0.015).toFixed(3));
+    els.body.style.setProperty('--signature-y', sigY);
+    els.body.style.setProperty('--warning-opacity', (warnIn * 0.98).toFixed(3));
+    els.body.style.setProperty('--warning-scale', (0.985 + warnIn * 0.015).toFixed(3));
+    els.body.style.setProperty('--warning-y', wy);
     els.body.style.setProperty('--ambient-darkness', ad.toFixed(3));
     els.body.style.setProperty('--grid-opacity', go.toFixed(3));
     els.body.classList.toggle('home-scrolled', isHome && p > 0.08);
@@ -271,32 +287,138 @@
 
   /* ---- library ---- */
   function labelFor(item) {
+    if (item.series) return String(item.series);
     if (item.kind === 'novel') return item.volume ? 'NOVEL \u00b7 ' + item.volume : 'NOVEL';
-    return 'SKIT';
+    if (item.kind === 'skit') return 'SKIT';
+    return String(item.kind || 'TEXT').toUpperCase();
+  }
+
+  function itemTokens(item) {
+    var tokens = ['kind:' + String(item.kind || '').toLowerCase()];
+    if (item.series) tokens.push('series:' + String(item.series).toLowerCase());
+    (item.tags || []).forEach(function(tag) { tokens.push('tag:' + String(tag).toLowerCase()); });
+    return tokens;
+  }
+
+  function matchesFilter(item, filter) {
+    return itemTokens(item).indexOf(String(filter || '').toLowerCase()) > -1;
+  }
+
+  function matchesAllFilters(item, filters) {
+    if (!filters.length) return true;
+    return filters.every(function(filter) { return matchesFilter(item, filter); });
+  }
+
+  function matchesAnyFilter(item, filters) {
+    return filters.some(function(filter) { return matchesFilter(item, filter); });
+  }
+
+  function filterLabel(kind, value) {
+    if (kind === 'kind') return value === 'skit' ? 'Skits' : value === 'novel' ? 'Novel' : value.toUpperCase();
+    if (kind === 'series') return 'Series: ' + value;
+    return 'Tag: ' + value;
+  }
+
+  function collectFilterOptions() {
+    var map = {};
+    function add(kind, value) {
+      if (!value) return;
+      var key = kind + ':' + String(value).toLowerCase();
+      if (!map[key]) map[key] = { value: key, label: filterLabel(kind, String(value)), kind: kind };
+    }
+    state.manifest.forEach(function(item) {
+      add('kind', item.kind);
+      add('series', item.series);
+      (item.tags || []).forEach(function(tag) { add('tag', tag); });
+    });
+    return Object.keys(map).sort(function(a, b) {
+      var ka = map[a].kind === 'tag' ? 0 : map[a].kind === 'series' ? 1 : 2;
+      var kb = map[b].kind === 'tag' ? 0 : map[b].kind === 'series' ? 1 : 2;
+      return ka - kb || map[a].label.localeCompare(map[b].label);
+    }).map(function(key) { return map[key]; });
+  }
+
+  function selectedSummary() {
+    var show = state.includeFilters.length;
+    var hide = state.excludeFilters.length;
+    if (!show && !hide) return 'Everything';
+    if (show && !hide) return show + ' selected';
+    if (!show && hide) return hide + ' hidden';
+    return show + ' selected \u00b7 ' + hide + ' hidden';
+  }
+
+  function filterMode(value) {
+    if (state.includeFilters.indexOf(value) > -1) return 'include';
+    if (state.excludeFilters.indexOf(value) > -1) return 'exclude';
+    return 'neutral';
+  }
+
+  function updateFilterButtonLabels() {
+    if (els.filterButton) els.filterButton.querySelector('strong').textContent = selectedSummary();
+  }
+
+  function renderFilterPanel() {
+    if (!els.filterPanel) return;
+    var opts = collectFilterOptions();
+    els.filterPanel.innerHTML = '<div class="filter-panel-head"><span>Click: show \u2192 hide \u2192 off</span><button type="button" data-clear="filters">Clear</button></div>' +
+      '<div class="filter-options">' + opts.map(function(opt) {
+        var mode = filterMode(opt.value);
+        var symbol = mode === 'include' ? '\u2713' : mode === 'exclude' ? '\u00d7' : '';
+        return '<button type="button" class="filter-option filter-option-' + mode + '" data-filter-value="' + escapeHtml(opt.value) + '"><span class="filter-state">' + symbol + '</span><span>' + escapeHtml(opt.label) + '</span></button>';
+      }).join('') + '</div>';
+  }
+
+  function populateFilterSelects() {
+    renderFilterPanel();
+    updateFilterButtonLabels();
+  }
+
+  function cycleFilter(value) {
+    var inc = state.includeFilters.indexOf(value);
+    var exc = state.excludeFilters.indexOf(value);
+    if (inc === -1 && exc === -1) {
+      state.includeFilters.push(value);
+    } else if (inc > -1) {
+      state.includeFilters.splice(inc, 1);
+      if (state.excludeFilters.indexOf(value) === -1) state.excludeFilters.push(value);
+    } else if (exc > -1) {
+      state.excludeFilters.splice(exc, 1);
+    }
+    populateFilterSelects();
+    renderLibrary();
+  }
+
+  function tagChips(item) {
+    var tags = item.tags || [];
+    if (!tags.length) return '';
+    return '<div class="tag-list" aria-label="Tags">' + tags.map(function(tag) {
+      return '<span class="tag-chip">' + escapeHtml(tag) + '</span>';
+    }).join('') + '</div>';
   }
 
   function renderLibrary() {
     var q = state.search.trim().toLowerCase();
     var items = state.manifest.filter(function(it) {
-      if (state.activeFilter !== 'all' && it.kind !== state.activeFilter) return false;
+      if (!matchesAllFilters(it, state.includeFilters)) return false;
+      if (matchesAnyFilter(it, state.excludeFilters)) return false;
       if (!q) return true;
-      return (it.title + ' ' + (it.excerpt || '') + ' ' + it.kind).toLowerCase().indexOf(q) > -1;
+      return [it.title, it.preview, it.excerpt, it.kind, it.series, (it.tags || []).join(' ')].join(' ').toLowerCase().indexOf(q) > -1;
     });
     els.libraryGrid.innerHTML = items.map(function(it) {
       var released = isReleased(it);
       var p = released ? getProgress(it.id) : { percent: 0 };
       var pc = Math.round(p.percent || 0);
       var href = released ? '#reader/' + it.id : '#library';
-      var badgeLabel = labelFor(it);
-      if (!released) badgeLabel = 'COMING ' + formatReleaseDate(it.releaseAt);
+      var badgeLabel = released ? labelFor(it) : 'COMING ' + formatReleaseDate(it.releaseAt);
       var chipText = released ? (pc ? pc + '%' : 'new') : '\uD83D\uDD12';
       return '<a class="work-card' + (released ? '' : ' locked') + '" href="' + href + '" aria-label="' + escapeHtml(it.title) + '">' +
         '<div class="card-top">' +
-          '<span class="badge">' + escapeHtml(badgeLabel) + '</span>' +
+          '<span class="card-series">' + escapeHtml(badgeLabel) + '</span>' +
           '<span class="progress-chip">' + chipText + '</span>' +
         '</div>' +
         '<h2>' + escapeHtml(it.title) + '</h2>' +
-        '<p>' + escapeHtml(it.excerpt || 'No preview yet.') + '</p>' +
+        '<p class="card-preview">' + escapeHtml(it.preview || it.excerpt || 'No preview yet.') + '</p>' +
+        tagChips(it) +
         '<div class="card-bottom">' +
           '<span>' + (it.words ? it.words + ' words' : '') + '</span>' +
         '</div>' +
@@ -435,6 +557,14 @@
     return all.map(function(w) { return w.charAt(0).toUpperCase() + w.slice(1); }).join(', ') + '.';
   }
 
+  function closeFilterPanels() {
+    if (!els.filterButton || !els.filterPanel) return;
+    els.filterPanel.hidden = true;
+    els.filterButton.setAttribute('aria-expanded', 'false');
+    var menu = els.filterButton.closest('.filter-menu');
+    if (menu) menu.classList.remove('open');
+  }
+
   /* ---- events ---- */
   function bindEvents() {
     window.addEventListener('hashchange', route);
@@ -444,13 +574,35 @@
     if (els.searchInput) {
       els.searchInput.addEventListener('input', function(e) { state.search = e.target.value; renderLibrary(); });
     }
-    Array.from(document.querySelectorAll('.filter')).forEach(function(btn) {
-      btn.addEventListener('click', function() {
-        state.activeFilter = btn.dataset.filter;
-        Array.from(document.querySelectorAll('.filter')).forEach(function(b) { b.classList.toggle('active', b === btn); });
-        renderLibrary();
+    function togglePanel() {
+      if (!els.filterButton || !els.filterPanel) return;
+      var willOpen = els.filterPanel.hidden;
+      closeFilterPanels();
+      els.filterPanel.hidden = !willOpen;
+      els.filterButton.setAttribute('aria-expanded', willOpen ? 'true' : 'false');
+      els.filterButton.closest('.filter-menu').classList.toggle('open', willOpen);
+    }
+    if (els.filterButton) {
+      els.filterButton.addEventListener('click', function(e) { e.stopPropagation(); togglePanel(); });
+    }
+    if (els.filterPanel) {
+      els.filterPanel.addEventListener('click', function(e) {
+        e.stopPropagation();
+        var option = e.target.closest('[data-filter-value]');
+        if (option) {
+          cycleFilter(option.dataset.filterValue);
+          return;
+        }
+        if (e.target.matches('[data-clear]')) {
+          state.includeFilters = [];
+          state.excludeFilters = [];
+          populateFilterSelects();
+          renderLibrary();
+        }
       });
-    });
+    }
+    document.addEventListener('click', closeFilterPanels);
+    window.addEventListener('keydown', function(e) { if (e.key === 'Escape') closeFilterPanels(); });
   }
 
   /* ---- init ---- */
@@ -477,6 +629,7 @@
       return Promise.all(promises).then(function() { return data; });
     }).then(function() {
       if (els.warningText) els.warningText.textContent = aggregateContentWarnings();
+      populateFilterSelects();
       renderLibrary();
       route();
     }).catch(function(e) {

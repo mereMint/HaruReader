@@ -1,6 +1,6 @@
 {
   "name": "HaruReader",
-  "generatedAt": "2026-07-10T01:05:30.648024+00:00",
+  "generatedAt": "2026-07-10T15:51:13.672034+00:00",
   "contentWarnings": [
     "gun violence, suicide, blood/gore, death, threat, and implied implant trafficking."
   ],
@@ -12,8 +12,9 @@
       "title": "Shots in Suarmi",
       "path": "src/skits/shots-in-suarmi.md",
       "order": 1,
-      "excerpt": "",
-      "words": 1316,
+      "preview": "Bang! Mina shoots upright on her mattress, her heart slamming against her ribs. “W-What was that?!” A gunshot? The sound still rings in her ears. A translucent window pop…",
+      "excerpt": "Bang! Mina shoots upright on her mattress, her heart slamming against her ribs. “W-What was that?!” A gunshot? The sound still rings in her ears. A translucent window pop…",
+      "words": 1300,
       "contentWarning": "gun violence, suicide, blood/gore, death, threat, and implied implant trafficking."
     }
   ]

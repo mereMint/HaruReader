@@ -33,9 +33,13 @@
           <input id="searchInput" type="search" placeholder="Search title…" autocomplete="off">
         </label>
         <div class="filter-row" aria-label="Library filters">
-          <button class="filter active" type="button" data-filter="all">All</button>
-          <button class="filter" type="button" data-filter="skit">Skits</button>
-          <button class="filter" type="button" data-filter="novel">Novel</button>
+          <div class="filter-menu single-filter-menu" data-menu="filters">
+            <button class="filter-menu-button" id="filterButton" type="button" aria-expanded="false" aria-controls="filterPanel">
+              <span>Filters</span>
+              <strong>Everything</strong>
+            </button>
+            <div class="filter-panel" id="filterPanel" hidden></div>
+          </div>
         </div>
       </div>
 
@@ -59,6 +63,11 @@
       </article>
     </section>
   </main>
+
+  <div class="creator-signature" aria-label="Creator signature">
+    <span class="creator-label">Created by</span>
+    <strong class="signature-glitch" data-text="Nweb">Nweb</strong>
+  </div>
 
   <div class="content-warning" aria-label="Content warning">
     <span data-text="CONTENT WARNING">CONTENT WARNING</span>
