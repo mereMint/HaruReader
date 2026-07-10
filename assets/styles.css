@@ -15,8 +15,8 @@
   --shadow: 0 26px 80px rgba(0, 0, 0, .36);
   --button-w: 9.5rem;
   --button-h: 3.75rem;
-  --radius-lg: 16px;
-  --radius-md: 10px;
+  --radius-lg: 10px;
+  --radius-md: 8px;
   --serif: ui-serif, Georgia, "Times New Roman", serif;
   --sans: system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
   --mono: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
@@ -162,7 +162,7 @@ body.view-home .site-header { display: none; }
 .soft-button:hover,
 .ghost-button:hover,
 .filter:hover,
-.back-link:hover { transform: translateY(-1px); }
+.back-link:hover { transform: translateY(-1px); } animation: buttonHoverGlitch .15s steps(2);
 .filter.active { background: var(--text); color: var(--bg); border-color: var(--text); }
 
 main { position: relative; z-index: 1; width: min(1180px, calc(100% - 2rem)); margin: 0 auto; }
@@ -282,37 +282,30 @@ body.view-home.home-scrolled .hero-button { pointer-events: none; }
 }
 .search-box input:focus { border-color: var(--accent); }
 
-.library-grid {
-  display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 1rem;
-}
 .work-card {
   display: flex;
   flex-direction: column;
-  min-height: 230px;
-  padding: 1rem;
+  min-height: 210px;
+  padding: .9rem 1rem;
   border-radius: var(--radius-md);
   text-decoration: none;
   position: relative;
   overflow: hidden;
-  background: color-mix(in srgb, var(--panel) 94%, transparent);
+  background: color-mix(in srgb, var(--panel) 96%, transparent);
   border: 1px solid var(--line);
-  box-shadow: var(--shadow);
-  transition: transform .16s ease, border-color .16s ease;
+  box-shadow: 0 10px 40px rgba(0,0,0,.32);
+  transition: transform .14s ease, border-color .14s ease, box-shadow .14s ease;
 }
-.work-card::before {
-  content: "";
-  position: absolute;
-  inset: 0 auto 0 0;
-  width: 3px;
-  background: var(--accent);
-  opacity: .75;
+.work-card:hover {
+  border-color: var(--line-strong);
+  transform: translateY(-1px);
+  box-shadow: 0 14px 48px rgba(0,0,0,.38);
+  animation: cardHoverGlitch .16s steps(2);
 }
-.work-card:hover { border-color: var(--line-strong); transform: translateY(-2px); }
-.work-card h2 { margin: .7rem 0 .55rem; font-size: 1.55rem; }
+.work-card h2 { margin: .55rem 0 .45rem; font-size: 1.48rem; }
 .work-card p { margin: 0; color: var(--muted); }
-.card-top, .card-bottom { display: flex; justify-content: space-between; gap: .75rem; align-items: center; }
+.card-top, .card-bottom { display: flex; justify-content: space-between; gap: .65rem; align-items: center; }
+.card-bottom { margin-top: auto; padding-top: .85rem; color: var(--muted); font-family: var(--mono); font-size: .72rem; }
 .card-bottom { margin-top: auto; padding-top: 1rem; color: var(--muted); font-family: var(--mono); font-size: .74rem; }
 .badge {
   color: var(--text);
@@ -334,10 +327,10 @@ body.view-home.home-scrolled .hero-button { pointer-events: none; }
   margin: 0 auto;
   min-height: 78vh;
   border-radius: var(--radius-lg);
-  padding: clamp(1.2rem, 5vw, 4rem);
-  background: color-mix(in srgb, var(--panel) 92%, transparent);
+  padding: clamp(1rem, 4vw, 2.8rem);
+  background: color-mix(in srgb, var(--panel) 96%, transparent);
   border: 1px solid var(--line);
-  box-shadow: var(--shadow);
+  box-shadow: 0 10px 40px rgba(0,0,0,.32);
   outline: none;
 }
 .reader-card:focus { border-color: var(--line-strong); }
@@ -530,11 +523,36 @@ body.view-home .content-warning {
   .toolbar { grid-template-columns: 1fr; }
   .filter-row { display: flex; gap: .5rem; }
   .library-grid { grid-template-columns: 1fr; }
-  .reader-card { padding: 1rem; }
+  .reader-card {
+  width: min(820px, 100%);
+  margin: 0 auto;
+  min-height: 78vh;
+  border-radius: var(--radius-lg);
+  padding: clamp(1rem, 4vw, 2.8rem);
+  background: color-mix(in srgb, var(--panel) 96%, transparent);
+  border: 1px solid var(--line);
+  box-shadow: 0 10px 40px rgba(0,0,0,.32);
+  outline: none;
+}
 }
 @media (max-width: 410px) {
   :root { --button-w: 6.75rem; --button-h: 3rem; }
   .site-header { gap: .4rem; }
   .nav-tabs { gap: .4rem; }
   .glitch-title { font-size: clamp(2.55rem, 15.5vw, 4.5rem); letter-spacing: -.052em; }
+}
+
+
+@keyframes cardHoverGlitch {
+  0% { transform: translate(0,0); }
+  25% { transform: translate(-1px, 0.5px); }
+  50% { transform: translate(1px, -0.5px); }
+  75% { transform: translate(-0.5px, 1px); }
+  100% { transform: translate(0,0); }
+}
+
+@keyframes buttonHoverGlitch {
+  0%, 100% { text-shadow: none; }
+  30% { text-shadow: -1px 0 var(--accent), 1px 0 #7effc6; }
+  60% { text-shadow: 1px 0 var(--accent), -1px 0 #ffd36a; }
 }
