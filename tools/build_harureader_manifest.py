@@ -64,6 +64,9 @@ def excerpt_for(body: str, title: str) -> str:
     text = clean_markdown(body)
     if text.lower().startswith(title.lower()):
         text = text[len(title):].strip(" -–—:\n\t")
+    cw = re.search(r'Content warning:?\s*(.+)', text, re.I)
+    if cw:
+        text = text[cw.end():].strip(" -–—:\n\t")
     return (text[:170] + "…") if len(text) > 170 else text
 
 
@@ -108,6 +111,8 @@ def add_entry(path: Path, fallback_kind: str) -> dict[str, object] | None:
         entry["contentWarning"] = cw
     if meta.get("volume"):
         entry["volume"] = str(meta["volume"])
+    if meta.get("releaseAt"):
+        entry["releaseAt"] = str(meta["releaseAt"])
     return entry
 
 

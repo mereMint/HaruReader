@@ -1,6 +1,6 @@
 {
   "name": "HaruReader",
-  "generatedAt": "2026-07-10T00:49:44.438350+00:00",
+  "generatedAt": "2026-07-10T01:05:30.648024+00:00",
   "contentWarnings": [
     "gun violence, suicide, blood/gore, death, threat, and implied implant trafficking."
   ],
@@ -12,7 +12,7 @@
       "title": "Shots in Suarmi",
       "path": "src/skits/shots-in-suarmi.md",
       "order": 1,
-      "excerpt": "Content warning: gun violence, suicide, blood/gore, death, threat, and implied implant trafficking. Bang! Mina shoots upright on her mattress, her heart slamming against …",
+      "excerpt": "",
       "words": 1316,
       "contentWarning": "gun violence, suicide, blood/gore, death, threat, and implied implant trafficking."
     }
