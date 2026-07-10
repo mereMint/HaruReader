@@ -2,7 +2,7 @@
   'use strict';
 
   var MANIFEST_URL = 'content-manifest.json';
-  var GATE_SECONDS = 8;
+  var GATE_SECONDS = 1;
 
   var STORAGE = {
     progress: 'harureader.progress.v2',
