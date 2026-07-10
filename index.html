@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="en" data-theme="dark">
+<html lang="en">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="color-scheme" content="dark light">
+  <meta name="color-scheme" content="dark">
   <title>Harutronic · HaruReader</title>
   <link rel="stylesheet" href="assets/styles.css">
 </head>
@@ -15,7 +15,6 @@
       <a href="#home" data-nav="home">Home</a>
       <a href="#library" data-nav="library">Library</a>
     </nav>
-    <button class="ghost-button" id="themeToggle" type="button" aria-label="Switch color theme">Light</button>
   </header>
 
   <main id="main">
@@ -49,7 +48,7 @@
           <a class="back-link" href="#library">← Library</a>
           <p class="eyebrow" id="readerKind">Reader</p>
           <h1 id="readerTitle">Choose something from the library</h1>
-          <p class="reader-meta" id="readerMeta">Progress saves automatically in this browser.</p>
+          <p class="reader-meta" id="readerMeta"></p>
           <div class="meter reader-meter" aria-label="Reading progress"><span id="readerProgressBar"></span></div>
         </header>
         <div id="readerContent" class="prose">
@@ -65,7 +64,7 @@
   </div>
 
   <noscript>
-    <div class="noscript">HaruReader needs JavaScript to fetch Markdown/TXT files and save progress locally.</div>
+    <div class="noscript">HaruReader needs JavaScript to load Markdown/TXT files.</div>
   </noscript>
 
   <script src="assets/app.js" defer></script>

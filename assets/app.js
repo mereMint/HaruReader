@@ -2,8 +2,7 @@
   const MANIFEST_URL = 'content-manifest.json';
   const STORAGE = {
     progress: 'harureader.progress.v1',
-    last: 'harureader.last.v1',
-    theme: 'harureader.theme.v1'
+    last: 'harureader.last.v1'
   };
 
   const state = {
@@ -13,7 +12,7 @@
     current: null,
     currentHtml: '',
     typeTimer: null,
-    glitchTimer: null,
+    requestId: 0,
     restoring: false
   };
 
@@ -27,7 +26,6 @@
     libraryGrid: $('#libraryGrid'),
     emptyState: $('#emptyState'),
     searchInput: $('#searchInput'),
-    themeToggle: $('#themeToggle'),
     readerKind: $('#readerKind'),
     readerTitle: $('#readerTitle'),
     readerMeta: $('#readerMeta'),
@@ -129,12 +127,6 @@
     return html.join('\n') || '<p class="muted">This file is empty.</p>';
   }
 
-  function applyTheme(theme) {
-    document.documentElement.dataset.theme = theme;
-    els.themeToggle.textContent = theme === 'dark' ? 'Light' : 'Dark';
-    localStorage.setItem(STORAGE.theme, theme);
-  }
-
   function route() {
     const hash = location.hash.replace(/^#/, '') || 'home';
     const [view, id] = hash.split('/');
@@ -152,7 +144,7 @@
     const progress = isHome ? Math.max(0, Math.min(1, window.scrollY / Math.max(1, window.innerHeight * 0.42))) : 0;
     const eased = progress * progress * (3 - 2 * progress);
     const warningOpacity = progress < 0.08 ? 0 : Math.min(1, (progress - 0.08) / 0.34) * 0.98;
-    const warningScale = 0.86 + eased * 0.42;
+    const warningScale = 0.96 + eased * 0.04;
     const titleOpacity = Math.max(0, 1 - (progress / 0.42));
     const buttonOpacity = Math.max(0, 1 - (progress / 0.22));
     const ambientDarkness = isHome ? 0.36 + eased * 0.48 : 0.72;
@@ -182,11 +174,43 @@
     return 'Skit';
   }
 
+  function normalizeContentPath(path = '') {
+    const value = String(path).replace(/\\/g, '/').replace(/^\/+/, '');
+    if (!value || value.includes('..') || /^[a-z][a-z0-9+.-]*:/i.test(value)) return null;
+    return value;
+  }
+
+  function contentUrls(item) {
+    const path = normalizeContentPath(item.path);
+    if (!path) return [];
+    return Array.from(new Set([
+      new URL(path, document.baseURI).href,
+      new URL(path, new URL(MANIFEST_URL, document.baseURI)).href,
+      new URL(`./${path}`, document.baseURI).href
+    ]));
+  }
+
+  async function fetchTextFile(item) {
+    const urls = contentUrls(item);
+    if (!urls.length) throw new Error('The text file path is invalid.');
+    let lastError = 'Text file is missing or unreachable.';
+    for (const url of urls) {
+      try {
+        const response = await fetch(url, { cache: 'no-store' });
+        if (response.ok) return response.text();
+        lastError = `${response.status} ${response.statusText || 'Not Found'}`;
+      } catch (error) {
+        lastError = error.message || lastError;
+      }
+    }
+    throw new Error(lastError);
+  }
+
   function renderLibrary() {
     const query = state.search.trim().toLowerCase();
     const items = state.manifest.filter((item) => {
       const typeMatch = state.activeFilter === 'all' || item.kind === state.activeFilter;
-      const haystack = `${item.title} ${item.folder} ${item.excerpt} ${item.kind}`.toLowerCase();
+      const haystack = `${item.title} ${item.excerpt} ${item.kind}`.toLowerCase();
       return typeMatch && (!query || haystack.includes(query));
     });
 
@@ -201,7 +225,6 @@
         <h2>${escapeHtml(item.title)}</h2>
         <p>${escapeHtml(item.excerpt || 'No preview yet.')}</p>
         <div class="card-bottom">
-          <span>${escapeHtml(item.folder || '')}</span>
           <span>${item.words ? `${item.words} words` : ''}</span>
         </div>
       </a>`;
@@ -218,37 +241,33 @@
     }
 
     stopTypewriter();
+    const requestId = ++state.requestId;
     state.current = item;
     writeJson(STORAGE.last, { id: item.id, at: new Date().toISOString() });
     els.readerKind.textContent = labelFor(item);
     els.readerTitle.textContent = item.title;
-    els.readerMeta.textContent = `${item.folder || 'Root'} · ${item.words || 0} words · saved locally`;
+    els.readerMeta.textContent = item.words ? `${item.words} words` : '';
+    els.readerMeta.hidden = !item.words;
     els.readerContent.innerHTML = '<p class="muted">Loading text…</p>';
 
     try {
-      const response = await fetch(encodeURI(item.path));
-      if (!response.ok) throw new Error(`${response.status} ${response.statusText}`);
-      const markdown = await response.text();
+      const markdown = await fetchTextFile(item);
+      if (requestId !== state.requestId) return;
       state.currentHtml = markdownToHtml(markdown);
       const saved = getProgress(item.id);
       els.readerProgressBar.style.width = `${Math.min(100, saved.percent || 0)}%`;
-      if (saved.percent > 0) {
-        showFullText();
-        restoreScroll(saved.scroll || 0);
-      } else {
-        await typewriter(state.currentHtml);
-      }
+      showFullText();
+      restoreScroll(saved.scroll || 0);
       els.readerArticle.focus({ preventScroll: true });
     } catch (error) {
-      els.readerContent.innerHTML = `<p class="muted">Could not load <code>${escapeHtml(item.path)}</code>.</p><p>${escapeHtml(error.message)}</p>`;
+      if (requestId !== state.requestId) return;
+      els.readerContent.innerHTML = `<p class="muted">Could not load this text. The Markdown file is missing or unreachable.</p><p>${escapeHtml(error.message)}</p>`;
     }
   }
 
   function stopTypewriter() {
     if (state.typeTimer) clearTimeout(state.typeTimer);
-    if (state.glitchTimer) clearTimeout(state.glitchTimer);
     state.typeTimer = null;
-    state.glitchTimer = null;
     els.readerContent.classList.remove('type-cursor', 'letter-glitch', 'font-a', 'font-b', 'font-c');
   }
 
@@ -257,40 +276,28 @@
     els.readerContent.innerHTML = state.currentHtml || '<p class="muted">Nothing loaded.</p>';
   }
 
-  function triggerLetterGlitch(step) {
-    els.readerContent.classList.remove('font-a', 'font-b', 'font-c', 'letter-glitch');
-    // Force reflow so the short glitch animation restarts for every visible character.
-    void els.readerContent.offsetWidth;
-    els.readerContent.classList.add(['font-a', 'font-b', 'font-c'][step % 3], 'letter-glitch');
-    if (state.glitchTimer) clearTimeout(state.glitchTimer);
-    state.glitchTimer = setTimeout(() => {
-      els.readerContent.classList.remove('letter-glitch');
-    }, 90);
-  }
-
   function typewriter(html) {
     stopTypewriter();
     els.readerContent.innerHTML = '';
     els.readerContent.classList.add('type-cursor');
     let i = 0;
-    let step = 0;
     return new Promise((resolve) => {
       const tick = () => {
         if (i >= html.length) { stopTypewriter(); els.readerContent.innerHTML = html; resolve(); return; }
-        let visibleLetter = false;
+
         if (html[i] === '<') {
           const close = html.indexOf('>', i);
           i = close === -1 ? html.length : close + 1;
         } else if (html[i] === '&') {
           const close = html.indexOf(';', i);
           i = close === -1 ? i + 1 : close + 1;
-          visibleLetter = true;
+
         } else {
           i += 1;
-          visibleLetter = true;
+
         }
         els.readerContent.innerHTML = html.slice(0, i);
-        if (visibleLetter) triggerLetterGlitch(step++);
+
         state.typeTimer = setTimeout(tick, 3);
       };
       tick();
@@ -330,14 +337,9 @@
       $$('.filter').forEach((btn) => btn.classList.toggle('active', btn === button));
       renderLibrary();
     }));
-
-    els.themeToggle.addEventListener('click', () => {
-      applyTheme(document.documentElement.dataset.theme === 'dark' ? 'light' : 'dark');
-    });
   }
 
   async function init() {
-    applyTheme(localStorage.getItem(STORAGE.theme) || 'dark');
     bindEvents();
     try {
       const response = await fetch(MANIFEST_URL, { cache: 'no-store' });

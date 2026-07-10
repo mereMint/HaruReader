@@ -92,7 +92,6 @@ def add_entry(path: Path, fallback_kind: str) -> dict[str, object] | None:
         "type": str(meta.get("type") or kind),
         "title": title,
         "path": rel,
-        "folder": path.parent.relative_to(ROOT).as_posix(),
         "order": order_for(path, meta),
         "excerpt": excerpt_for(body, title),
         "words": len(re.findall(r"\b[\w'’-]+\b", clean_markdown(body))),
@@ -122,11 +121,6 @@ def main() -> None:
 
     manifest = {
         "name": "HaruReader",
-        "source": "src",
-        "structure": {
-            "skits": "src/skits/title.md",
-            "novel": "src/novel/volume/chapter*.md"
-        },
         "generatedAt": datetime.now(timezone.utc).isoformat(),
         "items": items,
     }
