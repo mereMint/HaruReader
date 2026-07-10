@@ -148,7 +148,23 @@
   }
 
   function updateHomeScroll() {
-    els.body.classList.toggle('home-scrolled', els.body.classList.contains('view-home') && window.scrollY > 70);
+    const isHome = els.body.classList.contains('view-home');
+    const progress = isHome ? Math.max(0, Math.min(1, window.scrollY / Math.max(1, window.innerHeight * 0.42))) : 0;
+    const eased = progress * progress * (3 - 2 * progress);
+    const warningOpacity = progress < 0.08 ? 0 : Math.min(1, (progress - 0.08) / 0.34) * 0.98;
+    const warningScale = 0.86 + eased * 0.42;
+    const titleOpacity = Math.max(0, 1 - (progress / 0.42));
+    const buttonOpacity = Math.max(0, 1 - (progress / 0.22));
+    const ambientDarkness = isHome ? 0.36 + eased * 0.48 : 0.72;
+    const gridOpacity = isHome ? 0.82 - eased * 0.28 : 0.68;
+    els.body.style.setProperty('--home-scroll-progress', eased.toFixed(3));
+    els.body.style.setProperty('--title-opacity', titleOpacity.toFixed(3));
+    els.body.style.setProperty('--button-opacity', buttonOpacity.toFixed(3));
+    els.body.style.setProperty('--warning-opacity', warningOpacity.toFixed(3));
+    els.body.style.setProperty('--warning-scale', warningScale.toFixed(3));
+    els.body.style.setProperty('--ambient-darkness', ambientDarkness.toFixed(3));
+    els.body.style.setProperty('--grid-opacity', gridOpacity.toFixed(3));
+    els.body.classList.toggle('home-scrolled', isHome && progress > 0.08);
   }
 
   function showView(name) {

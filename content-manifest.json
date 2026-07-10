@@ -5,6 +5,18 @@
     "skits": "src/skits/title.md",
     "novel": "src/novel/volume/chapter*.md"
   },
-  "generatedAt": "2026-07-09T23:54:07.227737+00:00",
-  "items": []
+  "generatedAt": "2026-07-10T00:12:11.367358+00:00",
+  "items": [
+    {
+      "id": "src-skits-shots-in-suarmi-md",
+      "kind": "skit",
+      "type": "skit",
+      "title": "Shots in Suarmi",
+      "path": "src/skits/shots-in-suarmi.md",
+      "folder": "src/skits",
+      "order": 1,
+      "excerpt": "Content warning: gun violence, suicide, blood/gore, death, threat, and implied implant trafficking. Bang! Mina shoots upright on her mattress, her heart slamming against …",
+      "words": 1316
+    }
+  ]
 }
