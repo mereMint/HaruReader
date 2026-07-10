@@ -42,6 +42,13 @@ def clean_markdown(text: str) -> str:
     return re.sub(r"\s+", " ", text).strip()
 
 
+def content_warning_for(body: str) -> str:
+    m = re.search(r'>\s*\*{1,2}Content warning:?\*{0,2}\s*(.+)', body, re.I)
+    if m:
+        return m.group(1).strip()
+    return ""
+
+
 def title_for(path: Path, body: str, meta: dict[str, object]) -> str:
     if meta.get("title"):
         return str(meta["title"])
@@ -86,6 +93,7 @@ def add_entry(path: Path, fallback_kind: str) -> dict[str, object] | None:
     kind = str(meta.get("kind") or fallback_kind)
     title = title_for(path, body, meta)
     rel = path.relative_to(ROOT).as_posix()
+    cw = content_warning_for(body)
     entry: dict[str, object] = {
         "id": slug(rel),
         "kind": kind,
@@ -96,6 +104,8 @@ def add_entry(path: Path, fallback_kind: str) -> dict[str, object] | None:
         "excerpt": excerpt_for(body, title),
         "words": len(re.findall(r"\b[\w'’-]+\b", clean_markdown(body))),
     }
+    if cw:
+        entry["contentWarning"] = cw
     if meta.get("volume"):
         entry["volume"] = str(meta["volume"])
     return entry
@@ -119,9 +129,16 @@ def main() -> None:
     kind_rank = {"skit": 0, "novel": 1}
     items.sort(key=lambda item: (kind_rank.get(str(item.get("kind")), 9), str(item.get("volume", "")), int(item.get("order", 999)), str(item.get("title", ""))))
 
+    all_warnings = []
+    for item in items:
+        cw = item.get("contentWarning", "")
+        if cw:
+            all_warnings.append(cw)
+
     manifest = {
         "name": "HaruReader",
         "generatedAt": datetime.now(timezone.utc).isoformat(),
+        "contentWarnings": all_warnings,
         "items": items,
     }
     (ROOT / "content-manifest.json").write_text(json.dumps(manifest, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")

@@ -14,6 +14,7 @@
     <nav class="nav-tabs" aria-label="Main navigation">
       <a href="#home" data-nav="home">Home</a>
       <a href="#library" data-nav="library">Library</a>
+      <a href="#continue" data-nav="continue" id="continueBtn">Continue</a>
     </nav>
   </header>
 
@@ -21,7 +22,7 @@
     <section class="view hero-view" id="homeView" data-view="home">
       <div class="hero-core">
         <h1 class="glitch-title" data-text="Harutronic">Harutronic</h1>
-        <a class="solid-button hero-button" href="#library">Library</a>
+        <a class="solid-button hero-button" href="#library" id="heroLibraryBtn">Library</a>
       </div>
     </section>
 
@@ -54,13 +55,25 @@
         <div id="readerContent" class="prose">
           <p class="muted">Open the library and select a text.</p>
         </div>
+        <div id="commentsSection" class="comments-wrap" hidden>
+          <h3 class="comments-heading">Comments</h3>
+          <div id="commentsList" class="comments-list"></div>
+          <div class="comment-form">
+            <textarea id="commentInput" class="comment-input" placeholder="Leave a comment…" rows="2" maxlength="2000"></textarea>
+            <div class="comment-form-row">
+              <input id="commentName" class="comment-name" type="text" placeholder="Your name" maxlength="60">
+              <button id="commentSubmit" class="soft-button" type="button">Post</button>
+            </div>
+          </div>
+        </div>
       </article>
     </section>
   </main>
 
   <div class="content-warning" aria-label="Content warning">
     <span data-text="CONTENT WARNING">CONTENT WARNING</span>
-    <p>Violence, death, psychological distress, mature themes.</p>
+    <p id="warningText">Violence, death, psychological distress, mature themes.</p>
+    <p id="warningTimer" class="warning-timer" hidden></p>
   </div>
 
   <noscript>

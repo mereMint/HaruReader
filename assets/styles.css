@@ -146,11 +146,11 @@ body.view-home .site-header { display: none; }
 .filter,
 .back-link { background: transparent; color: var(--muted); }
 .nav-tabs a.active,
-.nav-tabs a:hover,
-.soft-button:hover,
-.ghost-button:hover,
-.filter:hover,
-.back-link:hover { color: var(--text); background: var(--panel-2); }
+.nav-tabs a:hover, animation: buttonHoverGlitch .15s steps(2);
+.soft-button:hover, animation: buttonHoverGlitch .15s steps(2);
+.ghost-button:hover, animation: buttonHoverGlitch .15s steps(2);
+.filter:hover, animation: buttonHoverGlitch .15s steps(2);
+.back-link:hover animation: buttonHoverGlitch .15s steps(2); { color: var(--text); background: var(--panel-2); }
 .solid-button {
   background: var(--accent);
   color: var(--accent-ink);
@@ -158,11 +158,11 @@ body.view-home .site-header { display: none; }
   font-weight: 800;
 }
 .solid-button:hover,
-.nav-tabs a:hover,
-.soft-button:hover,
-.ghost-button:hover,
-.filter:hover,
-.back-link:hover { transform: translateY(-1px); } animation: buttonHoverGlitch .15s steps(2);
+.nav-tabs a:hover, animation: buttonHoverGlitch .15s steps(2);
+.soft-button:hover, animation: buttonHoverGlitch .15s steps(2);
+.ghost-button:hover, animation: buttonHoverGlitch .15s steps(2);
+.filter:hover, animation: buttonHoverGlitch .15s steps(2);
+.back-link:hover animation: buttonHoverGlitch .15s steps(2); { transform: translateY(-1px); } animation: buttonHoverGlitch .15s steps(2);
 .filter.active { background: var(--text); color: var(--bg); border-color: var(--text); }
 
 main { position: relative; z-index: 1; width: min(1180px, calc(100% - 2rem)); margin: 0 auto; }
@@ -291,8 +291,8 @@ body.view-home.home-scrolled .hero-button { pointer-events: none; }
   text-decoration: none;
   position: relative;
   overflow: hidden;
-  background: color-mix(in srgb, var(--panel) 96%, transparent);
-  border: 1px solid var(--line);
+  background: rgba(12, 10, 9, .88);
+  border: 1px solid color-mix(in srgb, var(--accent) 48%, var(--line));
   box-shadow: 0 10px 40px rgba(0,0,0,.32);
   transition: transform .14s ease, border-color .14s ease, box-shadow .14s ease;
 }
@@ -556,3 +556,73 @@ body.view-home .content-warning {
   30% { text-shadow: -1px 0 var(--accent), 1px 0 #7effc6; }
   60% { text-shadow: 1px 0 var(--accent), -1px 0 #ffd36a; }
 }
+
+.warning-timer {
+  margin-top: .5rem;
+  font-family: var(--mono);
+  font-size: .82rem;
+  color: var(--muted);
+  text-transform: uppercase;
+  letter-spacing: .08em;
+  animation: none;
+}
+
+.comments-wrap {
+  margin-top: clamp(2rem, 6vw, 4rem);
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--line);
+}
+.comments-heading {
+  font-family: var(--mono);
+  font-size: .82rem;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+  color: var(--muted);
+  margin: 0 0 1rem;
+}
+.comments-list { display: flex; flex-direction: column; gap: .85rem; margin-bottom: 1.5rem; }
+.comment-item {
+  padding: .85rem 1rem;
+  background: rgba(12, 10, 9, .6);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-md);
+  font-size: .94rem;
+  line-height: 1.6;
+}
+.comment-meta {
+  display: flex; justify-content: space-between; align-items: center;
+  margin-bottom: .4rem;
+  font-family: var(--mono);
+  font-size: .7rem;
+  color: var(--muted);
+  text-transform: uppercase;
+  letter-spacing: .06em;
+}
+.comment-body { color: var(--text); white-space: pre-wrap; }
+.comment-form { display: flex; flex-direction: column; gap: .55rem; }
+.comment-input, .comment-name {
+  width: 100%;
+  background: var(--panel);
+  border: 1px solid var(--line);
+  color: var(--text);
+  padding: .6rem .8rem;
+  border-radius: var(--radius-md);
+  font-family: var(--sans);
+  font-size: .9rem;
+  resize: vertical;
+  outline: none;
+}
+.comment-input:focus, .comment-name:focus { border-color: var(--accent); }
+.comment-form-row { display: flex; gap: .65rem; align-items: center; }
+.comment-name { flex: 1; }
+.comment-form-row .soft-button { flex: 0 0 auto; }
+.comments-empty { color: var(--muted); font-style: italic; font-size: .9rem; }
+
+#continueBtn { display: inline-flex; }
+#continueBtn.gone { display: none; }
+
+@keyframes pulseOnce {
+  0%, 100% { transform: scale(1); box-shadow: none; }
+  50% { transform: scale(1.04); box-shadow: 0 0 24px rgba(201, 168, 117, .38); }
+}
+.pulse-once { animation: pulseOnce .5s ease 1; }
