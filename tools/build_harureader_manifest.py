@@ -206,6 +206,8 @@ def add_entry(path: Path) -> dict[str, object] | None:
         entry["volume"] = str(meta["volume"])
     if meta.get("releaseAt"):
         entry["releaseAt"] = str(meta["releaseAt"])
+    if meta.get("comingSoon") is True:
+        entry["comingSoon"] = True
     return entry
 
 

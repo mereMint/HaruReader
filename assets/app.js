@@ -87,6 +87,7 @@
 
   /* ---- release date check ---- */
   function isReleased(item) {
+    if (item.comingSoon) return false;
     if (!item.releaseAt) return true;
     try {
       var release = new Date(item.releaseAt).getTime();
@@ -409,7 +410,7 @@
       var p = released ? getProgress(it.id) : { percent: 0 };
       var pc = Math.round(p.percent || 0);
       var href = released ? '#reader/' + it.id : '#library';
-      var badgeLabel = released ? labelFor(it) : 'COMING ' + formatReleaseDate(it.releaseAt);
+      var badgeLabel = released ? labelFor(it) : (it.comingSoon ? 'COMING SOON' : 'COMING ' + formatReleaseDate(it.releaseAt));
       var chipText = released ? (pc ? pc + '%' : 'new') : '\uD83D\uDD12';
       return '<a class="work-card' + (released ? '' : ' locked') + '" href="' + href + '" aria-label="' + escapeHtml(it.title) + '">' +
         '<div class="card-top">' +
@@ -486,9 +487,11 @@
     if (!isReleased(item)) {
       els.readerKind.textContent = 'COMING SOON';
       els.readerTitle.textContent = item.title;
-      els.readerMeta.textContent = 'Available ' + formatReleaseDate(item.releaseAt);
+      els.readerMeta.textContent = item.comingSoon ? 'No release date announced' : 'Available ' + formatReleaseDate(item.releaseAt);
       els.readerMeta.hidden = false;
-      els.readerContent.innerHTML = '<p class="muted">This content will be available on ' + formatReleaseDate(item.releaseAt) + '.</p>';
+      els.readerContent.innerHTML = item.comingSoon
+        ? '<p class="muted">A new skit is coming soon to the library.</p>'
+        : '<p class="muted">This content will be available on ' + formatReleaseDate(item.releaseAt) + '.</p>';
       if (els.utterancesWrap) els.utterancesWrap.innerHTML = '';
       return;
     }

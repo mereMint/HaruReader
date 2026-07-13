@@ -1,6 +1,6 @@
 {
   "name": "HaruReader",
-  "generatedAt": "2026-07-10T15:51:13.672034+00:00",
+  "generatedAt": "2026-07-13T01:35:42.820457+00:00",
   "contentWarnings": [
     "gun violence, suicide, blood/gore, death, threat, and implied implant trafficking."
   ],
@@ -16,6 +16,18 @@
       "excerpt": "Bang! Mina shoots upright on her mattress, her heart slamming against her ribs. “W-What was that?!” A gunshot? The sound still rings in her ears. A translucent window pop…",
       "words": 1300,
       "contentWarning": "gun violence, suicide, blood/gore, death, threat, and implied implant trafficking."
+    },
+    {
+      "id": "src-skits-coming-soon-md",
+      "kind": "skit",
+      "type": "skit",
+      "title": "Coming soon",
+      "path": "src/skits/coming-soon.md",
+      "order": 2,
+      "preview": "A new skit is coming soon to the library.",
+      "excerpt": "A new skit is coming soon to the library.",
+      "words": 9,
+      "comingSoon": true
     }
   ]
 }
