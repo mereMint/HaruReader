@@ -2,6 +2,7 @@
   'use strict';
 
   var MANIFEST_URL = 'content-manifest.json';
+  var ROADMAP_URL = 'src/roadmap.md';
   var GATE_SECONDS = 1;
 
   var STORAGE = {
@@ -47,6 +48,8 @@
     els.heroLibraryBtn = document.querySelector('#heroLibraryBtn');
     els.warningText = document.querySelector('#warningText');
     els.warningTimer = document.querySelector('#warningTimer');
+    els.roadmapPreview = document.querySelector('#roadmapPreview');
+    els.roadmapFull = document.querySelector('#roadmapFull');
     els.utterancesWrap = document.querySelector('#utterancesWrap');
   }
 
@@ -241,15 +244,19 @@
   /* ---- scroll effects ---- */
   function updateHomeScroll() {
     var isHome = els.body.classList.contains('view-home');
-    var p = isHome ? Math.max(0, Math.min(1, window.scrollY / Math.max(1, window.innerHeight * 0.42))) : 0;
-    var e = p * p * (3 - 2 * p);
     function clamp01(v) { return Math.max(0, Math.min(1, v)); }
     function easeOut(v) { v = clamp01(v); return 1 - Math.pow(1 - v, 3); }
+    var scrollScreens = isHome ? window.scrollY / Math.max(1, window.innerHeight) : 0;
+    var p = clamp01(scrollScreens / 0.58);
+    var e = p * p * (3 - 2 * p);
 
-    var titleLeave = easeOut(p / 0.26);
-    var buttonLeave = easeOut(p / 0.12);
-    var sigIn = easeOut((p - 0.34) / 0.28);
-    var warnIn = easeOut((p - 0.50) / 0.30);
+    var titleLeave = easeOut(scrollScreens / 0.42);
+    var buttonLeave = easeOut(scrollScreens / 0.22);
+    var roadmapIn = easeOut((scrollScreens - 0.72) / 0.28);
+    var roadmapOut = easeOut((scrollScreens - 1.58) / 0.27);
+    var roadmapVisible = roadmapIn * (1 - roadmapOut);
+    var sigIn = easeOut((scrollScreens - 1.74) / 0.26);
+    var warnIn = easeOut((scrollScreens - 1.90) / 0.28);
 
     var sigY = ((1 - sigIn) * 1.6).toFixed(2) + 'rem';
     var wy = ((1 - warnIn) * 1.25).toFixed(2) + 'rem';
@@ -260,6 +267,9 @@
     els.body.style.setProperty('--home-scroll-progress', e.toFixed(3));
     els.body.style.setProperty('--title-opacity', to.toFixed(3));
     els.body.style.setProperty('--button-opacity', bo.toFixed(3));
+    els.body.style.setProperty('--roadmap-opacity', roadmapVisible.toFixed(3));
+    els.body.style.setProperty('--roadmap-scale', (0.975 + roadmapVisible * 0.025).toFixed(3));
+    els.body.style.setProperty('--roadmap-y', ((1 - roadmapVisible) * 1.5).toFixed(2) + 'rem');
     els.body.style.setProperty('--signature-opacity', (sigIn * 0.98).toFixed(3));
     els.body.style.setProperty('--signature-scale', (0.985 + sigIn * 0.015).toFixed(3));
     els.body.style.setProperty('--signature-y', sigY);
@@ -269,10 +279,12 @@
     els.body.style.setProperty('--ambient-darkness', ad.toFixed(3));
     els.body.style.setProperty('--grid-opacity', go.toFixed(3));
     els.body.classList.toggle('home-scrolled', isHome && p > 0.08);
+    els.body.classList.toggle('home-stage-roadmap', isHome && roadmapVisible > 0.55);
+    els.body.classList.toggle('home-stage-outro', isHome && sigIn > 0.1);
   }
 
   function showView(name) {
-    var legal = ['home', 'library', 'reader'];
+    var legal = ['home', 'library', 'reader', 'roadmap'];
     var active = legal.indexOf(name) > -1 ? name : 'home';
     els.views.forEach(function(v) { v.hidden = v.dataset.view !== active; });
     els.nav.forEach(function(n) {
@@ -280,10 +292,39 @@
       if (nv === 'continue') return;
       n.classList.toggle('active', nv === active);
     });
-    els.body.classList.remove('view-home', 'view-library', 'view-reader', 'home-scrolled');
+    els.body.classList.remove('view-home', 'view-library', 'view-reader', 'view-roadmap', 'home-scrolled', 'home-stage-roadmap', 'home-stage-outro');
     els.body.classList.add('view-' + active);
     requestAnimationFrame(updateHomeScroll);
     if (active !== 'home' && state.gateTimer) { clearInterval(state.gateTimer); state.gateTimer = null; }
+  }
+
+  /* ---- roadmap ---- */
+  function parseRoadmap(md) {
+    return String(md || '').split(/\r?\n/).map(function(line) {
+      var match = line.match(/^\s*([+-])\s+(.+?)\s*$/);
+      if (!match) return null;
+      var parts = match[2].split(/\s+\|\s+/, 2);
+      return { status: match[1] === '+' ? 'archived' : 'upcoming', title: parts[0], detail: parts[1] || '' };
+    }).filter(Boolean);
+  }
+
+  function roadmapItem(item) {
+    var archived = item.status === 'archived';
+    return '<li class="roadmap-item ' + (archived ? 'is-archived' : '') + '">' +
+      '<span class="roadmap-marker" aria-hidden="true"></span><div>' +
+      '<span class="roadmap-phase">' + (archived ? 'Archived' : 'Coming next') + '</span>' +
+      '<h3>' + escapeHtml(item.title) + '</h3>' +
+      (item.detail ? '<p>' + escapeHtml(item.detail) + '</p>' : '') +
+      '</div></li>';
+  }
+
+  function renderRoadmap(items) {
+    var archived = items.filter(function(item) { return item.status === 'archived'; });
+    var upcoming = items.filter(function(item) { return item.status === 'upcoming'; });
+    var preview = (archived.length ? [archived[archived.length - 1]] : []).concat(upcoming.slice(0, 2));
+    var empty = '<li class="roadmap-item"><div><p>No timeline entries yet.</p></div></li>';
+    if (els.roadmapPreview) els.roadmapPreview.innerHTML = preview.map(roadmapItem).join('') || empty;
+    if (els.roadmapFull) els.roadmapFull.innerHTML = items.map(roadmapItem).join('') || empty;
   }
 
   /* ---- library ---- */
@@ -612,6 +653,15 @@
   function init() {
     cacheEls();
     bindEvents();
+
+    fetch(ROADMAP_URL, { cache: 'no-store' }).then(function(r) {
+      if (!r.ok) throw new Error('Could not load roadmap.');
+      return r.text();
+    }).then(function(md) {
+      renderRoadmap(parseRoadmap(md));
+    }).catch(function() {
+      renderRoadmap([]);
+    });
 
     fetch(MANIFEST_URL, { cache: 'no-store' }).then(function(r) {
       if (!r.ok) throw new Error(r.status + ' ' + r.statusText);

@@ -1,5 +1,5 @@
 ---
-title: "Coming soon"
+title: "Last Stop"
 kind: "short story"
 type: "short story"
 order: 2

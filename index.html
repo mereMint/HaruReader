@@ -26,6 +26,31 @@
       </div>
     </section>
 
+    <section class="view roadmap-view" aria-labelledby="roadmapTitle" data-view="home">
+      <a class="roadmap-core" href="#roadmap" aria-label="Open the complete roadmap">
+        <p class="roadmap-kicker">Signal / 02</p>
+        <h2 id="roadmapTitle">What happens next</h2>
+        <p class="roadmap-intro">The next transmissions from the world of Harutronic.</p>
+        <ol class="roadmap-list" id="roadmapPreview" aria-live="polite"></ol>
+        <span class="roadmap-open">Open complete roadmap <span aria-hidden="true">→</span></span>
+      </a>
+    </section>
+
+    <section class="view home-outro" aria-label="Content notes" data-view="home"></section>
+
+    <section class="view roadmap-page" id="roadmapView" data-view="roadmap" hidden>
+      <article class="roadmap-page-card">
+        <header class="roadmap-page-head">
+          <p class="eyebrow">Roadmap</p>
+        </header>
+        <div class="roadmap-atlas-key" aria-label="Roadmap legend">
+          <span><i class="atlas-marker archived" aria-hidden="true"></i> Archived</span>
+          <span><i class="atlas-marker upcoming" aria-hidden="true"></i> Incoming</span>
+        </div>
+        <ol class="roadmap-list roadmap-list-full" id="roadmapFull" aria-live="polite"></ol>
+      </article>
+    </section>
+
     <section class="view library-view" id="libraryView" data-view="library" hidden>
       <div class="toolbar" role="search">
         <label class="search-box">
@@ -50,7 +75,6 @@
     <section class="view reader-view" id="readerView" data-view="reader" hidden>
       <article class="reader-card" id="readerArticle" tabindex="-1">
         <header class="reader-head">
-          <a class="back-link" href="#library">← Library</a>
           <p class="eyebrow" id="readerKind">Reader</p>
           <h1 id="readerTitle">Choose something from the library</h1>
           <p class="reader-meta" id="readerMeta"></p>

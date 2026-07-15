@@ -1,6 +1,6 @@
 {
   "name": "HaruReader",
-  "generatedAt": "2026-07-15T13:36:22.292839+00:00",
+  "generatedAt": "2026-07-15T14:20:33.387358+00:00",
   "contentWarnings": [
     "gun violence, suicide, blood/gore, death, threat, and implied implant trafficking."
   ],
@@ -18,15 +18,26 @@
       "contentWarning": "gun violence, suicide, blood/gore, death, threat, and implied implant trafficking."
     },
     {
+      "id": "src-roadmap-md",
+      "kind": "text",
+      "type": "text",
+      "title": "Harutronic roadmap",
+      "path": "src/roadmap.md",
+      "order": 999,
+      "preview": "+ HaruReader Online | the journey begins motherfucker!!! + Shots in Suarmi | First skit published - Last Stop | First short story - Race Condition | last prep before V1 -…",
+      "excerpt": "+ HaruReader Online | the journey begins motherfucker!!! + Shots in Suarmi | First skit published - Last Stop | First short story - Race Condition | last prep before V1 -…",
+      "words": 29
+    },
+    {
       "id": "src-skits-coming-soon-md",
       "kind": "short story",
       "type": "short story",
-      "title": "Coming soon",
+      "title": "Last Stop",
       "path": "src/skits/coming-soon.md",
       "order": 2,
       "preview": "A new short story is coming soon to the library.",
       "excerpt": "A new short story is coming soon to the library.",
-      "words": 10,
+      "words": 12,
       "comingSoon": true
     }
   ]
