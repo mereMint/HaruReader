@@ -4,9 +4,9 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="color-scheme" content="dark">
-  <meta name="harureader-build" content="7c842f091e5b">
+  <meta name="harureader-build" content="15de64203294">
   <title>Harutronic · HaruReader</title>
-  <link rel="stylesheet" href="assets/styles.css?v=691525248973">
+  <link rel="stylesheet" href="assets/styles.css?v=02a4b6bd77b5">
 </head>
 <body class="view-home">
   <a class="skip-link" href="#main">Skip to content</a>
@@ -97,7 +97,10 @@
     </section>
   </main>
 
-  <div class="meter reader-meter" aria-label="Reading progress"><span id="readerProgressBar"></span></div>
+  <aside class="reader-meter" id="readerProgress" role="progressbar" aria-label="Reading progress" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0">
+    <span class="reader-progress-value" id="readerProgressValue">0%</span>
+    <span class="reader-progress-track" aria-hidden="true"><span id="readerProgressBar"></span></span>
+  </aside>
 
   <div class="creator-signature" aria-label="Creator signature">
     <span class="creator-label">Created by</span>
@@ -114,6 +117,6 @@
     <div class="noscript">HaruReader needs JavaScript to load Markdown/TXT files.</div>
   </noscript>
 
-  <script src="assets/app.js?v=6430e3f0c408" defer></script>
+  <script src="assets/app.js?v=1b9c194e0b4c" defer></script>
 </body>
 </html>

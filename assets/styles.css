@@ -780,25 +780,43 @@ body.view-home.home-stage-roadmap .roadmap-view { pointer-events: auto; }
 .reader-meter {
   display: none;
   position: fixed;
-  top: 4.75rem;
-  left: 50%;
+  top: 7rem;
+  bottom: 2rem;
+  left: calc(50% + 430px);
   right: auto;
-  bottom: auto;
   z-index: 39;
-  width: min(720px, calc(100vw - 2rem));
-  height: .28rem;
-  margin: 0;
-  border: 0;
-  border-radius: 999px;
-  transform: translateX(-50%);
-  background: rgba(33, 27, 22, .74);
-  box-shadow: 0 8px 24px rgba(0, 0, 0, .32);
-  backdrop-filter: blur(12px);
+  width: 2.6rem;
+  min-height: 10rem;
+  flex-direction: column;
+  align-items: center;
+  gap: .6rem;
+  pointer-events: none;
 }
-body.view-reader .reader-meter { display: block; }
-.reader-meter span {
-  background: linear-gradient(90deg, #7effc6, var(--accent) 54%, #ffd36a);
-  box-shadow: none;
+body.view-reader .reader-meter { display: flex; }
+.reader-progress-value {
+  color: var(--accent);
+  font-family: var(--mono);
+  font-size: .64rem;
+  font-weight: 700;
+  letter-spacing: .06em;
+  line-height: 1;
+  font-variant-numeric: tabular-nums;
+}
+.reader-progress-track {
+  position: relative;
+  flex: 1;
+  width: 3px;
+  overflow: hidden;
+  background: rgba(201,168,117,.18);
+}
+.reader-progress-track span {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 0;
+  background: var(--accent);
+  transition: height .18s ease-out;
 }
 .prose {
   font-family: var(--serif);
@@ -1082,7 +1100,6 @@ body.view-roadmap .roadmap-list-full .roadmap-item:nth-child(5) { animation-dela
   .filter-panel { left: 0; right: auto; width: min(22rem, calc(100vw - 1rem)); }
   .library-grid { grid-template-columns: 1fr; }
   .reader-card { padding: 1rem; }
-  .reader-meter { top: 4.15rem; width: calc(100vw - 1.5rem); }
   .roadmap-core { padding: 1.35rem; }
   .roadmap-intro { margin-bottom: 1.5rem; }
   .roadmap-page { padding-top: 5.8rem; padding-inline: .5rem; }
@@ -1094,6 +1111,27 @@ body.view-roadmap .roadmap-list-full .roadmap-item:nth-child(5) { animation-dela
   .roadmap-list-full .roadmap-item-card { min-height: 0; padding: 1.2rem 0 1.6rem; }
   .roadmap-list-full .roadmap-item h3 { font-size: clamp(1.35rem, 8vw, 2rem); }
   .roadmap-list-full .roadmap-index { font-size: .52rem; }
+}
+@media (max-width: 900px) {
+  .reader-meter {
+    top: 4.9rem;
+    right: .12rem;
+    bottom: .75rem;
+    left: auto;
+    width: .72rem;
+    min-height: 8rem;
+    gap: .4rem;
+  }
+  .reader-progress-value {
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+    font-size: .54rem;
+    letter-spacing: .03em;
+  }
+  .reader-progress-track { width: 2px; }
+}
+@media (max-width: 640px) {
+  .reader-meter { top: 4.3rem; }
 }
 @media (max-width: 410px) {
   :root { --button-w: 6.75rem; --button-h: 3rem; }

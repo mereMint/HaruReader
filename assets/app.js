@@ -45,6 +45,8 @@
     els.readerKind = document.querySelector('#readerKind');
     els.readerTitle = document.querySelector('#readerTitle');
     els.readerMeta = document.querySelector('#readerMeta');
+    els.readerProgress = document.querySelector('#readerProgress');
+    els.readerProgressValue = document.querySelector('#readerProgressValue');
     els.readerProgressBar = document.querySelector('#readerProgressBar');
     els.readerContent = document.querySelector('#readerContent');
     els.readerArticle = document.querySelector('#readerArticle');
@@ -583,7 +585,7 @@
       if (rid !== state.requestId) return;
       state.currentHtml = markdownToHtml(md, item.title);
       var saved = getProgress(item.id);
-      els.readerProgressBar.style.width = Math.min(100, saved.percent || 0) + '%';
+      setReadingProgress(saved.percent || 0);
       els.readerContent.classList.remove('type-cursor', 'letter-glitch');
       els.readerContent.innerHTML = state.currentHtml;
       restoreScroll(saved.scroll || 0);
@@ -610,7 +612,15 @@
     var max = Math.max(1, document.documentElement.scrollHeight - window.innerHeight);
     var pct = Math.max(0, Math.min(100, (window.scrollY / max) * 100));
     try { setProgress(state.current.id, { percent: pct, scroll: window.scrollY }); } catch (e) {}
-    els.readerProgressBar.style.width = pct + '%';
+    setReadingProgress(pct);
+  }
+
+  function setReadingProgress(percent) {
+    var pct = Math.max(0, Math.min(100, Number(percent) || 0));
+    var rounded = Math.round(pct);
+    els.readerProgressBar.style.height = pct + '%';
+    els.readerProgressValue.textContent = rounded + '%';
+    els.readerProgress.setAttribute('aria-valuenow', String(rounded));
   }
 
   /* ---- content warnings from manifest items ---- */
