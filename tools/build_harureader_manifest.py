@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import hashlib
 import json
 import re
 from datetime import datetime, timezone
@@ -7,10 +8,24 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 SRC = ROOT / "src"
+INDEX = ROOT / "index.html"
 
 
 LIST_KEYS = {"tags", "characters"}
-SYSTEM_FOLDERS = {"skits", "novel"}
+CONTENT_FOLDERS = {
+    "skits": "skit",
+    "stories": "short story",
+    "short-stories": "short story",
+    "books": "novel",
+    "novel": "novel",
+    "novels": "novel",
+}
+BOOK_FOLDERS = {"books", "novel", "novels"}
+EXCLUDED_SOURCE_FILES = {"readme.md", "roadmap.md"}
+VERSIONED_ASSETS = (
+    ("href", "assets/styles.css"),
+    ("src", "assets/app.js"),
+)
 
 
 def parse_value(key: str, value: str) -> object:
@@ -18,6 +33,7 @@ def parse_value(key: str, value: str) -> object:
     if value.lower() in {"true", "false"}:
         return value.lower() == "true"
     if key in LIST_KEYS:
+        value = value.removeprefix("[").removesuffix("]")
         return [part.strip().strip('"').strip("'") for part in re.split(r"[,;]", value) if part.strip()]
     try:
         return int(value)
@@ -119,7 +135,9 @@ def series_for(path: Path, meta: dict[str, object]) -> str:
     if len(rel_parts) <= 1:
         return ""
     first = rel_parts[0]
-    if first.lower() in SYSTEM_FOLDERS:
+    if first.lower() in BOOK_FOLDERS and len(rel_parts) > 2:
+        return display_folder_name(rel_parts[1])
+    if first.lower() in CONTENT_FOLDERS:
         return ""
     return display_folder_name(first)
 
@@ -147,10 +165,8 @@ def kind_for(path: Path, meta: dict[str, object], tags: list[str]) -> str:
         return str(meta["kind"])
     rel_parts = path.relative_to(SRC).parts
     first = rel_parts[0].lower() if rel_parts else ""
-    if first == "skits":
-        return "skit"
-    if first == "novel":
-        return "novel"
+    if first in CONTENT_FOLDERS:
+        return CONTENT_FOLDERS[first]
     lowered_tags = {tag.lower() for tag in tags}
     if "skit" in lowered_tags or "skits" in lowered_tags:
         return "skit"
@@ -170,7 +186,7 @@ def order_for(path: Path, meta: dict[str, object]) -> int:
 
 
 def add_entry(path: Path) -> dict[str, object] | None:
-    if path.name.startswith("_") or path.name.lower() == "readme.md":
+    if path.name.startswith("_") or path.name.lower() in EXCLUDED_SOURCE_FILES:
         return None
     text = path.read_text(encoding="utf-8", errors="replace")
     meta, body = parse_frontmatter(text)
@@ -211,7 +227,43 @@ def add_entry(path: Path) -> dict[str, object] | None:
     return entry
 
 
+def build_version() -> str:
+    digest = hashlib.sha256()
+    files = sorted(path for path in SRC.rglob("*") if path.is_file())
+    files.extend(ROOT / asset for _, asset in VERSIONED_ASSETS)
+    for path in files:
+        digest.update(path.relative_to(ROOT).as_posix().encode("utf-8"))
+        digest.update(path.read_bytes())
+    return digest.hexdigest()[:12]
+
+
+def update_index_versions(version: str) -> None:
+    text = INDEX.read_text(encoding="utf-8")
+    text, meta_count = re.subn(
+        r'(<meta\s+name="harureader-build"\s+content=")[^"]*(")',
+        lambda match: f"{match.group(1)}{version}{match.group(2)}",
+        text,
+        count=1,
+    )
+    if meta_count != 1:
+        raise RuntimeError('index.html needs one <meta name="harureader-build" content="..."> tag')
+
+    for attribute, asset in VERSIONED_ASSETS:
+        asset_hash = hashlib.sha256((ROOT / asset).read_bytes()).hexdigest()[:12]
+        pattern = re.compile(rf'({attribute}="{re.escape(asset)})(?:\?v=[^"]*)?("[^>]*>)')
+        text, count = pattern.subn(
+            lambda match: f"{match.group(1)}?v={asset_hash}{match.group(2)}",
+            text,
+            count=1,
+        )
+        if count != 1:
+            raise RuntimeError(f"index.html needs one {attribute} reference to {asset}")
+
+    INDEX.write_text(text, encoding="utf-8")
+
+
 def main() -> None:
+    version = build_version()
     items: list[dict[str, object]] = []
 
     if SRC.exists():
@@ -220,7 +272,7 @@ def main() -> None:
             if entry:
                 items.append(entry)
 
-    kind_rank = {"skit": 0, "novel": 1, "text": 2}
+    kind_rank = {"skit": 0, "short story": 1, "novel": 2, "text": 3}
     items.sort(
         key=lambda item: (
             str(item.get("series", "")),
@@ -237,13 +289,25 @@ def main() -> None:
         if cw:
             all_warnings.append(cw)
 
+    manifest_path = ROOT / "content-manifest.json"
+    generated_at = datetime.now(timezone.utc).isoformat()
+    if manifest_path.exists():
+        try:
+            previous = json.loads(manifest_path.read_text(encoding="utf-8"))
+            if previous.get("version") == version and previous.get("generatedAt"):
+                generated_at = previous["generatedAt"]
+        except (json.JSONDecodeError, OSError):
+            pass
+
     manifest = {
         "name": "HaruReader",
-        "generatedAt": datetime.now(timezone.utc).isoformat(),
+        "version": version,
+        "generatedAt": generated_at,
         "contentWarnings": all_warnings,
         "items": items,
     }
-    (ROOT / "content-manifest.json").write_text(json.dumps(manifest, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
+    manifest_path.write_text(json.dumps(manifest, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
+    update_index_versions(version)
     print(f"Wrote content-manifest.json with {len(items)} public entries from src/")
 
 

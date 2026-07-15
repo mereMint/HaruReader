@@ -1,8 +1,11 @@
 (function() {
   'use strict';
 
-  var MANIFEST_URL = 'content-manifest.json';
-  var ROADMAP_URL = 'src/roadmap.md';
+  var buildMeta = document.querySelector('meta[name="harureader-build"]');
+  var BUILD_VERSION = buildMeta ? buildMeta.getAttribute('content') : 'dev';
+  var CACHE_KEY = '?v=' + encodeURIComponent(BUILD_VERSION || 'dev');
+  var MANIFEST_URL = 'content-manifest.json' + CACHE_KEY;
+  var ROADMAP_URL = 'src/roadmap.md' + CACHE_KEY;
   var GATE_SECONDS = 1;
 
   var STORAGE = {
@@ -21,6 +24,7 @@
     current: null,
     currentHtml: '',
     requestId: 0,
+    activeView: '',
     restoring: false,
     gateTimer: null,
     gateRemaining: GATE_SECONDS,
@@ -286,6 +290,8 @@
   function showView(name) {
     var legal = ['home', 'library', 'reader', 'roadmap'];
     var active = legal.indexOf(name) > -1 ? name : 'home';
+    var viewChanged = state.activeView !== active;
+    state.activeView = active;
     els.views.forEach(function(v) { v.hidden = v.dataset.view !== active; });
     els.nav.forEach(function(n) {
       var nv = n.dataset.nav;
@@ -294,6 +300,7 @@
     });
     els.body.classList.remove('view-home', 'view-library', 'view-reader', 'view-roadmap', 'home-scrolled', 'home-stage-roadmap', 'home-stage-outro');
     els.body.classList.add('view-' + active);
+    if (viewChanged) window.scrollTo(0, 0);
     requestAnimationFrame(updateHomeScroll);
     if (active !== 'home' && state.gateTimer) { clearInterval(state.gateTimer); state.gateTimer = null; }
   }
@@ -496,9 +503,14 @@
     var p = normalizeContentPath(item.path);
     if (!p) return [];
     var set = {};
-    set[new URL(p, document.baseURI).href] = 1;
-    set[new URL(p, new URL(MANIFEST_URL, document.baseURI)).href] = 1;
-    set[new URL('./' + p, document.baseURI).href] = 1;
+    function addVersioned(path, base) {
+      var url = new URL(path, base);
+      url.search = CACHE_KEY;
+      set[url.href] = 1;
+    }
+    addVersioned(p, document.baseURI);
+    addVersioned(p, new URL(MANIFEST_URL, document.baseURI));
+    addVersioned('./' + p, document.baseURI);
     return Object.keys(set);
   }
 

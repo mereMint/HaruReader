@@ -1,3 +1,7 @@
+---
+listed: false
+---
+
 # Harutronic roadmap
 
 + HaruReader Online | the journey begins motherfucker!!!

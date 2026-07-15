@@ -1,6 +1,7 @@
 {
   "name": "HaruReader",
-  "generatedAt": "2026-07-15T14:20:33.387358+00:00",
+  "version": "d1db5b58fc0f",
+  "generatedAt": "2026-07-15T14:38:04.228597+00:00",
   "contentWarnings": [
     "gun violence, suicide, blood/gore, death, threat, and implied implant trafficking."
   ],
@@ -16,17 +17,6 @@
       "excerpt": "Bang! Mina shoots upright on her mattress, her heart slamming against her ribs. “W-What was that?!” A gunshot? The sound still rings in her ears. A translucent window pop…",
       "words": 1300,
       "contentWarning": "gun violence, suicide, blood/gore, death, threat, and implied implant trafficking."
-    },
-    {
-      "id": "src-roadmap-md",
-      "kind": "text",
-      "type": "text",
-      "title": "Harutronic roadmap",
-      "path": "src/roadmap.md",
-      "order": 999,
-      "preview": "+ HaruReader Online | the journey begins motherfucker!!! + Shots in Suarmi | First skit published - Last Stop | First short story - Race Condition | last prep before V1 -…",
-      "excerpt": "+ HaruReader Online | the journey begins motherfucker!!! + Shots in Suarmi | First skit published - Last Stop | First short story - Race Condition | last prep before V1 -…",
-      "words": 29
     },
     {
       "id": "src-skits-coming-soon-md",
