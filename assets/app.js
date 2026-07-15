@@ -490,7 +490,7 @@
       els.readerMeta.textContent = item.comingSoon ? 'No release date announced' : 'Available ' + formatReleaseDate(item.releaseAt);
       els.readerMeta.hidden = false;
       els.readerContent.innerHTML = item.comingSoon
-        ? '<p class="muted">A new skit is coming soon to the library.</p>'
+        ? '<p class="muted">A new short story is coming soon to the library.</p>'
         : '<p class="muted">This content will be available on ' + formatReleaseDate(item.releaseAt) + '.</p>';
       if (els.utterancesWrap) els.utterancesWrap.innerHTML = '';
       return;

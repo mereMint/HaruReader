@@ -1,6 +1,6 @@
 {
   "name": "HaruReader",
-  "generatedAt": "2026-07-13T01:35:42.820457+00:00",
+  "generatedAt": "2026-07-15T13:36:22.292839+00:00",
   "contentWarnings": [
     "gun violence, suicide, blood/gore, death, threat, and implied implant trafficking."
   ],
@@ -19,14 +19,14 @@
     },
     {
       "id": "src-skits-coming-soon-md",
-      "kind": "skit",
-      "type": "skit",
+      "kind": "short story",
+      "type": "short story",
       "title": "Coming soon",
       "path": "src/skits/coming-soon.md",
       "order": 2,
-      "preview": "A new skit is coming soon to the library.",
-      "excerpt": "A new skit is coming soon to the library.",
-      "words": 9,
+      "preview": "A new short story is coming soon to the library.",
+      "excerpt": "A new short story is coming soon to the library.",
+      "words": 10,
       "comingSoon": true
     }
   ]
