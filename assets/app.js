@@ -54,6 +54,9 @@
     els.warningTimer = document.querySelector('#warningTimer');
     els.roadmapPreview = document.querySelector('#roadmapPreview');
     els.roadmapFull = document.querySelector('#roadmapFull');
+    els.roadmapCompleted = document.querySelector('#roadmapCompleted');
+    els.roadmapUpcoming = document.querySelector('#roadmapUpcoming');
+    els.roadmapProgressBar = document.querySelector('#roadmapProgressBar');
     els.utterancesWrap = document.querySelector('#utterancesWrap');
   }
 
@@ -291,18 +294,26 @@
     var legal = ['home', 'library', 'reader', 'roadmap'];
     var active = legal.indexOf(name) > -1 ? name : 'home';
     var viewChanged = state.activeView !== active;
-    state.activeView = active;
-    els.views.forEach(function(v) { v.hidden = v.dataset.view !== active; });
-    els.nav.forEach(function(n) {
-      var nv = n.dataset.nav;
-      if (nv === 'continue') return;
-      n.classList.toggle('active', nv === active);
-    });
-    els.body.classList.remove('view-home', 'view-library', 'view-reader', 'view-roadmap', 'home-scrolled', 'home-stage-roadmap', 'home-stage-outro');
-    els.body.classList.add('view-' + active);
-    if (viewChanged) window.scrollTo(0, 0);
-    requestAnimationFrame(updateHomeScroll);
-    if (active !== 'home' && state.gateTimer) { clearInterval(state.gateTimer); state.gateTimer = null; }
+    function swapView() {
+      state.activeView = active;
+      els.views.forEach(function(v) { v.hidden = v.dataset.view !== active; });
+      els.nav.forEach(function(n) {
+        var nv = n.dataset.nav;
+        if (nv === 'continue') return;
+        n.classList.toggle('active', nv === active);
+      });
+      els.body.classList.remove('view-home', 'view-library', 'view-reader', 'view-roadmap', 'home-scrolled', 'home-stage-roadmap', 'home-stage-outro');
+      els.body.classList.add('view-' + active);
+      if (viewChanged) window.scrollTo(0, 0);
+      requestAnimationFrame(updateHomeScroll);
+      if (active !== 'home' && state.gateTimer) { clearInterval(state.gateTimer); state.gateTimer = null; }
+    }
+    var reducedMotion = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    if (viewChanged && state.activeView && document.startViewTransition && !reducedMotion) {
+      document.startViewTransition(swapView);
+    } else {
+      swapView();
+    }
   }
 
   /* ---- roadmap ---- */
@@ -315,11 +326,14 @@
     }).filter(Boolean);
   }
 
-  function roadmapItem(item) {
+  function roadmapItem(item, index) {
     var archived = item.status === 'archived';
-    return '<li class="roadmap-item ' + (archived ? 'is-archived' : '') + '">' +
-      '<span class="roadmap-marker" aria-hidden="true"></span><div>' +
-      '<span class="roadmap-phase">' + (archived ? 'Archived' : 'Coming next') + '</span>' +
+    var current = item.isCurrent === true;
+    var phase = archived ? 'Archived' : current ? 'In development' : 'Queued';
+    var number = String(index + 1).padStart(2, '0');
+    return '<li class="roadmap-item ' + (archived ? 'is-archived' : current ? 'is-current' : 'is-upcoming') + '">' +
+      '<span class="roadmap-step" aria-hidden="true"><span class="roadmap-marker"></span><span class="roadmap-index">' + number + '</span></span><div class="roadmap-item-card" data-signal="' + number + '">' +
+      '<span class="roadmap-phase">' + phase + '</span>' +
       '<h3>' + escapeHtml(item.title) + '</h3>' +
       (item.detail ? '<p>' + escapeHtml(item.detail) + '</p>' : '') +
       '</div></li>';
@@ -328,10 +342,17 @@
   function renderRoadmap(items) {
     var archived = items.filter(function(item) { return item.status === 'archived'; });
     var upcoming = items.filter(function(item) { return item.status === 'upcoming'; });
+    items.forEach(function(item) { item.isCurrent = upcoming.length > 0 && item === upcoming[0]; });
     var preview = (archived.length ? [archived[archived.length - 1]] : []).concat(upcoming.slice(0, 2));
-    var empty = '<li class="roadmap-item"><div><p>No timeline entries yet.</p></div></li>';
+    var empty = '<li class="roadmap-item"><div class="roadmap-item-card"><p>No timeline entries yet.</p></div></li>';
     if (els.roadmapPreview) els.roadmapPreview.innerHTML = preview.map(roadmapItem).join('') || empty;
     if (els.roadmapFull) els.roadmapFull.innerHTML = items.map(roadmapItem).join('') || empty;
+    if (els.roadmapCompleted) els.roadmapCompleted.textContent = archived.length;
+    if (els.roadmapUpcoming) els.roadmapUpcoming.textContent = upcoming.length;
+    if (els.roadmapProgressBar) {
+      var progress = items.length ? Math.round((archived.length / items.length) * 100) : 0;
+      els.roadmapProgressBar.style.width = progress + '%';
+    }
   }
 
   /* ---- library ---- */

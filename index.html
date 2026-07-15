@@ -4,9 +4,9 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="color-scheme" content="dark">
-  <meta name="harureader-build" content="d1db5b58fc0f">
+  <meta name="harureader-build" content="39e0798f25c3">
   <title>Harutronic · HaruReader</title>
-  <link rel="stylesheet" href="assets/styles.css?v=11476e7df2a9">
+  <link rel="stylesheet" href="assets/styles.css?v=62a5dd6457cd">
 </head>
 <body class="view-home">
   <a class="skip-link" href="#main">Skip to content</a>
@@ -15,6 +15,7 @@
     <nav class="nav-tabs" aria-label="Main navigation">
       <a href="#home" data-nav="home">Home</a>
       <a href="#library" data-nav="library">Library</a>
+      <a href="#roadmap" data-nav="roadmap">Roadmap</a>
       <a href="#continue" data-nav="continue" id="continueBtn">Continue</a>
     </nav>
   </header>
@@ -42,7 +43,16 @@
     <section class="view roadmap-page" id="roadmapView" data-view="roadmap" hidden>
       <article class="roadmap-page-card">
         <header class="roadmap-page-head">
-          <p class="eyebrow">Roadmap</p>
+          <div class="roadmap-page-copy">
+            <p class="eyebrow">Roadmap / live signal</p>
+            <h1>Harutronic roadmap</h1>
+            <p class="roadmap-page-intro">One living record of every archived release and everything moving toward transmission.</p>
+          </div>
+          <div class="roadmap-summary" aria-label="Roadmap progress">
+            <div class="roadmap-summary-number"><strong id="roadmapCompleted">0</strong><span>Archived</span></div>
+            <div class="roadmap-summary-number"><strong id="roadmapUpcoming">0</strong><span>Incoming</span></div>
+            <div class="roadmap-progress-track" aria-hidden="true"><span id="roadmapProgressBar"></span></div>
+          </div>
         </header>
         <div class="roadmap-atlas-key" aria-label="Roadmap legend">
           <span><i class="atlas-marker archived" aria-hidden="true"></i> Archived</span>
@@ -104,6 +114,6 @@
     <div class="noscript">HaruReader needs JavaScript to load Markdown/TXT files.</div>
   </noscript>
 
-  <script src="assets/app.js?v=6edd923e5a1c" defer></script>
+  <script src="assets/app.js?v=b5f0a3482c89" defer></script>
 </body>
 </html>
