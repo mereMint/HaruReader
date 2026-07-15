@@ -332,7 +332,7 @@
     var phase = archived ? 'Archived' : current ? 'In development' : 'Queued';
     var number = String(index + 1).padStart(2, '0');
     return '<li class="roadmap-item ' + (archived ? 'is-archived' : current ? 'is-current' : 'is-upcoming') + '">' +
-      '<span class="roadmap-step" aria-hidden="true"><span class="roadmap-marker"></span><span class="roadmap-index">' + number + '</span></span><div class="roadmap-item-card" data-signal="' + number + '">' +
+      '<span class="roadmap-step" aria-hidden="true"><span class="roadmap-marker"></span><span class="roadmap-index">' + number + '</span></span><div class="roadmap-item-card">' +
       '<span class="roadmap-phase">' + phase + '</span>' +
       '<h3>' + escapeHtml(item.title) + '</h3>' +
       (item.detail ? '<p>' + escapeHtml(item.detail) + '</p>' : '') +
