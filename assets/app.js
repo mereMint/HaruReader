@@ -56,9 +56,6 @@
     els.warningTimer = document.querySelector('#warningTimer');
     els.roadmapPreview = document.querySelector('#roadmapPreview');
     els.roadmapFull = document.querySelector('#roadmapFull');
-    els.roadmapCompleted = document.querySelector('#roadmapCompleted');
-    els.roadmapUpcoming = document.querySelector('#roadmapUpcoming');
-    els.roadmapProgressBar = document.querySelector('#roadmapProgressBar');
     els.utterancesWrap = document.querySelector('#utterancesWrap');
   }
 
@@ -331,10 +328,9 @@
   function roadmapItem(item, index) {
     var archived = item.status === 'archived';
     var current = item.isCurrent === true;
-    var phase = archived ? 'Archived' : current ? 'In development' : 'Queued';
-    var number = String(index + 1).padStart(2, '0');
+    var phase = archived ? 'Published' : current ? 'In development' : 'Queued';
     return '<li class="roadmap-item ' + (archived ? 'is-archived' : current ? 'is-current' : 'is-upcoming') + '">' +
-      '<span class="roadmap-step" aria-hidden="true"><span class="roadmap-marker"></span><span class="roadmap-index">' + number + '</span></span><div class="roadmap-item-card">' +
+      '<span class="roadmap-step" aria-hidden="true"><span class="roadmap-marker"></span></span><div class="roadmap-item-card">' +
       '<span class="roadmap-phase">' + phase + '</span>' +
       '<h3>' + escapeHtml(item.title) + '</h3>' +
       (item.detail ? '<p>' + escapeHtml(item.detail) + '</p>' : '') +
@@ -349,12 +345,6 @@
     var empty = '<li class="roadmap-item"><div class="roadmap-item-card"><p>No timeline entries yet.</p></div></li>';
     if (els.roadmapPreview) els.roadmapPreview.innerHTML = preview.map(roadmapItem).join('') || empty;
     if (els.roadmapFull) els.roadmapFull.innerHTML = items.map(roadmapItem).join('') || empty;
-    if (els.roadmapCompleted) els.roadmapCompleted.textContent = archived.length;
-    if (els.roadmapUpcoming) els.roadmapUpcoming.textContent = upcoming.length;
-    if (els.roadmapProgressBar) {
-      var progress = items.length ? Math.round((archived.length / items.length) * 100) : 0;
-      els.roadmapProgressBar.style.width = progress + '%';
-    }
   }
 
   /* ---- library ---- */
