@@ -1,9 +1,10 @@
 {
   "name": "HaruReader",
-  "version": "f252c3e6eb23",
-  "generatedAt": "2026-07-17T11:38:59.329407+00:00",
+  "version": "81a4f33abe8c",
+  "generatedAt": "2026-07-19T00:51:14.527982+00:00",
   "contentWarnings": [
-    "gun violence, suicide, blood/gore, death, threat, and implied implant trafficking."
+    "gun violence, suicide, blood/gore, death, threat, and implied implant trafficking.",
+    "graphic violence, body horror, blood/gore, death, and threat."
   ],
   "items": [
     {
@@ -19,16 +20,23 @@
       "contentWarning": "gun violence, suicide, blood/gore, death, threat, and implied implant trafficking."
     },
     {
-      "id": "src-skits-coming-soon-md",
+      "id": "src-stories-last-stop-md",
       "kind": "short story",
       "type": "short story",
       "title": "Last Stop",
-      "path": "src/skits/coming-soon.md",
-      "order": 2,
-      "preview": "A new short story is coming soon to the library.",
-      "excerpt": "A new short story is coming soon to the library.",
-      "words": 12,
-      "comingSoon": true
+      "path": "src/stories/last-stop.md",
+      "order": 1,
+      "preview": "Three exhausted students wait for the last train beneath the glass domes of Katoshi Garden Station. Then something moves behind the dark botanical display.",
+      "excerpt": "Three exhausted students wait for the last train beneath the glass domes of Katoshi Garden Station. Then something moves behind the dark botanical display.",
+      "words": 4850,
+      "tags": [
+        "Sodeine",
+        "Katoshi Garden Station",
+        "Matzuki",
+        "Jinji",
+        "Inose"
+      ],
+      "contentWarning": "graphic violence, body horror, blood/gore, death, and threat."
     }
   ]
 }
