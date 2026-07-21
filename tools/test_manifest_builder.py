@@ -37,6 +37,10 @@ class ManifestBuilderTests(unittest.TestCase):
     def test_roadmap_is_never_a_library_entry(self) -> None:
         self.assertIn("roadmap.md", builder.EXCLUDED_SOURCE_FILES)
 
+    def test_ambient_cues_do_not_appear_in_reader_metadata(self) -> None:
+        source = "Before.\n<!-- ambient: storm -->\nAfter."
+        self.assertEqual(builder.clean_markdown(source), "Before. After.")
+
 
 if __name__ == "__main__":
     unittest.main()

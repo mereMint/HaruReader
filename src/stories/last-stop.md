@@ -12,6 +12,8 @@ tags: [Sodeine, "Katoshi Garden Station", Matzuki, Jinji, Inose]
 
 > **Content warning:** graphic violence, body horror, blood/gore, death, and threat.
 
+<!-- ambient: night, neon -->
+
 “So, are you guys planning on going to that party in K3? Some people I know invited me, and they said it’s going to be amazing. Like, *really* huge. They’re probably going to use an entire floor of that megabuilding,” Jinji says.
 
 “You do know we have to present our project tomorrow, right?” Matzuki adjusts his glasses. “Or did you forget the part where we need a passing grade?”
@@ -42,6 +44,8 @@ For a moment, none of them says anything. A small smirk tugs at Inose’s mouth,
 
 “Remember,” Inose says as he takes the lead. “One night out after the presentation. You both promised.”
 
+<!-- ambient: night, forest, moonlight -->
+
 Glass domes stretch high above the platform, their steel frames slowly disappearing beneath vines. Moonlight filters through the glass and washes the otherwise dim station in silver.
 
 “Damn,” Inose says, spinning beneath one of the domes. “This place is beautiful at night.”
@@ -55,6 +59,8 @@ Jinji studies the arrival display. “Eighteen minutes? This is supposed to be o
 “The Taka University interchange is busy,” Matzuki replies. “Katoshi Garden serves the old botanical campus. At three in the morning, we should be grateful a train comes at all.”
 
 “Our poor man’s Orbit,” Jinji mutters.
+
+<!-- ambient: forest, neon, flicker -->
 
 He wanders toward a huge glass wall enclosing rare tropical plants. Most of the display is dark, but a flickering advertisement glows between the leaves:
 
@@ -91,6 +97,8 @@ The man suddenly clutches his head. A scream tears out of him, distorted and met
 “He’s having a seizure,” Jinji says, rushing toward the glass. “We have to help him.”
 
 “No!” Matzuki grabs his sleeve. “We don’t know what he has. Call MedTec, but don’t go near him.”
+
+<!-- ambient: dark, danger, suspense -->
 
 Bones crack beyond the glass. One final scream cuts through the room.
 
@@ -132,6 +140,8 @@ Matzuki drops beside him, then recoils from the buried blade. “We can’t pull
 
 “We can’t leave him,” Jinji says. He pulls Inose upright and drapes one of his arms across his shoulders. “I’ll take him. Matzu, call the HPD. Find somewhere safe.”
 
+<!-- ambient: dark, suspense, monitor -->
+
 Matzuki hesitates only long enough to meet their eyes. Then he runs into the short corridor serving the eastern maintenance rooms.
 
 At its far end, one gray door marked **SECURITY** stands open by several centimeters. Its card reader has been stripped down to a nest of colored wires, and a maintenance wedge lies beneath it. A yellow tag hangs from the exposed lock assembly: **ACTUATOR REPLACEMENT PENDING — MANUAL LATCH ONLY.** Someone has left a tool bag on the floor.
@@ -169,6 +179,8 @@ Matzuki drops into the chair before the dark monitors. Every angle of the statio
 “Please work,” he mutters.
 
 He flicks the first switch.
+
+<!-- ambient: dark, monitor, flicker -->
 
 The station goes dark.
 
@@ -272,6 +284,8 @@ He grabs the station microphone and slams the broadcast switch.
 
 “Jin, not the stairs! Blue refuge bay to your left. Move!”
 
+<!-- ambient: dark, danger, emergency -->
+
 Warning lights ignite above the platform. Steel containment shutters descend across the stairwells and tunnel entrances, separating the station from the city and the active guideway.
 
 Jinji changes direction, dragging Inose toward a blue door set into the wall.
@@ -287,6 +301,8 @@ Slowly, the man lifts his face toward the nearest camera.
 For ten long seconds, he stares through the feed and into Matzuki’s eyes. His yellow irises jitter once, then settle.
 
 He smiles.
+
+<!-- ambient: rain, danger, emergency -->
 
 The man drives his fist through a red cabinet marked **PLATFORM DELUGE** and tears down the manual release lever. The alarm shrieks. Valves open above the platform, and water erupts from the suppression nozzles.
 
@@ -308,6 +324,8 @@ One arm hooks beneath Inose’s jaw. The other hand braces against his shoulder.
 
 Jinji understands the joke a heartbeat before a wet chain of cracks races down Inose’s neck.
 
+<!-- ambient: rain, grief, emergency -->
+
 His body collapses. His head remains in the man’s hands.
 
 Several vertebrae have torn free with it, pale beneath the platform lights. They hang below the jaw in a curtain of nerves, muscle, and translucent interface filaments. Blood pulses from the open neck before the deluge carries it in pink streams toward the tracks.
@@ -317,6 +335,8 @@ Matzuki folds over the console and vomits. When he forces himself upright, Inose
 Jinji scrambles into the corner beside the shutter, slips in the bloody water, and vomits between his knees.
 
 “Inose.” Jinji’s voice breaks on the name. “Give him back.”
+
+<!-- ambient: rain, danger, emergency -->
 
 The man looks up at the camera, Inose’s head hanging from his hand.
 
@@ -352,6 +372,8 @@ Jinji’s fists strike more slowly. His shoes scrape against the wet floor. His 
 
 Then the rest of his skull gives way with a dull, pulpy crunch.
 
+<!-- ambient: rain, grief, emergency -->
+
 His body goes limp. When the man removes his hand, blood, splintered bone, and gray tissue slide down the shutter. The crushed housing of Jinji’s interface is visible inside what remains of his temple, its tiny status light still blinking green.
 
 For several seconds, the only sounds in the station are the deluge and the alarm.
@@ -363,6 +385,8 @@ The man wipes his hand across Jinji’s shirt. Then he looks toward the eastern 
 Matzuki releases the microphone.
 
 On the monitors, the man walks toward the eastern service rooms. He disappears from one feed and appears in the next, his head tilted as if listening for movement behind the walls.
+
+<!-- ambient: rain, suspense, monitor -->
 
 Matzuki dims the monitors until the security room is almost black. The one-way glass becomes a field of faint reflections: eight dying camera feeds, the moonlit platform, and his own frightened eyes.
 
@@ -408,6 +432,8 @@ Matzuki slowly raises his head above the console.
 
 The window is empty.
 
+<!-- ambient: rain, danger, monitor -->
+
 Then a bloody hand slaps against the other side.
 
 Matzuki bites down on a scream.
@@ -445,6 +471,8 @@ The man pushes his fingers through the widening gap and feels blindly for the la
 The HPD timer reads **13:41**.
 
 The metal bracket tears another centimeter from the wall.
+
+<!-- ambient: rain, danger, moonlight -->
 
 A low vibration rolls through one of the glass domes above the station.
 
@@ -496,6 +524,8 @@ Another message replaces it:
 
 **REMOTE EVIDENCE TRANSFER COMPLETE — LOCAL CACHE PURGED.**
 
+<!-- ambient: rain, grief, monitor -->
+
 Matzuki stares at the empty feeds. The only record of what happened is gone.
 
 The helmet of the fourth squad member turns toward the one-way window. A thin sensor line passes over the glass and pauses where Matzuki is crouching.
@@ -518,6 +548,8 @@ At three hundred, he crawls out from beneath the console.
 
 The door will not open at first. The impacts have warped it around the frame. Matzuki retracts the bent deadbolt with both hands, braces one foot against the wall, and pulls until the remaining bracket tears free. The door gives him a gap barely wide enough to squeeze through. A jagged edge cuts his sleeve as he enters the corridor.
 
+<!-- ambient: rain, dark, grief -->
+
 The station is empty except for the dead.
 
 Matzuki crosses the platform slowly. He looks at the floor because every direction contains something he does not want to see. Inose lies where the attacker dropped him. Jinji is still folded beneath the dented shutter.
@@ -533,6 +565,8 @@ The lighter sparks twice before producing a small blue flame. He shields it with
 The deluge extinguishes it almost immediately.
 
 He holds the ruined cigarette anyway.
+
+<!-- ambient: night, clinical, grief -->
 
 * * *
 

@@ -77,6 +77,7 @@ def parse_frontmatter(text: str) -> tuple[dict[str, object], str]:
 
 def clean_markdown(text: str) -> str:
     text = re.sub(r"```[\s\S]*?```", " ", text)
+    text = re.sub(r"<!--[\s\S]*?-->", " ", text)
     text = re.sub(r"[#>*_`\[\]()]", " ", text)
     return re.sub(r"\s+", " ", text).strip()
 

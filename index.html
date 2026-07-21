@@ -4,12 +4,32 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="color-scheme" content="dark">
-  <meta name="harureader-build" content="fddd9d0b137c">
+  <meta name="harureader-build" content="08a622a62344">
   <title>Harutronic · HaruReader</title>
-  <link rel="stylesheet" href="assets/styles.css?v=299c25ec027d">
+  <link rel="stylesheet" href="assets/styles.css?v=63415c1bb602">
 </head>
 <body class="view-home">
   <a class="skip-link" href="#main">Skip to content</a>
+
+  <div class="story-ambient" id="storyAmbient" aria-hidden="true">
+    <div class="ambient-scene ambient-neutral"></div>
+    <div class="ambient-scene ambient-rain"></div>
+    <div class="ambient-scene ambient-storm"></div>
+    <div class="ambient-scene ambient-dark"></div>
+    <div class="ambient-scene ambient-night"></div>
+    <div class="ambient-scene ambient-danger"></div>
+    <div class="ambient-scene ambient-warm"></div>
+    <div class="ambient-scene ambient-suspense"></div>
+    <div class="ambient-scene ambient-grief"></div>
+    <div class="ambient-scene ambient-forest"></div>
+    <div class="ambient-scene ambient-clinical"></div>
+    <div class="ambient-scene ambient-neon"></div>
+    <div class="ambient-scene ambient-moonlight"></div>
+    <div class="ambient-scene ambient-emergency"></div>
+    <div class="ambient-scene ambient-monitor"></div>
+    <div class="ambient-scene ambient-mist"></div>
+    <div class="ambient-scene ambient-flicker"></div>
+  </div>
 
   <header class="site-header" aria-label="Site navigation">
     <nav class="nav-tabs" aria-label="Main navigation">
@@ -75,6 +95,7 @@
     <section class="view reader-view" id="readerView" data-view="reader" hidden>
       <article class="reader-card" id="readerArticle" tabindex="-1">
         <header class="reader-head">
+          <a class="reader-back" href="#library">&larr; Library</a>
           <p class="eyebrow" id="readerKind">Reader</p>
           <h1 id="readerTitle">Choose something from the library</h1>
           <p class="reader-meta" id="readerMeta"></p>
@@ -84,6 +105,77 @@
         </div>
         <div id="utterancesWrap" class="utterances-wrap"></div>
       </article>
+      <div class="reader-tools" id="readerTools" aria-label="Reading controls">
+          <div class="reader-tool-group reader-narration">
+            <button class="reader-tool reader-tool-primary" id="ttsToggle" type="button" aria-pressed="false" aria-expanded="false" aria-controls="ttsControls">
+              <span class="tool-icon" aria-hidden="true">&#9654;</span>
+              <span id="ttsToggleLabel">Read aloud</span>
+            </button>
+            <div class="reader-narration-controls" id="ttsControls">
+              <button class="reader-tool" id="ttsStop" type="button" disabled>Stop</button>
+            <label class="reader-tool-select">
+              <span>Voice</span>
+              <select id="ttsVoice" aria-label="Narration voice"></select>
+            </label>
+            <label class="reader-tool-select reader-rate-select">
+              <span>Speed</span>
+              <select id="ttsRate" aria-label="Narration speed">
+                <option value="0.8">0.8&times;</option>
+                <option value="1" selected>1&times;</option>
+                <option value="1.15">1.15&times;</option>
+                <option value="1.3">1.3&times;</option>
+              </select>
+            </label>
+            </div>
+          </div>
+          <div class="reader-tool-group reader-display-tools">
+            <button class="reader-tool" id="settingsToggle" type="button" aria-expanded="false" aria-controls="readerSettings">Reading settings</button>
+            <button class="reader-tool reader-tool-compact" id="ttsCollapse" type="button" aria-label="Minimize reading controls">&minus;</button>
+          </div>
+          <p class="reader-tool-status" id="ttsStatus" aria-live="polite">Ready to read</p>
+          <div class="reader-settings" id="readerSettings" aria-label="Reading settings" hidden>
+            <div class="reader-settings-head">
+              <strong>Reading settings</strong>
+              <button type="button" id="settingsClose" aria-label="Close reading settings">&times;</button>
+            </div>
+            <div class="reader-setting-row">
+              <span><strong>Story ambience</strong><small>Visual scene effects from author cues</small></span>
+              <button class="setting-toggle" id="ambientToggle" type="button" aria-pressed="true">On</button>
+            </div>
+            <div class="reader-setting-row">
+              <span><strong>Reduced motion</strong><small>Remove rain, flashes, and smooth movement</small></span>
+              <button class="setting-toggle" id="motionToggle" type="button" aria-pressed="false">Off</button>
+            </div>
+            <div class="reader-setting-row">
+              <span><strong>Follow narration</strong><small>Keep the spoken passage centered</small></span>
+              <button class="setting-toggle" id="ttsFollowToggle" type="button" aria-pressed="true">On</button>
+            </div>
+            <div class="reader-setting-row">
+              <span><strong>Text size</strong><small>Adjust the story without zooming the page</small></span>
+              <span class="setting-stepper">
+                <button type="button" id="fontSmaller" aria-label="Make text smaller">A&minus;</button>
+                <output id="fontSizeValue">100%</output>
+                <button type="button" id="fontLarger" aria-label="Make text larger">A+</button>
+              </span>
+            </div>
+            <label class="reader-setting-row">
+              <span><strong>Reading width</strong><small>Choose a comfortable line length</small></span>
+              <select id="readerWidth">
+                <option value="58">Narrow</option>
+                <option value="68" selected>Comfortable</option>
+                <option value="76">Wide</option>
+              </select>
+            </label>
+            <label class="reader-setting-row">
+              <span><strong>Line spacing</strong><small>Control the space between lines</small></span>
+              <select id="readerSpacing">
+                <option value="1.72">Compact</option>
+                <option value="1.88" selected>Comfortable</option>
+                <option value="2.06">Relaxed</option>
+              </select>
+            </label>
+          </div>
+      </div>
     </section>
   </main>
 
@@ -92,26 +184,28 @@
     <span class="reader-progress-track" aria-hidden="true"><span id="readerProgressBar"></span></span>
   </aside>
 
-  <div class="creator-signature" aria-label="Creator signature">
-    <span class="creator-label">Created by</span>
-    <strong class="signature-glitch" data-text="Nweb">Nweb</strong>
-  </div>
-
-  <div class="content-warning" aria-label="Content warning">
-    <span data-text="CONTENT WARNING">CONTENT WARNING</span>
-    <div id="warningText" class="warning-tags" role="list" aria-label="Content warnings">
-      <span class="warning-tag" role="listitem">Violence</span>
-      <span class="warning-tag" role="listitem">Death</span>
-      <span class="warning-tag" role="listitem">Psychological distress</span>
-      <span class="warning-tag" role="listitem">Mature themes</span>
+  <div class="home-outro-overlay" aria-label="Creator and content information">
+    <div class="creator-signature" aria-label="Creator signature">
+      <span class="creator-label">Created by</span>
+      <strong class="signature-glitch" data-text="Nweb">Nweb</strong>
     </div>
-    <p id="warningTimer" class="warning-timer" hidden></p>
+
+    <div class="content-warning" aria-label="Content warning">
+      <span data-text="CONTENT WARNING">CONTENT WARNING</span>
+      <div id="warningText" class="warning-tags" role="list" aria-label="Content warnings">
+        <span class="warning-tag" role="listitem">Violence</span>
+        <span class="warning-tag" role="listitem">Death</span>
+        <span class="warning-tag" role="listitem">Psychological distress</span>
+        <span class="warning-tag" role="listitem">Mature themes</span>
+      </div>
+      <p id="warningTimer" class="warning-timer" hidden></p>
+    </div>
   </div>
 
   <noscript>
     <div class="noscript">HaruReader needs JavaScript to load Markdown/TXT files.</div>
   </noscript>
 
-  <script src="assets/app.js?v=4bc65e5d873c" defer></script>
+  <script src="assets/app.js?v=33a4dbf731b1" defer></script>
 </body>
 </html>

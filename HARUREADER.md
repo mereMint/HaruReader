@@ -37,3 +37,10 @@ Only edit `src/roadmap.md`. It is intentionally excluded from the library.
 - `order` controls ordering within a type or series.
 
 Generated cache versions ensure GitHub Pages loads matching HTML, CSS, JavaScript, the manifest, and the roadmap after each deployment.
+
+## Reader experience
+
+- Long stories load on demand and are cached for quick reopening.
+- Read aloud follows the current passage automatically, with live passage and word highlighting.
+- Readers can choose a system voice, change narration speed, and adjust text size.
+- Scroll-linked visual ambience responds only to explicit author cues documented in `src/README.md`. It never starts audio and can be disabled at any time.

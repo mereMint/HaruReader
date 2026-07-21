@@ -12,6 +12,8 @@ tags: [Jim, "Genzo Morita", "Nami Seki", "Doctor Kuroda", HPD]
 
 > **Content warning:** gun violence, blood, death, threat, and descriptions of injury.
 
+<!-- ambient: night, mist -->
+
 The field-maintenance alert wakes the farmer twelve minutes before his alarm.
 
 A red warning symbol blinks above the nightstand in the dark.
@@ -25,6 +27,8 @@ He stares at it with one eye open.
 The symbol politely asks whether he wants to contact a licensed service contractor.
 
 He dismisses it.
+
+<!-- ambient: warm, forest, mist -->
 
 By the time the first light reaches the mountains, he is already pulling on his boots. The house stays dark while he leaves. The front-door hinges complain, and outside the AlgaHydra engine of his pickup coughs itself awake.
 
@@ -92,6 +96,8 @@ The farmer returns to the pickup and reaches behind the seat.
 
 The shotgun has been there since crop thieves started stealing licensed seed cultures from the southern farms. Its wooden stock is scratched, and the metal smells faintly of oil.
 
+<!-- ambient: forest, suspense, mist -->
+
 He checks the chamber, closes the truck door quietly, and follows the blood.
 
 The trail grows heavier near the trees.
@@ -101,6 +107,8 @@ Branches are bent inward. Mud has been pushed into long smears as if someone cra
 The farmer stops beside a thick bush.
 
 He raises the shotgun and pushes the branches apart with the barrel.
+
+<!-- ambient: forest, danger, mist -->
 
 A pistol points back at him.
 
@@ -145,6 +153,8 @@ The farmer catches him before his face reaches the ground and pulls one arm acro
 “Then stop wearing nice shoes to work.”
 
 “They were nice before I found you.”
+
+<!-- ambient: forest, suspense -->
 
 They move toward the pickup one slow step at a time.
 
@@ -252,6 +262,8 @@ The movement sends a hot pull through his side.
 
 He lowers his hand.
 
+<!-- ambient: warm, forest -->
+
 For several minutes, there is nothing but the engine, the wind, and the distant mechanical rhythm of the farms. The sound almost becomes peaceful enough for him to forget the blood collecting beneath his back.
 
 His eyes close.
@@ -334,6 +346,8 @@ A small smile appears on Jim’s face.
 
 “You have no idea.”
 
+<!-- ambient: warm, forest -->
+
 The village rises beyond the fields.
 
 Old tiled roofs sit between newer prefabricated homes and agricultural warehouses. Charging posts stand beside wooden fences. A delivery drone lowers medicine onto the awning of a small shop while an old woman beneath it sweeps leaves with a bamboo broom as if the machine does not exist.
@@ -412,6 +426,8 @@ The farmer takes the pistol before the robot can.
 
 The stretcher rolls into the old inn.
 
+<!-- ambient: warm, clinical, monitor -->
+
 The reception room smells of disinfectant, cedar, and rice porridge from the kitchen. A wooden counter divides the entrance from a row of mismatched chairs. A child with a wrapped wrist sits beside his mother while an elderly man sleeps beneath a borrowed blanket. Prayer plaques share the wall with vaccination notices. An old appointment display hangs beneath a beam blackened by incense smoke from the adjoining temple hall.
 
 The first treatment room contains a narrow bed, a manual instrument cart, an aging wall scanner, and a cabinet repaired with a different kind of wood than the rest. The second room is smaller and mostly used for routine checks.
@@ -461,6 +477,8 @@ From the doorway, Nami looks offended.
 The doctor does not turn.
 
 “Thank you. That makes the scanner worse.”
+
+<!-- ambient: clinical, suspense, monitor -->
 
 The scan finally resolves.
 
@@ -568,6 +586,8 @@ The doctor threads clotting mesh around the damaged vessel, then fills the remai
 
 Jim glances at the nearest window.
 
+<!-- ambient: clinical, suspense -->
+
 A dark sedan has stopped outside the temple gate.
 
 Six men step out.
@@ -615,6 +635,8 @@ The small drone passes the upper window.
 Its lens turns toward the blood on the stretcher wheel.
 
 The man in the light coat touches his earpiece.
+
+<!-- ambient: clinical, suspense, monitor -->
 
 A voice from the gate comes through the man’s earpiece.
 
@@ -762,6 +784,8 @@ The doctor holds up one finger.
 
 “You are confusing tolerance with affection.”
 
+<!-- ambient: dark, suspense, monitor -->
+
 The two men reach the inn entrance.
 
 One knocks twice.
@@ -830,6 +854,8 @@ The doctor locks the rear shelter wheel after them. The old mechanism turns with
 
 The wheel remains exposed in the storage room. There is no way to guard it, monitor Jim’s temporary repair, and guide him through the temple at the same time. She takes the medical bag because the other two choices are worse.
 
+<!-- ambient: dark, suspense -->
+
 A second knock reaches the reception room.
 
 Harder.
@@ -849,6 +875,8 @@ She points to a short enclosed passage beside the reception counter.
 “No.”
 
 “Good.”
+
+<!-- ambient: dark, suspense, monitor -->
 
 The small drone appears in the upper corner of the reception room.
 
@@ -943,6 +971,8 @@ He raises his pistol.
 The diagnostic robot turns between them.
 
 “Firearm detected in treatment area,” it says.
+
+<!-- ambient: danger, monitor, emergency -->
 
 The gunman fires.
 
@@ -1182,6 +1212,8 @@ Jim cannot.
 
 The stimulant keeps his muscles responsive, but each step pushes fresh warmth beneath the bandage. The doctor keeps one hand near his elbow without touching unless he starts to lean.
 
+<!-- ambient: dark, suspense -->
+
 The temple hall is darker than the inn. Morning light enters through paper screens and breaks across rows of floor cushions. The bronze incense burner rests before the altar. A long prayer rope hangs beside the donation box. Cedar pillars divide the room into deep strips of shadow.
 
 Footsteps enter through the western door.
@@ -1207,6 +1239,8 @@ Steam bursts from a cracked joint beneath the floor. The searcher turns toward t
 He kneels and aims into the hatch.
 
 Jim drives the panel upward into his forearm.
+
+<!-- ambient: dark, danger -->
 
 The shot tears through the altar roof.
 
@@ -1240,6 +1274,8 @@ For a moment, nobody moves.
 
 Doctor Kuroda checks his neck.
 
+<!-- ambient: dark, grief -->
+
 “No pulse.”
 
 Jim lets the lid fall. His hands have begun to shake again.
@@ -1251,6 +1287,8 @@ He sits against the altar and waits for the room to stop narrowing.
 He looks at the tremor in his fingers.
 
 “Not enough.”
+
+<!-- ambient: dark, danger, suspense -->
 
 A heavy impact sounds from the rear inn.
 
@@ -1454,6 +1492,8 @@ The doctor notices.
 
 They hear the rear kitchen door open.
 
+<!-- ambient: danger, monitor, emergency -->
+
 The drone operator enters with a compact rifle and the direct-feed visor lowered over his eyes. With the drone gone, the visor falls back to close-range thermal and motion sensors built into his own equipment. The old walls break the picture into shifting fragments.
 
 Jim cannot stand without the storage shelves.
@@ -1498,6 +1538,8 @@ Doctor Kuroda traps the weapon arm against the counter. The augmented elbow twis
 
 He pulls the ceramic knife from his coat and drives it beneath the lower edge of the armor.
 
+<!-- ambient: dark, grief, monitor -->
+
 The operator’s strength leaves in pieces. First the gun. Then the knees. Then the breath.
 
 He slides beside the rice cooker.
@@ -1521,6 +1563,8 @@ He does not call for his men again. He has heard enough.
 His voice carries from the courtyard.
 
 “Jim.”
+
+<!-- ambient: dark, danger, suspense -->
 
 The lieutenant steps through the gate in a dark coat worn open over segmented body armor. Reinforced actuators run from his right wrist to the shoulder. Both eyes are artificial, their pale irises adjusting as they map the broken screens, bodies, and blood across the courtyard.
 
@@ -1732,6 +1776,8 @@ The damaged knee folds.
 
 The rope tightens.
 
+<!-- ambient: dark, grief -->
+
 The remaining artificial iris contracts around Jim, then goes dark.
 
 They hold until the hands fall away.
@@ -1780,6 +1826,8 @@ Jim rests his head against the doctor’s shoulder.
 
 “Unlike you, they listen.”
 
+<!-- ambient: warm, grief -->
+
 The first HPD siren carries into the village.
 
 It is still far away.
@@ -1817,6 +1865,8 @@ The medical robot scans him again.
 Then his eyes close.
 
 * * *
+
+<!-- ambient: clinical, grief, monitor -->
 
 The HPD patrol arrives twenty-three minutes after the first call.
 
@@ -1971,6 +2021,8 @@ Jim points weakly toward the bullet tray.
 The doctor covers him with a clean blanket.
 
 “Still no.”
+
+<!-- ambient: warm -->
 
 Outside, the sun stands fully above the mountains.
 
