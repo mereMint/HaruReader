@@ -616,8 +616,17 @@
   /* ---- content warnings from manifest items ---- */
   function parseContentWarnings(md) {
     var m = md.match(/^>\s*\*?\*?[Cc]ontent warning:?\*?\*?\s*(.+)$/m);
-    if (!m) return [];
-    return m[1].split(/[,;]\s*/).map(function(s) { return s.trim(); }).filter(Boolean);
+    return m ? warningTagsFromText(m[1]) : [];
+  }
+
+  function warningTagsFromText(text) {
+    return String(text || '')
+      .replace(/^\s*[Cc]ontent warnings?:?\s*/, '')
+      .split(/[,;]\s*/)
+      .map(function(tag) {
+        return tag.replace(/^\s*(?:and|or)\s+/i, '').replace(/[.?!]+\s*$/, '').replace(/\s+/g, ' ').trim();
+      })
+      .filter(Boolean);
   }
 
   function aggregateContentWarnings() {
@@ -626,12 +635,23 @@
     state.manifest.forEach(function(it) {
       var cw = it._warnings || [];
       cw.forEach(function(w) {
-        var l = w.toLowerCase();
-        if (!seen[l]) { seen[l] = true; all.push(w); }
+        var key = w.toLowerCase();
+        if (!seen[key]) { seen[key] = true; all.push(w); }
       });
     });
-    if (!all.length) return 'Violence, death, psychological distress, mature themes.';
-    return all.map(function(w) { return w.charAt(0).toUpperCase() + w.slice(1); }).join(', ') + '.';
+    return all.length ? all : ['Violence', 'Death', 'Psychological distress', 'Mature themes'];
+  }
+
+  function renderContentWarnings() {
+    if (!els.warningText) return;
+    els.warningText.replaceChildren();
+    aggregateContentWarnings().forEach(function(w) {
+      var tag = document.createElement('span');
+      tag.className = 'warning-tag';
+      tag.setAttribute('role', 'listitem');
+      tag.textContent = w.charAt(0).toUpperCase() + w.slice(1);
+      els.warningText.appendChild(tag);
+    });
   }
 
   function closeFilterPanels() {
@@ -701,20 +721,24 @@
       return r.json();
     }).then(function(data) {
       state.manifest = (data.items || []).map(function(it) {
-        return Object.assign({}, it, { id: it.id || slugFromPath(it.path) });
+        return Object.assign({}, it, {
+          id: it.id || slugFromPath(it.path),
+          _warnings: warningTagsFromText(it.contentWarning)
+        });
       });
 
       // Fetch each markdown to extract content warnings
       var promises = state.manifest.map(function(it) {
         return fetchTextFile(it).then(function(md) {
-          it._warnings = parseContentWarnings(md);
+          var warnings = parseContentWarnings(md);
+          if (warnings.length) it._warnings = warnings;
         }).catch(function() {
-          it._warnings = [];
+          // Keep the manifest warning as a fallback when the source cannot be fetched.
         });
       });
       return Promise.all(promises).then(function() { return data; });
     }).then(function() {
-      if (els.warningText) els.warningText.textContent = aggregateContentWarnings();
+      renderContentWarnings();
       populateFilterSelects();
       renderLibrary();
       route();
