@@ -390,11 +390,11 @@ They fade toward the platform.
 
 Matzuki opens the HPD status window in his vision.
 
-**RESPONSE EN ROUTE — ESTIMATED ARRIVAL: 12 MIN 18 SEC.**
+**RESPONSE EN ROUTE — ESTIMATED ARRIVAL: 14 MIN 18 SEC.**
 
-Twelve minutes.
+Fourteen minutes.
 
-The deadbolt will not survive twelve minutes.
+The deadbolt will not survive fourteen minutes.
 
 A dark shape glides across the one-way window. The man has circled back onto the platform. He walks past without stopping.
 
@@ -442,7 +442,7 @@ The third impact bends the deadbolt bracket away from the concrete. One mounting
 
 The man pushes his fingers through the widening gap and feels blindly for the latch.
 
-The HPD timer reads **06:41**.
+The HPD timer reads **13:41**.
 
 The metal bracket tears another centimeter from the wall.
 
