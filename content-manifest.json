@@ -1,10 +1,11 @@
 {
   "name": "HaruReader",
-  "version": "39e9d359ed15",
-  "generatedAt": "2026-07-21T13:26:31.385301+00:00",
+  "version": "fddd9d0b137c",
+  "generatedAt": "2026-07-21T13:52:19.290156+00:00",
   "contentWarnings": [
     "gun violence, suicide, blood/gore, death, threat, and implied implant trafficking.",
-    "graphic violence, body horror, blood/gore, death, and threat."
+    "graphic violence, body horror, blood/gore, death, and threat.",
+    "gun violence, blood, death, threat, and descriptions of injury."
   ],
   "items": [
     {
@@ -37,6 +38,25 @@
         "Inose"
       ],
       "contentWarning": "graphic violence, body horror, blood/gore, death, and threat."
+    },
+    {
+      "id": "src-stories-still-breathing-md",
+      "kind": "short story",
+      "type": "short story",
+      "title": "Still Breathing",
+      "path": "src/stories/still-breathing.md",
+      "order": 2,
+      "preview": "A wounded man named Jim is dragged from a roadside bush to a quiet village clinic. Before the doctor can save him, the men who shot him arrive to finish the job.",
+      "excerpt": "A wounded man named Jim is dragged from a roadside bush to a quiet village clinic. Before the doctor can save him, the men who shot him arrive to finish the job.",
+      "words": 9758,
+      "tags": [
+        "Jim",
+        "Genzo Morita",
+        "Nami Seki",
+        "Doctor Kuroda",
+        "HPD"
+      ],
+      "contentWarning": "gun violence, blood, death, threat, and descriptions of injury."
     }
   ]
 }
