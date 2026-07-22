@@ -362,6 +362,8 @@ The old common room is now a reception area. Two guest rooms became treatment ro
 
 The two white medical robots moving across the courtyard are the most advanced things on the property.
 
+They arrived through a national rural modernization grant that paid for the machines once and never covered the replacement limbs, surgical cartridges, software licenses, or specialist maintenance needed to keep them useful.
+
 One carries a folded stretcher beneath its arms. The other follows with a diagnostic case built into its torso. Both wear narrow strips of dark temple cloth around their necks so children find them less frightening.
 
 The pickup enters the gate too fast and stops beside the inn.
@@ -1882,6 +1884,8 @@ One officer photographs the failed shelter release and adds the delayed replacem
 
 They find the doctor operating on Jim for the second time that morning.
 
+Every firearm, radio, spent casing, and bloodstained piece of clothing receives an evidence marker. Jim’s pistol joins the stolen weapons in a locked tray beside the patrol vehicles.
+
 The safe-room door opens only after officers confirm the grounds are clear and the doctor turns the damaged outer wheel by hand. Villagers return slowly.
 
 Nami comes out first.
@@ -1901,6 +1905,16 @@ The farmer stands beside her.
 “You lied long enough.”
 
 That seems to matter.
+
+At the rear vehicle, an evidence officer scans the three-stroke mark on one of the recovered radios. The public case tablet identifies no registered organization. Her private interface identifies it immediately.
+
+**FIVE LOST. ONE IN CUSTODY. TARGET ALIVE.**
+
+A reply arrives from an unlisted contact.
+
+**DELAY THE UPLOAD. WE WILL HANDLE THE SURVIVOR.**
+
+She marks the evidence sync as a network failure and closes the case.
 
 Inside the operating room, Nami replaces Doctor Kuroda’s hurried strip of skin film and properly seals the cut beneath a fresh layer and two gloves. The diagnostic robot holds instruments with its remaining arm while the doctor works. The old wall scanner loses the image twice. The fluid pump makes a sound it should not make. The doctor keeps going.
 
@@ -1938,11 +1952,9 @@ The officer looks through the broken wall toward the villagers sweeping glass fr
 
 She lowers her tablet.
 
-“Call us when he wakes.”
+“You’re not under arrest while she is operating. You are, however, not leaving. An officer will remain outside.”
 
-Jim raises two fingers.
-
-“I’m awake.”
+Jim looks at the blood-soaked bandages. “That was not high on my list.”
 
 The doctor increases the sedative.
 
@@ -1950,7 +1962,7 @@ His hand falls.
 
 “No, you aren’t.”
 
-The officer leaves.
+The officer steps into the corridor and takes up position beside the door.
 
 The farmer unfolds a handwritten paper beside Jim’s head.
 
@@ -2042,12 +2054,14 @@ The doctor checks the monitor beside him.
 
 A steady waveform moves across the old display.
 
-“He’ll live,” she says.
+“He has a chance,” she says.
 
 The farmer looks at Jim, then at the blood on his shoes.
 
-“Good.”
+“Good enough.”
 
-He places the pistol inside the clinic lockbox.
+An evidence officer seals Jim’s pistol inside a case and records its serial number.
 
-“Means I can charge interest.”
+The farmer watches it leave.
+
+“I’m still charging him for the machine.”

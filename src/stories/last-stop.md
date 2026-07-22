@@ -40,13 +40,13 @@ Jinji drags his feet down the station steps. “Personally, I think we’re the 
 
 “Because I need a good grade...” Jinji glances away. “And maybe because I like hanging around you people.”
 
-For a moment, none of them says anything. A small smirk tugs at Inose’s mouth, but he lets Jinji keep what remains of his dignity.
+The last part barely escapes his lips.
 
-“Remember,” Inose says as he takes the lead. “One night out after the presentation. You both promised.”
+For a moment, none of them says anything.
 
 <!-- ambient: night, forest, moonlight -->
 
-Glass domes stretch high above the platform, their steel frames slowly disappearing beneath vines. Moonlight filters through the glass and washes the otherwise dim station in silver.
+A small smirk tugs at the corner of Inose’s mouth, but he keeps it to himself. Without another word, he takes the lead and walks into the vast station. Glass domes stretch high above them, their steel frames slowly being reclaimed by vines that weave naturally across the structure. Moonlight filters through the glass, casting a pale glow over the otherwise dim station.
 
 “Damn,” Inose says, spinning beneath one of the domes. “This place is beautiful at night.”
 
