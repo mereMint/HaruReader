@@ -1,11 +1,12 @@
 {
   "name": "HaruReader",
-  "version": "994cbd359f00",
-  "generatedAt": "2026-07-22T11:39:42.850539+00:00",
+  "version": "8ba5e71f72a3",
+  "generatedAt": "2026-07-28T01:12:18.321222+00:00",
   "contentWarnings": [
     "gun violence, suicide, blood/gore, death, threat, and implied implant trafficking.",
     "graphic violence, body horror, blood/gore, death, and threat.",
-    "gun violence, blood, death, threat, and descriptions of injury."
+    "gun violence, blood, death, threat, and descriptions of injury.",
+    "psychological horror, captivity, gaslighting, identity loss, threatened death, and deletion."
   ],
   "items": [
     {
@@ -57,6 +58,25 @@
         "HPD"
       ],
       "contentWarning": "gun violence, blood, death, threat, and descriptions of injury."
+    },
+    {
+      "id": "src-stories-race-condition-md",
+      "kind": "short story",
+      "type": "short story",
+      "title": "Race Condition",
+      "path": "src/stories/race-condition.md",
+      "order": 3,
+      "preview": "Zury wakes in a featureless white room with no past. When the doctor across from her begins repeating questions she somehow recognizes, she must decide whether her fractured perceptions are symptoms—or clues.",
+      "excerpt": "Zury wakes in a featureless white room with no past. When the doctor across from her begins repeating questions she somehow recognizes, she must decide whether her fractured perceptions are symptoms—or clues.",
+      "words": 9505,
+      "tags": [
+        "Zury",
+        "Doctor Melcam",
+        "TakaLabs",
+        "Kagami",
+        "Outskirts"
+      ],
+      "contentWarning": "psychological horror, captivity, gaslighting, identity loss, threatened death, and deletion."
     }
   ]
 }
