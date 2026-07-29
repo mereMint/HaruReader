@@ -1921,7 +1921,7 @@ A reply arrives from an unlisted contact.
 
 **DELAY THE UPLOAD. WE WILL HANDLE THE SURVIVOR.**
 
-She marks the evidence sync as a network failure and closes the case.
+She marks the evidence sync as a network failure and closes the upload task.
 
 Inside the operating room, Nami replaces Doctor Kuroda’s hurried strip of skin film and properly seals the cut beneath a fresh layer and two gloves. The diagnostic robot holds instruments with its remaining arm while the doctor works. The old wall scanner loses the image twice. The fluid pump makes a sound it should not make. The doctor keeps going.
 

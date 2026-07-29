@@ -137,6 +137,9 @@ def main() -> None:
         fail("ambience must come from Markdown cues, not keyword inference")
     if "state.manifest.map(function(it)" in app:
         fail("reader startup is eagerly fetching every story")
+    for marker in ("Canon", "Non-canon", "canon-status", "non-canon-status"):
+        if marker not in app:
+            fail(f"library canon-status tag is missing: {marker}")
 
     roadmap = (ROOT / "src" / "roadmap.md").read_text(encoding="utf-8")
     entries = re.findall(r"^\s*[+-]\s+.+$", roadmap, re.MULTILINE)

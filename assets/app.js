@@ -421,10 +421,23 @@
     return String(item.kind || 'TEXT').toUpperCase();
   }
 
+  function canonTag(item) {
+    if (item.canon === true) return 'Canon';
+    if (item.canon === false) return 'Non-canon';
+    return '';
+  }
+
+  function displayTags(item) {
+    var tags = (item.tags || []).slice();
+    var status = canonTag(item);
+    if (status) tags.unshift(status);
+    return tags;
+  }
+
   function itemTokens(item) {
     var tokens = ['kind:' + String(item.kind || '').toLowerCase()];
     if (item.series) tokens.push('series:' + String(item.series).toLowerCase());
-    (item.tags || []).forEach(function(tag) { tokens.push('tag:' + String(tag).toLowerCase()); });
+    displayTags(item).forEach(function(tag) { tokens.push('tag:' + String(tag).toLowerCase()); });
     return tokens;
   }
 
@@ -457,7 +470,7 @@
     state.manifest.forEach(function(item) {
       add('kind', item.kind);
       add('series', item.series);
-      (item.tags || []).forEach(function(tag) { add('tag', tag); });
+      displayTags(item).forEach(function(tag) { add('tag', tag); });
     });
     return Object.keys(map).sort(function(a, b) {
       var ka = map[a].kind === 'tag' ? 0 : map[a].kind === 'series' ? 1 : 2;
@@ -517,10 +530,12 @@
   }
 
   function tagChips(item) {
-    var tags = item.tags || [];
+    var tags = displayTags(item);
+    var canonStatus = canonTag(item);
     if (!tags.length) return '';
     return '<div class="tag-list" aria-label="Tags">' + tags.map(function(tag) {
-      return '<span class="tag-chip">' + escapeHtml(tag) + '</span>';
+      var statusClass = tag === canonStatus ? (item.canon ? ' canon-status' : ' non-canon-status') : '';
+      return '<span class="tag-chip' + statusClass + '">' + escapeHtml(tag) + '</span>';
     }).join('') + '</div>';
   }
 
@@ -530,7 +545,7 @@
       if (!matchesAllFilters(it, state.includeFilters)) return false;
       if (matchesAnyFilter(it, state.excludeFilters)) return false;
       if (!q) return true;
-      return [it.title, it.preview, it.excerpt, it.kind, it.series, (it.tags || []).join(' ')].join(' ').toLowerCase().indexOf(q) > -1;
+      return [it.title, it.preview, it.excerpt, it.kind, it.series, displayTags(it).join(' ')].join(' ').toLowerCase().indexOf(q) > -1;
     });
     els.libraryGrid.innerHTML = items.map(function(it) {
       var released = isReleased(it);

@@ -937,6 +937,16 @@ body.view-home.home-stage-roadmap .roadmap-view { pointer-events: auto; }
   text-transform: uppercase;
   letter-spacing: .06em;
 }
+.tag-chip.canon-status {
+  color: #b8f5d0;
+  border-color: rgba(92, 214, 143, .48);
+  background: rgba(58, 166, 105, .14);
+}
+.tag-chip.non-canon-status {
+  color: #f2c9a5;
+  border-color: rgba(222, 147, 80, .45);
+  background: rgba(176, 102, 39, .13);
+}
 .progress-chip { font-family: var(--mono); color: var(--accent); font-size: .76rem; white-space: nowrap; }
 .empty-state, .muted { color: var(--muted); }
 .empty-state { margin-top: 2rem; }
