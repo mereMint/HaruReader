@@ -4,6 +4,11 @@ kind: "short story"
 order: 3
 listed: true
 published: true
+canon: true
+canonId: "haru.race-condition"
+continuity: "main"
+storyYear: 2083
+timelineOrder: "TBD"
 preview: "Zury wakes in a featureless white room with no past. When the doctor across from her begins repeating questions she somehow recognizes, she must decide whether her fractured perceptions are symptoms—or clues."
 tags: [Zury, "Doctor Melcam", TakaLabs, Kagami, Outskirts]
 ---

@@ -4,6 +4,13 @@ kind: "short story"
 order: 2
 listed: true
 published: true
+canon: true
+canonId: "haru.still-breathing"
+continuity: "main"
+storyYear: "TBD"
+timelineOrder: "TBD"
+sequenceId: "katoshi-outskirts"
+sequenceOrder: 2
 preview: "A wounded man named Jim is dragged from a roadside bush to a quiet village clinic. Before the doctor can save him, the men who shot him arrive to finish the job."
 tags: [Jim, "Genzo Morita", "Nami Seki", "Doctor Kuroda", HPD]
 ---

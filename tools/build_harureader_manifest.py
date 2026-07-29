@@ -225,6 +225,17 @@ def add_entry(path: Path) -> dict[str, object] | None:
         entry["releaseAt"] = str(meta["releaseAt"])
     if meta.get("comingSoon") is True:
         entry["comingSoon"] = True
+    for key in (
+        "canon",
+        "canonId",
+        "continuity",
+        "storyYear",
+        "timelineOrder",
+        "sequenceId",
+        "sequenceOrder",
+    ):
+        if key in meta:
+            entry[key] = meta[key]
     return entry
 
 

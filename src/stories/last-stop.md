@@ -4,6 +4,13 @@ kind: "short story"
 order: 1
 listed: true
 published: true
+canon: true
+canonId: "haru.last-stop"
+continuity: "main"
+storyYear: "TBD"
+timelineOrder: "TBD"
+sequenceId: "katoshi-outskirts"
+sequenceOrder: 1
 preview: "Three exhausted students wait for the last train beneath the glass domes of Katoshi Garden Station. Then something moves behind the dark botanical display."
 tags: [Sodeine, "Katoshi Garden Station", Matzuki, Jinji, Inose]
 ---

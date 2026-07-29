@@ -4,6 +4,7 @@ kind: "skit"
 order: 1
 listed: true
 published: true
+canon: false
 ---
 
 # Shots in Suarmi

@@ -2,7 +2,7 @@
 
 Create a UTF-8 Markdown file in the appropriate folder and copy one of these headers.
 
-## Skit or short story
+## Canonical short story
 
 ```markdown
 ---
@@ -10,6 +10,11 @@ title: "Story title"
 order: 1
 listed: true
 published: true
+canon: true
+canonId: "haru.story-name"
+continuity: "main"
+storyYear: 2083
+timelineOrder: "TBD"
 preview: "A short description shown in the library."
 tags: [mystery, Mina]
 ---
@@ -19,7 +24,26 @@ tags: [mystery, Mina]
 Your story starts here.
 ```
 
-Use `src/skits/` for a skit or `src/stories/` for a short story. The folder assigns the correct content type automatically.
+Files under `src/stories/` can be promoted to Harutronic canon. Canon promotion is deliberate: `published: true` controls publication, while `canon: true` controls canon status. Every published story must declare canon status explicitly. Every canonical story needs a unique stable `canonId`, a `continuity`, a valid four-digit `storyYear` or `"TBD"`, and a positive numeric `timelineOrder` or `"TBD"`.
+
+When only a directly linked sequence is known, keep the global `timelineOrder` as `"TBD"` and add a stable sequence:
+
+```yaml
+sequenceId: "linked-story-sequence"
+sequenceOrder: 1
+```
+
+Filenames are not permanent canon identifiers and may change without changing `canonId`.
+
+## Skit or non-canon story
+
+Use `src/skits/` for a skit. Skits are non-canon by default and must explicitly use:
+
+```yaml
+canon: false
+```
+
+A skit may become canon only after a separate continuity review. Deliberate promotion requires moving it to `src/stories/`, assigning a unique `canonId`, and updating the Harutronic canon index. Files that remain under `src/skits/` must use `canon: false`; publication alone never promotes a skit.
 
 ## Book chapter
 

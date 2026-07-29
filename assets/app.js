@@ -36,6 +36,7 @@
     readerMetrics: { start: 0, end: 1 },
     ttsExpanded: false,
     preferredVoice: '',
+    voiceChosenByUser: false,
     ttsRate: 1,
     ambientBlocks: [],
     ambientScene: 'neutral',
@@ -738,7 +739,8 @@
     activeWord: null,
     wordSpans: [],
     lastFollowAt: 0,
-    wordTimer: 0
+    charIndex: 0,
+    utterance: null
   };
 
   function narrationSource(element) {
@@ -767,11 +769,11 @@
     while (start < text.length) {
       while (/\s/.test(text.charAt(start))) start++;
       if (start >= text.length) break;
-      var end = Math.min(text.length, start + 1000);
+      var end = Math.min(text.length, start + 240);
       if (end < text.length) {
-        var sample = text.slice(start + 520, end);
+        var sample = text.slice(start, end);
         var punctuation = Math.max(sample.lastIndexOf('. '), sample.lastIndexOf('! '), sample.lastIndexOf('? '));
-        if (punctuation > -1) end = start + 520 + punctuation + 1;
+        if (punctuation >= 80) end = start + punctuation + 1;
         else {
           var space = text.lastIndexOf(' ', end);
           if (space > start) end = space;
@@ -823,7 +825,9 @@
       var name = voice.name.toLowerCase();
       var lang = voice.lang.toLowerCase();
       var score = lang.indexOf('en') === 0 ? 100 : 0;
-      if (/natural|neural|enhanced|online/.test(name)) score += 55;
+      if (voice.localService) score += 55;
+      if (/natural|neural|enhanced/.test(name)) score += 20;
+      if (/online/.test(name)) score -= 25;
       if (/zira|susan|george|aria|jenny|guy|sonia|ryan|david/.test(name)) score += 18;
       if (/en-us|en-gb|en-au/.test(lang)) score += 8;
       if (voice.default && lang.indexOf('en') === 0) score += 6;
@@ -833,8 +837,11 @@
       return scoreVoice(b) - scoreVoice(a) || a.name.localeCompare(b.name);
     });
     var chosen = voices.find(function(voice) { return voice.voiceURI === previous; });
-    if (!chosen || scoreVoice(chosen) < 100) {
-      chosen = voices.find(function(voice) { return scoreVoice(voice) >= 100; }) || voices[0];
+    var reliableEnglish = voices.find(function(voice) {
+      return voice.localService && voice.lang.toLowerCase().indexOf('en') === 0;
+    });
+    if (!chosen || scoreVoice(chosen) < 100 || (!state.voiceChosenByUser && reliableEnglish && !chosen.localService)) {
+      chosen = reliableEnglish || voices.find(function(voice) { return scoreVoice(voice) >= 100; }) || voices[0];
     }
     els.ttsVoice.replaceChildren();
     voices.forEach(function(voice) {
@@ -863,11 +870,6 @@
     }
     narration.activeElement = null;
     if (window.CSS && CSS.highlights) CSS.highlights.delete('haru-tts-word');
-  }
-
-  function clearNarrationWordTimer() {
-    if (narration.wordTimer) window.clearTimeout(narration.wordTimer);
-    narration.wordTimer = 0;
   }
 
   function prepareNarrationWordSpans(element) {
@@ -914,53 +916,18 @@
     return { start: at + match.index, length: Math.max(1, match[0].length) };
   }
 
-  function narrationWords(text) {
-    var words = [];
-    var matcher = /\S+/g;
-    var match;
-    while ((match = matcher.exec(text))) {
-      var range = spokenWordRange(text, match.index);
-      words.push({ start: range.start, length: range.length, token: match[0] });
-    }
-    return words;
-  }
-
-  function startNarrationWordFallback(chunk, token, rate) {
-    clearNarrationWordTimer();
-    var words = narrationWords(chunk.text);
-    var wordIndex = 0;
-    if (!words.length) return;
-    setNarrationHighlight(chunk, words[0].start, words[0].length);
-    function scheduleNext() {
-      if (!narration.speaking || token !== narration.token || wordIndex >= words.length - 1) return;
-      var current = words[wordIndex];
-      var punctuationPause = /[.!?\u2026][\u201d\u2019"']?$/.test(current.token) ? 1.65 : /[,;:][\u201d\u2019"']?$/.test(current.token) ? 1.28 : 1;
-      var lengthWeight = Math.max(.82, Math.min(1.5, Math.pow(current.token.length / 5, .32)));
-      var delay = Math.round((325 / Math.max(.6, rate || 1)) * punctuationPause * lengthWeight);
-      narration.wordTimer = window.setTimeout(function tick() {
-        if (!narration.speaking || token !== narration.token) return;
-        if (narration.paused) {
-          narration.wordTimer = window.setTimeout(tick, 120);
-          return;
-        }
-        wordIndex++;
-        var next = words[wordIndex];
-        setNarrationHighlight(chunk, next.start, next.length);
-        scheduleNext();
-      }, delay);
-    }
-    scheduleNext();
+  function setNarrationPassage(chunk) {
+    if (narration.activeElement === chunk.element) return;
+    clearNarrationHighlight();
+    narration.activeElement = chunk.element;
+    chunk.element.classList.add('tts-active');
+    chunk.element.setAttribute('aria-current', 'true');
+    followNarrationElement(chunk.element);
+    prepareNarrationWordSpans(chunk.element);
   }
 
   function setNarrationHighlight(chunk, charIndex, charLength) {
-    if (narration.activeElement !== chunk.element) {
-      clearNarrationHighlight();
-      narration.activeElement = chunk.element;
-      chunk.element.classList.add('tts-active');
-      chunk.element.setAttribute('aria-current', 'true');
-      followNarrationElement(chunk.element);
-    }
-    prepareNarrationWordSpans(chunk.element);
+    setNarrationPassage(chunk);
     var localStart = Math.max(0, Math.min(chunk.text.length - 1, Number(charIndex) || 0));
     var localLength = Math.max(1, Number(charLength) || 1);
     var localEnd = Math.min(chunk.text.length, localStart + localLength);
@@ -996,13 +963,14 @@
     window.scrollTo({ top: target, left: 0, behavior: reduced ? 'auto' : 'smooth' });
   }
 
-  function speakNarrationChunk(index, token) {
+  function speakNarrationChunk(index, token, resumeAt) {
     if (!narration.speaking || token !== narration.token) return;
     if (index >= narration.chunks.length) {
-      clearNarrationWordTimer();
       narration.speaking = false;
       narration.paused = false;
       narration.index = -1;
+      narration.charIndex = 0;
+      narration.utterance = null;
       clearNarrationHighlight();
       updateNarrationControls('Finished');
       setTtsDockExpanded(false);
@@ -1010,36 +978,45 @@
     }
     narration.index = index;
     var chunk = narration.chunks[index];
-    var utterance = new SpeechSynthesisUtterance(chunk.text);
+    var utteranceStart = Math.max(0, Math.min(chunk.text.length, Number(resumeAt) || 0));
+    while (utteranceStart < chunk.text.length && /\s/.test(chunk.text.charAt(utteranceStart))) utteranceStart++;
+    if (utteranceStart >= chunk.text.length) {
+      narration.charIndex = 0;
+      speakNarrationChunk(index + 1, token, 0);
+      return;
+    }
+    narration.charIndex = utteranceStart;
+    var utterance = new SpeechSynthesisUtterance(chunk.text.slice(utteranceStart));
+    narration.utterance = utterance;
     var voice = selectedVoice();
     if (voice) utterance.voice = voice;
     utterance.lang = voice ? voice.lang : 'en-US';
     utterance.rate = Number(els.ttsRate && els.ttsRate.value) || 1;
-    var lastBoundaryIndex = -1;
     utterance.onstart = function() {
       if (token !== narration.token) return;
-      startNarrationWordFallback(chunk, token, utterance.rate);
+      setNarrationPassage(chunk);
       updateNarrationControls('Reading passage ' + (index + 1) + ' of ' + narration.chunks.length);
     };
     utterance.onboundary = function(event) {
       if (token !== narration.token) return;
       if (event.name && event.name !== 'word') return;
       var boundaryIndex = Number(event.charIndex);
-      if (!Number.isFinite(boundaryIndex) || boundaryIndex < 0 || boundaryIndex >= chunk.text.length) return;
-      var word = spokenWordRange(chunk.text, boundaryIndex);
+      if (!Number.isFinite(boundaryIndex) || boundaryIndex < 0 || boundaryIndex >= utterance.text.length) return;
+      var word = spokenWordRange(chunk.text, utteranceStart + boundaryIndex);
+      narration.charIndex = word.start;
       setNarrationHighlight(chunk, word.start, word.length);
-      if (boundaryIndex > lastBoundaryIndex && boundaryIndex > 0) clearNarrationWordTimer();
-      lastBoundaryIndex = Math.max(lastBoundaryIndex, boundaryIndex);
     };
     utterance.onend = function() {
-      clearNarrationWordTimer();
-      if (token === narration.token && narration.speaking) speakNarrationChunk(index + 1, token);
+      if (token !== narration.token || !narration.speaking) return;
+      narration.charIndex = 0;
+      narration.utterance = null;
+      speakNarrationChunk(index + 1, token, 0);
     };
     utterance.onerror = function(event) {
       if (token !== narration.token || event.error === 'canceled' || event.error === 'interrupted') return;
-      clearNarrationWordTimer();
       narration.speaking = false;
       narration.paused = false;
+      narration.utterance = null;
       updateNarrationControls('Narration stopped');
       setTtsDockExpanded(false);
     };
@@ -1050,29 +1027,47 @@
     if (!('speechSynthesis' in window) || !narration.chunks.length) return;
     setTtsDockExpanded(true);
     if (narration.speaking && !narration.paused) {
-      window.speechSynthesis.pause();
+      narration.token++;
       narration.paused = true;
+      narration.utterance = null;
+      window.speechSynthesis.cancel();
       updateNarrationControls('Paused');
       return;
     }
     if (narration.speaking && narration.paused) {
-      window.speechSynthesis.resume();
       narration.paused = false;
-      updateNarrationControls('Reading');
+      narration.token++;
+      var resumeToken = narration.token;
+      var resumeIndex = narration.index;
+      var resumeAt = narration.charIndex;
+      updateNarrationControls('Resuming');
+      window.setTimeout(function() {
+        if (!narration.speaking || narration.paused || resumeToken !== narration.token) return;
+        speakNarrationChunk(resumeIndex, resumeToken, resumeAt);
+      }, 80);
       return;
     }
     narration.speaking = true;
     narration.paused = false;
+    narration.charIndex = 0;
     narration.token++;
-    speakNarrationChunk(narrationStartIndex(), narration.token);
+    var startToken = narration.token;
+    var startIndex = narrationStartIndex();
+    updateNarrationControls('Starting');
+    window.speechSynthesis.cancel();
+    window.setTimeout(function() {
+      if (!narration.speaking || narration.paused || startToken !== narration.token) return;
+      speakNarrationChunk(startIndex, startToken, 0);
+    }, 80);
   }
 
   function stopTts() {
     narration.token++;
-    clearNarrationWordTimer();
     narration.speaking = false;
     narration.paused = false;
     narration.index = -1;
+    narration.charIndex = 0;
+    narration.utterance = null;
     if ('speechSynthesis' in window) window.speechSynthesis.cancel();
     clearNarrationHighlight();
     updateNarrationControls();
@@ -1174,6 +1169,7 @@
         readerWidth: state.readerWidth,
         readerSpacing: state.readerSpacing,
         preferredVoice: state.preferredVoice,
+        voiceChosenByUser: state.voiceChosenByUser,
         ttsRate: state.ttsRate
       });
     } catch (e) {}
@@ -1189,6 +1185,7 @@
     state.readerWidth = [58, 68, 76].indexOf(Number(prefs.readerWidth)) > -1 ? Number(prefs.readerWidth) : 68;
     state.readerSpacing = [1.72, 1.88, 2.06].indexOf(Number(prefs.readerSpacing)) > -1 ? Number(prefs.readerSpacing) : 1.88;
     state.preferredVoice = typeof prefs.preferredVoice === 'string' ? prefs.preferredVoice : '';
+    state.voiceChosenByUser = prefs.voiceChosenByUser === true;
     state.ttsRate = [0.8, 1, 1.15, 1.3].indexOf(Number(prefs.ttsRate)) > -1 ? Number(prefs.ttsRate) : 1;
     els.body.style.setProperty('--reader-font-scale', state.fontScale);
     els.body.style.setProperty('--reader-measure', state.readerWidth + 'ch');
@@ -1310,6 +1307,7 @@
     if (els.ttsVoice) {
       els.ttsVoice.addEventListener('change', function() {
         state.preferredVoice = els.ttsVoice.value;
+        state.voiceChosenByUser = true;
         saveReaderPrefs();
       });
     }

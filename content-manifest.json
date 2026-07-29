@@ -1,7 +1,7 @@
 {
   "name": "HaruReader",
-  "version": "8ba5e71f72a3",
-  "generatedAt": "2026-07-28T01:12:18.321222+00:00",
+  "version": "6a20e179b78d",
+  "generatedAt": "2026-07-28T11:25:00.441221+00:00",
   "contentWarnings": [
     "gun violence, suicide, blood/gore, death, threat, and implied implant trafficking.",
     "graphic violence, body horror, blood/gore, death, and threat.",
@@ -19,7 +19,8 @@
       "preview": "Bang! Mina shoots upright on her mattress, her heart slamming against her ribs. “W-What was that?!” A gunshot? The sound still rings in her ears. A translucent window pop…",
       "excerpt": "Bang! Mina shoots upright on her mattress, her heart slamming against her ribs. “W-What was that?!” A gunshot? The sound still rings in her ears. A translucent window pop…",
       "words": 1300,
-      "contentWarning": "gun violence, suicide, blood/gore, death, threat, and implied implant trafficking."
+      "contentWarning": "gun violence, suicide, blood/gore, death, threat, and implied implant trafficking.",
+      "canon": false
     },
     {
       "id": "src-stories-last-stop-md",
@@ -38,7 +39,14 @@
         "Jinji",
         "Inose"
       ],
-      "contentWarning": "graphic violence, body horror, blood/gore, death, and threat."
+      "contentWarning": "graphic violence, body horror, blood/gore, death, and threat.",
+      "canon": true,
+      "canonId": "haru.last-stop",
+      "continuity": "main",
+      "storyYear": "TBD",
+      "timelineOrder": "TBD",
+      "sequenceId": "katoshi-outskirts",
+      "sequenceOrder": 1
     },
     {
       "id": "src-stories-still-breathing-md",
@@ -57,7 +65,14 @@
         "Doctor Kuroda",
         "HPD"
       ],
-      "contentWarning": "gun violence, blood, death, threat, and descriptions of injury."
+      "contentWarning": "gun violence, blood, death, threat, and descriptions of injury.",
+      "canon": true,
+      "canonId": "haru.still-breathing",
+      "continuity": "main",
+      "storyYear": "TBD",
+      "timelineOrder": "TBD",
+      "sequenceId": "katoshi-outskirts",
+      "sequenceOrder": 2
     },
     {
       "id": "src-stories-race-condition-md",
@@ -76,7 +91,12 @@
         "Kagami",
         "Outskirts"
       ],
-      "contentWarning": "psychological horror, captivity, gaslighting, identity loss, threatened death, and deletion."
+      "contentWarning": "psychological horror, captivity, gaslighting, identity loss, threatened death, and deletion.",
+      "canon": true,
+      "canonId": "haru.race-condition",
+      "continuity": "main",
+      "storyYear": 2083,
+      "timelineOrder": "TBD"
     }
   ]
 }
