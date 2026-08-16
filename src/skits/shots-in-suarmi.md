@@ -61,6 +61,8 @@ Below, Suarmi refuses to sleep. Shop signs glow through balcony vines, a deliver
 
 Above her, Tsubaki’s window is dark.
 
+Most nights, Tsubaki leaned out from that window to complain that Mina’s ash was landing in her basil planter. She always stayed to talk until Mina finished the cigarette anyway.
+
 Mina takes another drag and taps the ash outside. The ember falls, strikes a rusted bar, and bursts into sparks against the fire escape.
 
 The ladder runs past her window to the apartment above.
@@ -104,6 +106,8 @@ Her legs barely hold when she forces herself upright. She catches the edge of th
 _I’ll be joining you soon, my love. —Tsuba_
 
 “Tsubaki... why?”
+
+Mina grips the repaired cuff of her bathrobe. Tsubaki had mended it at Mina’s kitchen table last week, complaining that Mina treated every possession like it was temporary.
 
 She lowers the note. Something square presses between the fingers of Tsubaki’s other clenched hand: a storage card.
 
