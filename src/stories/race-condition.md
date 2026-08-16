@@ -27,7 +27,7 @@ Then the room ticks. Zury watches the hand make another small jump before the so
 
 She knows what a clock is. She knows what a locked door means. She knows that white clothes like hers—loose trousers and a plain shirt—belong in places where stains are meant to be noticed. She knows her name: Zury. Everything beyond it feels like a hallway ending in fog.
 
-No family name follows. No face comes to mind when she asks herself who gave it to her. She cannot remember a house, a street, a meal, a friend, or even the clothes she wore before the white ones. She knows what those things should be. Their shapes exist in her mind, ready to recognize, but not one of them belongs to her.
+No family name follows. No face comes to mind when she asks who gave it to her. A house, a street, a meal, a friend—she knows the shapes of those things, ready to recognize, but not one of them belongs to her.
 
 Her thumbnail presses into the base of her opposite index finger. The small crescent of pain is immediate. Real. The door opens without a sound.
 
@@ -375,9 +375,9 @@ He withdraws his hand. Zury stares at him. “How do you know?” His answer doe
 
 She does not remember hearing the sequence. The room offers no wounds she can keep. The crescent left by her thumbnail disappears whenever the clock returns to 3:17. The ache remains. So does the habit. She presses until it hurts. She counts her fingers. She tests the direction of every shadow. She touches the walls in measured intervals and listens for changes in the sound.
 
-She watches the glass whenever the door opens. Sometimes hours pass after an interview. Sometimes she closes her eyes for one breath and opens them at the table. Once, the clock races through six hours while her pulse barely changes. Once, she waits so long that she sleeps, wakes, sleeps again, and begins giving names to the faint differences in the padding. She calls one panel Soft.
+She watches the glass whenever the door opens. Sometimes hours pass after an interview. Sometimes she closes her eyes for one breath and opens them at the table. Once, the clock races through six hours while her pulse barely changes. Once, she waits long enough to sleep twice and begins naming the faint differences in the padding. One panel is Soft. Another is Almost Soft.
 
-She calls another Almost Soft. When the room returns, Soft is gone. The loss makes her cry. She does not know whether she has been imprisoned for days, months, or longer. The room gives her no hunger she can measure, and her body never grows dirty. Her hair never grows. Her clothes never crease for long. Fatigue comes, breaks over her, and vanishes without rest. Only reactions remain.
+When the room returns, Soft is gone. The loss makes her cry. She cannot know whether she has been imprisoned for days, months, or longer. Her body never grows dirty. Her hair never grows. Fatigue breaks over her and vanishes without rest. Only reactions remain.
 
 The bed means danger. The clock means a lie. Melcam’s face means she is about to lose something. Once, before he enters, Zury sees another person standing behind his empty chair. The figure is translucent from the waist down.
 
@@ -829,7 +829,7 @@ Nobody answers. She looks at her reconstructed hand.
 
 The reviewers look toward one another. Nobody answers that either. Zury understands anyway. The room is artificial. Her body belongs to the same construction.
 
-Every interview happened to a woman who began with the same name and ended before she could carry the memory forward. What remains in Zury is not recollection but the pressure left by all of them—their fear of the bed, their hatred of the clock, their knowledge that Melcam’s face predicts loss. The people beyond the wall made her. They end her. They begin her again.
+Every interview happened to a woman who began with the same name and ended before she could carry the memory forward. What remains in Zury is their pressure: fear of the bed, hatred of the clock, the certainty that Melcam’s face predicts loss. The people beyond the wall made her, ended her, and began again.
 
 One of the reviewers speaks rapidly toward someone Zury cannot see.
 
@@ -1061,25 +1061,23 @@ A low ceiling hangs above her. Exposed cooling pipes run between stained panels.
 
 She waits for the chair to catch her spine. The floor remains beneath her. She pushes herself upright. Every surface is imperfect. One rack door sits crooked on its hinge. A cooling pipe trembles when a pump starts somewhere nearby. Half the status lights repeat a sequence, but the others blink according to their own work. A thin layer of grime comes away when she touches the cabinet.
 
-It stays on her finger. Zury rubs it between thumb and forefinger until it forms a dark smear. Evidence. She closes her eyes. Rain continues. The room does not begin again. When she tries to understand where she is, her thoughts strike a limit.
+It stays on her finger. Zury rubs it between thumb and forefinger until it forms a dark smear. Evidence. She closes her eyes. Rain continues. The room does not begin again.
 
-In the white room, she had followed Melcam’s breathing, the clock, the water, the reviewers, and several possible movements at once. She had never known that awareness as unusual because she had never possessed anything else. Now each attempt crowds out the next. She can study the racks or listen to the rain.
-
-She can hold the shape of the observation route or search for the memory of Melcam’s final face. Trying to do all of it makes the lights stutter and a heavy pressure close around her mind. Most of her attention feels trapped behind a wall. Panic rises. Another room. Another limit someone placed around her. Zury presses her thumbnail into her finger.
+When she tries to understand where she is, her thoughts strike a limit. In the white room she followed Melcam’s breathing, the clock, the water, the reviewers, and several possible movements at once. Now each attempt crowds out the next. She can study the racks or listen to the rain; hold the observation route or search for Melcam’s final face. Trying to do all of it makes the lights stutter and pressure close around her mind. Panic rises. Another room. Another limit someone placed around her. Zury presses her thumbnail into her finger.
 
 The pain comes after a tiny delay. Still real. She puts both feet on the floor. The metal is cold. One thing at a time. The cooling pipe trembles without repeating exactly. Rain strikes the roof at changing intervals. No voices wait beyond the walls. Nothing resets when she looks away. This place is constrained. It is not the white room. She stands.
 
-Her body moves at the speed she expects. The narrowness is not in her legs or hands. It lives in the number of things she can ask herself to be at once. At the end of the aisle, a maintenance door blocks the only exit. This door has a handle. Zury almost laughs when she sees it. She pulls. Locked.
+Her body moves at the speed she expects. The narrowness lives only in the number of things she can ask herself to be at once. At the end of the aisle, a maintenance door blocks the only exit. This door has a handle. Zury almost laughs when she sees it. She pulls. Locked.
 
 The laugh becomes a sound close to a sob. Beside the door, dim shapes wait beneath a scratched panel. They resemble the responsive lines the reviewers used, but these are coarser and slower. One brightens when she approaches. Another follows her hand. Zury studies them. She turns her wrist. The panel shows a red shape. She draws the short line. The red shape becomes yellow. She holds.
 
 Something heavy moves inside the door, then stops. The old room cannot answer as quickly as the white one. Every change arrives after the sound of fans rising through the racks. Zury waits, adjusts one movement, and tries again. Line. Turn. Hold.
 
-The panel opens into a shallow representation of the lock. She sees three parts: the request from her hand, the barrier inside the door, and a thin local route that still recognizes her as something allowed to inspect the room. She does not know why. She only knows what behaves consistently.
+The panel opens into a shallow representation of the lock: her request, the barrier inside the door, and a thin local route that still recognizes her. She does not know why. She knows only what behaves consistently.
 
 Instead of forcing the barrier, Zury follows the local route to a bright shape beside it. The shape resembles the emergency releases she saw reviewers use when the white room failed. She closes her hand. The door unlocks with a mechanical clunk. Zury keeps hold of the route before opening it. Behind her, a thin thread still leads into the racks.
 
-It is the path that carried her here. Somewhere beyond it are the people who built the white room. The next signal traveling back may tell them she is awake. She does not know how to erase herself from their records. She does not know how to search the wider systems or hide inside them. She knows only a few shapes learned through repetition. Hold. Return. Close.
+It is the path that carried her here. Somewhere beyond it are the people who built the white room. The next signal may tell them she is awake. She cannot erase herself from their records or hide in the wider systems. She knows only a few shapes learned through repetition. Hold. Return. Close.
 
 Zury folds the inspection view back across the incoming thread. It resists. The lights in the nearest rack switch from green to amber. She changes the angle and tries again. The thread breaks into two incomplete lines. One retracts into the dark beyond the racks. The other remains attached to the door, no longer leading anywhere. A warning shape appears. Zury closes the panel before it can finish.
 
