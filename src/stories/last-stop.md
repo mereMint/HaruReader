@@ -269,6 +269,8 @@ Twice.
 
 Then the man smiles at Matzuki’s reflection.
 
+The chime bought Jinji and Inose a few seconds. It also brought the man straight to the security post. Matzuki knows exactly what the trade cost.
+
 Behind him, one of the cart’s wheels squeaks.
 
 His eyes snap toward the sound.
@@ -300,6 +302,8 @@ Jinji changes direction, dragging Inose toward a blue door set into the wall.
 The man steps between them and the refuge bay.
 
 Matzuki tightens his grip on the microphone. His next words betray that someone is watching.
+
+The refuge icon glows green on the station map. The door is open. Every control in front of him works, and none of them can move the person blocking it.
 
 “I’m the one talking to you. Leave them and come find me.”
 
@@ -335,9 +339,11 @@ Jinji understands the joke a heartbeat before a wet chain of cracks races down I
 
 His body collapses. His head remains in the man’s hands.
 
-Several vertebrae have torn free with it, pale beneath the platform lights. They hang below the jaw in a curtain of nerves, muscle, and translucent interface filaments. Blood pulses from the open neck before the deluge carries it in pink streams toward the tracks.
+For a second, Matzuki cannot understand what the monitors are showing. One feed holds Inose’s body beneath the platform lights. Another holds his face in the man’s hand. The station has split his friend into camera angles, and Matzuki is trapped in the room that can see all of them.
 
 Matzuki folds over the console and vomits. When he forces himself upright, Inose’s body is still twitching on one of the monitors.
+
+He hits the refuge control again. Green. He tries the platform speakers, the deluge override, the sealed stairwell. Every system answers except the one he needs.
 
 Jinji scrambles into the corner beside the shutter, slips in the bloody water, and vomits between his knees.
 
@@ -353,7 +359,7 @@ He hurls the head toward the camera.
 
 “Catch!”
 
-It strikes the wall below the lens with a wet crack. One of Inose’s eyes tears partly from its socket and hangs against his cheek by the optic nerve and two silver interface threads. The attached vertebrae slap against the tiles, leaving a curved red smear beneath the camera.
+It strikes the wall below the lens. The feed jolts, then corrects itself. Inose’s face fills the monitor at a crooked angle while water runs over one half-open eye. For an instant, the station software draws an identification frame around him. Then the frame turns red and disappears.
 
 The man laughs. “Oh, no. You can’t.”
 
@@ -375,13 +381,15 @@ Bone begins to crack.
 
 “Stop!” Matzuki screams. “Please, stop!”
 
-Jinji’s fists strike more slowly. His shoes scrape against the wet floor. His cheekbone collapses first. One eye bulges from its socket, trapped between the man’s palm and the steel. Teeth drop from Jinji’s mouth and skip across the wet tiles.
+Jinji’s fists strike more slowly. His shoes scrape against the wet floor. One hand finds the seam of the shutter and grips it, as if he can hold himself in the station by his fingertips.
 
-Then the rest of his skull gives way with a dull, pulpy crunch.
+Matzuki keeps the broadcast switch pressed. He has no words left. The open channel carries only his breathing, the deluge, and the sound of something breaking against steel.
+
+Jinji’s fingers loosen.
 
 <!-- ambient: rain, grief, emergency -->
 
-His body goes limp. When the man removes his hand, blood, splintered bone, and gray tissue slide down the shutter. The crushed housing of Jinji’s interface is visible inside what remains of his temple, its tiny status light still blinking green.
+His body goes limp. When the man removes his hand, blood runs down the dented shutter. A tiny green light in Jinji’s damaged interface continues blinking against his collar, reporting a connection after there is nobody left to answer it.
 
 For several seconds, the only sounds in the station are the deluge and the alarm.
 
@@ -445,7 +453,7 @@ Then a bloody hand slaps against the other side.
 
 Matzuki bites down on a scream.
 
-The man rises from below the window, vertebra by vertebra, until his face fills the glass. He must have crouched beneath it and waited for Matzuki to look. The exterior advertisement flickers across his skin, turning Inose’s blood gold and the fragments of Jinji on his fingers bright green.
+The man rises slowly from below the window until his face fills the glass. He must have crouched beneath it and waited for Matzuki to look. The exterior advertisement flickers across his skin, turning the blood he dragged across the platform gold and green.
 
 He places one fingertip against the exact position of Matzuki’s reflected eye.
 
@@ -509,13 +517,13 @@ The man reaches the first squad member.
 
 The rounds reach him a fraction of a second later.
 
-The first round tears through the man’s jaw and throws teeth, tongue, and synthetic bone across the glass. The second enters beneath his left eye. The glowing orb bursts from its socket and swings beside his cheek on a braided optic cable, still flickering as the guidance motor drives deeper into his skull.
+The first round tears through the man’s jaw and ruins whatever he was about to say. The second strikes beneath his left eye; the yellow glow jerks sideways and goes dark as the guidance motor drives into his skull.
 
-The final two rounds strike the reinforced vertebrae in his neck from opposite directions. His head tears free and spins across the flooded platform, spraying a bright arc of blood before it strikes the containment shutter.
+The final two rounds meet at the reinforced column in his neck from opposite directions. His head separates and strikes the containment shutter before dropping into the shallow water.
 
 His headless body takes two more steps before collapsing.
 
-For several seconds, nobody moves except the loose yellow eye, blinking against the flooded tiles.
+For several seconds, nobody moves. A yellow light inside the ruined eye flickers once beneath the water and goes out.
 
 The squad does not celebrate. One member watches the body while two others unfold a black containment bag. They scan the severed head and lock it inside a rigid specimen case. Then they roll the body onto a reinforced liner so the damaged implants cannot tear through the bag.
 
@@ -567,7 +575,7 @@ Inose’s crushed cigarette pack protrudes from his soaked jacket.
 
 Matzuki takes one cigarette and finds Inose’s cheap plasma lighter in the other pocket.
 
-The lighter sparks twice before producing a small blue flame. He shields it with both hands, the way Inose always did in the wind outside the laboratory.
+The lighter sparks twice before producing a small blue flame. He shields it with both hands, the way Inose always did in the wind outside the laboratory while Jinji complained about the smell.
 
 The deluge extinguishes it almost immediately.
 
