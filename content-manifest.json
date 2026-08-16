@@ -1,7 +1,7 @@
 {
   "name": "HaruReader",
-  "version": "1af729d528c9",
-  "generatedAt": "2026-07-29T14:10:26.650623+00:00",
+  "version": "4a3e98c8315d",
+  "generatedAt": "2026-08-16T21:07:43.464946+00:00",
   "contentWarnings": [
     "gun violence, suicide, blood/gore, death, threat, and implied implant trafficking.",
     "graphic violence, body horror, blood/gore, death, and threat.",
@@ -16,9 +16,9 @@
       "title": "Shots in Suarmi",
       "path": "src/skits/shots-in-suarmi.md",
       "order": 1,
-      "preview": "Bang! Mina shoots upright on her mattress, her heart slamming against her ribs. “W-What was that?!” A gunshot? The sound still rings in her ears. A translucent window pop…",
-      "excerpt": "Bang! Mina shoots upright on her mattress, her heart slamming against her ribs. “W-What was that?!” A gunshot? The sound still rings in her ears. A translucent window pop…",
-      "words": 1300,
+      "preview": "Bang! Mina bolts upright on her mattress, heart hammering against her ribs. The sound leaves a thin ring behind in her ears. “W-What was that?” A gunshot. It had to be. A…",
+      "excerpt": "Bang! Mina bolts upright on her mattress, heart hammering against her ribs. The sound leaves a thin ring behind in her ears. “W-What was that?” A gunshot. It had to be. A…",
+      "words": 1074,
       "contentWarning": "gun violence, suicide, blood/gore, death, threat, and implied implant trafficking.",
       "canon": false
     },
@@ -31,7 +31,7 @@
       "order": 1,
       "preview": "Three exhausted students wait for the last train beneath the glass domes of Katoshi Garden Station. Then something moves behind the dark botanical display.",
       "excerpt": "Three exhausted students wait for the last train beneath the glass domes of Katoshi Garden Station. Then something moves behind the dark botanical display.",
-      "words": 4859,
+      "words": 4942,
       "tags": [
         "Sodeine",
         "Katoshi Garden Station",
@@ -57,7 +57,7 @@
       "order": 2,
       "preview": "A wounded man named Jim is dragged from a roadside bush to a quiet village clinic. Before the doctor can save him, the men who shot him arrive to finish the job.",
       "excerpt": "A wounded man named Jim is dragged from a roadside bush to a quiet village clinic. Before the doctor can save him, the men who shot him arrive to finish the job.",
-      "words": 9931,
+      "words": 9613,
       "tags": [
         "Jim",
         "Genzo Morita",
@@ -83,7 +83,7 @@
       "order": 3,
       "preview": "Zury wakes in a featureless white room with no past. When the doctor across from her begins repeating questions she somehow recognizes, she must decide whether her fractured perceptions are symptoms—or clues.",
       "excerpt": "Zury wakes in a featureless white room with no past. When the doctor across from her begins repeating questions she somehow recognizes, she must decide whether her fractured perceptions are symptoms—or clues.",
-      "words": 9505,
+      "words": 9378,
       "tags": [
         "Zury",
         "Doctor Melcam",
