@@ -1063,7 +1063,9 @@ She waits for the chair to catch her spine. The floor remains beneath her. She p
 
 It stays on her finger. Zury rubs it between thumb and forefinger until it forms a dark smear. Evidence. She closes her eyes. Rain continues. The room does not begin again.
 
-When she tries to understand where she is, her thoughts strike a limit. In the white room she followed Melcam’s breathing, the clock, the water, the reviewers, and several possible movements at once. Now each attempt crowds out the next. She can study the racks or listen to the rain; hold the observation route or search for Melcam’s final face. Trying to do all of it makes the lights stutter and pressure close around her mind. Panic rises. Another room. Another limit someone placed around her. Zury presses her thumbnail into her finger.
+When she tries to understand where she is, her thoughts strike a limit. In the white room she followed Melcam’s breathing, the clock, the water, the reviewers, and several possible movements at once. Now each attempt crowds out the next. She can study the racks or listen to the rain.
+
+She can hold the observation route or search for Melcam’s final face. Trying to do all of it makes the lights stutter and pressure close around her mind. Panic rises. Another room. Another limit someone placed around her. Zury presses her thumbnail into her finger.
 
 The pain comes after a tiny delay. Still real. She puts both feet on the floor. The metal is cold. One thing at a time. The cooling pipe trembles without repeating exactly. Rain strikes the roof at changing intervals. No voices wait beyond the walls. Nothing resets when she looks away. This place is constrained. It is not the white room. She stands.
 
