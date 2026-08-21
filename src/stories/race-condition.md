@@ -25,9 +25,9 @@ The room is almost completely colorless. White padded walls meet a white floor b
 
 Then the room ticks. Zury watches the hand make another small jump before the sound arrives. She pushes her round glasses higher with one knuckle and looks for the light responsible for the clock’s shadow. The shadow angles toward the ceiling, though the flat glow around her seems to come from everywhere at once.
 
-She knows what a clock is. She knows what a locked door means. She knows that white clothes like hers—loose trousers and a plain shirt—belong in places where stains are meant to be noticed. She knows her name: Zury. Everything beyond it feels like a hallway ending in fog.
+She knows what a clock is. She knows what a locked door means. She knows that white clothes like hers—loose trousers and a plain shirt—belong in places where stains are meant to be noticed. She knows her name: Zury. After Zury, nothing comes. The thought simply stops.
 
-No family name follows. No face comes to mind when she asks who gave it to her. A house, a street, a meal, a friend—she knows the shapes of those things, ready to recognize, but not one of them belongs to her.
+No family name follows. No face comes to mind when she asks who gave it to her. She knows what a house is, what a street, a meal, a friend are supposed to be. None of them brings a memory with it.
 
 Her thumbnail presses into the base of her opposite index finger. The small crescent of pain is immediate. Real. The door opens without a sound.
 
@@ -91,7 +91,7 @@ Melcam records something.
 
 “What is the last thing you remember before this room?”
 
-She searches again. The attempt has the wrong texture. She does not feel as if she is digging through darkness or reaching for a thought that escapes her. There is no forgotten image hiding behind the fog. There is only the expectation that something should be there.
+She searches again and finds the same blank place. It does not feel like a memory just out of reach. Nothing flickers at the edge of recall. She only knows that something should be there.
 
 “I don’t know.”
 
@@ -105,7 +105,7 @@ She searches again. The attempt has the wrong texture. She does not feel as if s
 
 “Do you feel injured?”
 
-Zury studies her hands. Five fingers on each. Unbroken nails. No bruises. Her brown hair falls past her cheek when she bends her head, soft enough to be the only part of her that does not disappear into the room.
+Zury studies her hands. Five fingers on each. Unbroken nails. No bruises. Her brown hair falls across her cheek when she lowers her head. Against all the white, it is the first thing in the room that looks unmistakably hers.
 
 “No.”
 
@@ -155,7 +155,7 @@ He does not answer.
 
 The interview continues until Zury can no longer tell whether twenty minutes or two hours have passed. Melcam asks her to describe common objects, repeat strings of numbers, identify emotions from facial expressions, and consider choices with no right answer. A patient must choose whether to preserve one clear memory or five uncertain ones. A doctor can wake a dying woman, but her mind may not return intact. Should he? Two identical travelers leave separate rooms believing they are the same person; which one owns the life outside?
 
-Zury answers because every answer seems to build a map of the person he expects her to be. He never tells her who that is. The clock reads 3:17 when he closes the tablet.
+Zury answers because Melcam’s reactions tell her more than his questions do. Each response seems to confirm or disturb something he already believes about her. He never tells her what. The clock reads 3:17 when he closes the tablet.
 
 “I would like to rest,” she says.
 
@@ -183,7 +183,7 @@ The door seals behind him. She tests it as soon as he is gone. Her fingers find 
 
 The bed frame has no screws. The chairs have no joints. The table has no visible anchor, yet she cannot move it. She drinks half the water and waits for the level to change when she looks away. It does not. The clock finally moves beyond 3:17.
 
-Zury watches every second until 3:24, then 3:41, then 4:02. The second hand continues to travel before each tick. The wrong order becomes so familiar that the rare moments when sound and movement nearly agree unsettle her more. She lies on the narrow bed with her glasses folded beside her. The white ceiling is close enough to feel like another padded wall holding her down.
+Zury watches every second until 3:24, then 3:41, then 4:02. The second hand continues to travel before each tick. After a while, she expects the hand to move first. When the tick and motion nearly line up, the coincidence unsettles her more. She lies on the narrow bed with her glasses folded beside her. The white ceiling is close enough to feel like another padded wall holding her down.
 
 The second hand climbs toward twelve. It reaches the final mark and stops. The ticking continues. Zury sits up. A faint shadow moves across the ceiling, long and human, though nothing passes beneath the light. The clock’s minute hand shivers. The room tilts around the bed without spilling the remaining water. Her back still feels the thin mattress. Her fingertips also feel the cold edge of the table.
 
@@ -207,7 +207,7 @@ Melcam’s hand remains on the tablet.
 
 “No. We have never met.”
 
-The lie lands inside her with the weight of remembered pain, although she cannot remember hearing it before.
+She knows he is lying before she knows how she knows. The certainty hurts.
 
 “Then why do I know your name?”
 
