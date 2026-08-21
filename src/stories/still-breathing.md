@@ -1229,6 +1229,8 @@ He lifts the left edge first, then drives the panel upward.
 
 It strikes the searcher beneath the chin.
 
+The man falls against the shelter door.
+
 Jim climbs out and drives the ceramic knife through the man’s weapon hand into the wooden frame.
 
 The pistol fires into the ceiling.
