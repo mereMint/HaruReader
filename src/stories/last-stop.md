@@ -53,7 +53,7 @@ For a moment, none of them says anything.
 
 <!-- ambient: night, forest, moonlight -->
 
-A small smirk tugs at the corner of Inose’s mouth, but he keeps it to himself. Without another word, he takes the lead and walks into the vast station. Glass domes stretch high above them, their steel frames slowly being reclaimed by vines that weave naturally across the structure. Moonlight filters through the glass, casting a pale glow over the otherwise dim station.
+Inose almost smiles. He looks away before either of them can catch it. Without another word, he takes the lead and walks into the vast station. Glass domes stretch high above them, their steel frames slowly being reclaimed by vines that weave naturally across the structure. Moonlight filters through the glass, casting a pale glow over the otherwise dim station.
 
 “Damn,” Inose says, spinning beneath one of the domes. “This place is beautiful at night.”
 
@@ -83,7 +83,7 @@ _Hehehe._
 
 Jinji’s smile disappears. “Yeah. I heard it.”
 
-The laughter comes again, thin and uneven, as if several voices are trying to escape through the same throat. For several seconds, there is nothing else but vines pressing against the glass and the soft electrical hum of the advertisement.
+The laughter comes again—thin, uneven, with another pitch dragging underneath it. Jinji cannot tell whether one person is laughing or several. For several seconds, there is nothing else but vines pressing against the glass and the soft electrical hum of the advertisement.
 
 *Thonk.*
 
@@ -99,7 +99,7 @@ He stumbles away with a sharp breath. On the other side stands a thin man among 
 
 Jinji remains pale, but curiosity holds him in place. “How did he get in there? What’s wrong with him?”
 
-The man suddenly clutches his head. A scream tears out of him, distorted and metallic, as if something mechanical is screaming through his throat. His body bends into a terrible arch. Black actuator lines rise beneath the skin of his arms before he collapses backward into the plants.
+The man suddenly clutches his head. A scream tears out of him with a metallic rasp threaded through it. His body bends into a terrible arch. Black actuator lines rise beneath the skin of his arms before he collapses backward into the plants.
 
 “He’s having a seizure,” Jinji says, rushing toward the glass. “We have to help him.”
 
@@ -207,7 +207,7 @@ The man’s bare foot enters a thin stream of blood. He looks down and crouches 
 
 “Where did you go?” he sings.
 
-His voice reaches Matzuki through three different camera microphones a fraction of a second apart. The overlapping echoes make it sound as if the station itself is searching for them.
+Three camera microphones catch his voice a fraction of a second apart. The words repeat across the room in broken overlaps.
 
 Matzuki switches to the fourth feed.
 
@@ -247,7 +247,7 @@ Then he leaves the camera’s view.
 
 A shadow enters the one-way window beside Matzuki.
 
-The man walks slowly across the glass, so close that Matzuki can see droplets of blood trembling on his eyelashes. The bright advertisement on the platform side washes his face in green and gold. Inside the dark security room, the camera feeds paint Matzuki’s skin a faint blue.
+The man walks slowly across the glass, so close that Matzuki can see droplets of blood trembling on his eyelashes. The platform advertisement throws green and gold across his face. In the dark room, the monitors leave Matzuki blue.
 
 The man stops.
 
@@ -255,7 +255,7 @@ His head turns toward the glass.
 
 Matzuki freezes. The window should be opaque from the platform. The advertisement is brighter than the room, and the monitor hoods are designed to keep their light from reaching it. Still, the man’s yellow eyes settle exactly where Matzuki is sitting.
 
-For a moment, their reflections overlap in the glass: the man’s bloody grin outside and Matzuki’s pale face floating beneath it.
+In the glass, the man’s bloody grin hangs over Matzuki’s pale reflection.
 
 _He can’t see me. The glass is one-way. He can’t see me... right?_
 
@@ -268,8 +268,6 @@ Once.
 Twice.
 
 Then the man smiles at Matzuki’s reflection.
-
-The chime bought Jinji and Inose a few seconds. It also brought the man straight to the security post. Matzuki knows exactly what the trade cost.
 
 Behind him, one of the cart’s wheels squeaks.
 
@@ -303,7 +301,7 @@ The man steps between them and the refuge bay.
 
 Matzuki tightens his grip on the microphone. His next words betray that someone is watching.
 
-The refuge icon glows green on the station map. The door is open. Every control in front of him works, and none of them can move the person blocking it.
+The refuge icon glows green on the station map. The door is open. Matzuki hits the controls anyway. The refuge stays open. The shutters stay down. Nothing on the console can move the man out of the doorway.
 
 “I’m the one talking to you. Leave them and come find me.”
 
