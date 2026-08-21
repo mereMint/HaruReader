@@ -37,21 +37,19 @@ He dismisses it.
 
 <!-- ambient: warm, forest, mist -->
 
-By the time the first light reaches the mountains, he is already pulling on his boots. The house stays dark while he leaves. The front-door hinges complain, and outside the AlgaHydra engine of his pickup coughs itself awake.
+By the time the first light reaches the mountains, he is already pulling on his boots. The house stays dark while he leaves. The front-door hinges squeal. Outside, the AlgaHydra engine of his pickup turns over twice before catching.
 
-The truck is older than most of the machines working his land. Its paint has faded from blue to something between gray and stubbornness. One side mirror is held in place by black repair tape. The dashboard still has physical buttons because, according to him, buttons continue working when companies decide an interface is no longer supported.
+The truck is older than most of the machines working his land. Most of its blue paint has bleached toward gray. Old scratches show the darker color underneath, and he has never seen a reason to repaint it. One side mirror is held in place by black repair tape. The dashboard still has physical buttons because, according to him, buttons continue working when companies decide an interface is no longer supported.
 
 The pickup rolls away from the village and onto the dirt road between the rice fields.
 
-Morning opens slowly around him.
+Water lies flat across the terraces, catching the orange edge of sunrise between rows of rice. Farther out, agricultural machines move between them on thin articulated legs, their broad bodies stepping over irrigation channels without touching the crops. Smaller units glide half-submerged through the water, pulling weeds into baskets beneath their shells.
 
-Water stretches across the terraces in long mirrors, catching the orange edge of the sky. Rice plants rise through the reflections in perfect green rows. Farther out, agricultural machines move between them on thin articulated legs, their broad bodies stepping over irrigation channels without touching the crops. Smaller units glide half-submerged through the water, pulling weeds into baskets beneath their shells.
-
-A swarm of survey drones passes above the truck. Their rotors whisper rather than roar. Blue scanning lines move across the fields below them, checking leaf color, water chemistry, and signs of disease before the day becomes too bright.
+A swarm of survey drones passes above the truck. Their rotors make only a soft buzz above the cab. Blue scanning lines move across the fields below them, checking leaf color, water chemistry, and signs of disease before the day becomes too bright.
 
 The nearest NCCR relay tower stands against the foothills, its signal lights fading as the morning mist lifts. It carries field data and swarm schedules into the ring. Every machine still keeps a slower local controller for the days the village connection chokes.
 
-He still keeps enough tools in his shed to argue with every one of them.
+When the connection does choke, he fixes what he can by hand.
 
 The truck reaches the western edge of his land ten minutes later.
 
@@ -193,7 +191,7 @@ The farmer drives it into his thigh.
 
 The injector clicks. For several seconds, nothing happens.
 
-Then the shaking in his hands begins to ease. His pupils focus, though the change is slower and weaker than the label promises. The pain remains written across his face.
+Then the shaking in his hands begins to ease. His pupils focus, though the change is slower and weaker than the label promises. His hands stop shaking, but his jaw stays tight and sweat beads along his forehead.
 
 The farmer cuts open the side of his shirt.
 
@@ -281,7 +279,7 @@ A dark red circle has appeared along his side.
 
 “Then drive faster.”
 
-The farmer presses the accelerator. The old engine complains, but the truck gains speed.
+The farmer presses the accelerator. The old engine climbs in pitch, and the truck gains speed.
 
 He turns on the radio.
 
