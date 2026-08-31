@@ -5,6 +5,7 @@ on:
     branches: [main]
     paths:
       - "src/stories/**"
+      - ".github/workflows/dispatch-harutronic-sync.yml"
   workflow_dispatch:
 
 permissions:
