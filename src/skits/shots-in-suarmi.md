@@ -13,21 +13,19 @@ canon: false
 
 <!-- ambient: night, danger, monitor -->
 
-**Bang!**
+A crack from upstairs wakes Mina. She sits up and waits for the second one.
 
-Mina bolts upright on her mattress, heart hammering against her ribs. The sound leaves a thin ring behind in her ears.
-
-“W-What was that?”
-
-A gunshot. It had to be.
+Nothing. Not even Tsubaki moving her chair.
 
 A translucent window pops up in her vision, the health monitor flashing urgent red: **Heart rate elevated — breathing exercise advised.**
 
-She swipes the notification away and grabs her bathrobe, knotting it tight around herself. _That came from above. Tsubaki._
+She dismisses it without doing the exercise. Tsubaki sometimes drops things; last week a pot came down hard enough to shake plaster from Mina’s ceiling. There had been swearing afterward. Mina waits for that too.
+
+She puts on her bathrobe. One cuff catches her thumb where Tsubaki has sewn it too narrow.
 
 Her fingers move through the air, unlocking the apartment door through her interface. The lock clicks open. Bare feet silent against the cold floor, Mina slips into the hall and hurries upstairs.
 
-“Tsubaki?” She knocks. “A-Are you okay? It’s Mina.”
+“Tsubaki? It’s me.” She knocks. “Did something fall?”
 
 She knocks again, harder. Nothing moves on the other side.
 
@@ -49,43 +47,39 @@ With a flick of her wrist, a contact menu opens in her vision. She selects HPD. 
 
 The popup reads: **Your call was terminated.**
 
-Mina stares at the words until they blur. No estimate. No promise that anyone is coming. Just a locked door between her and whatever had happened to Tsubaki.
+Mina calls again. This time, an automated voice reads back the address and tells her the incident is logged. She waits through it, hoping for the dispatcher. The message begins again.
 
-She returns downstairs because the dispatcher told her to. She hates herself for obeying before she has even reached her own door.
+She returns downstairs with the call still open.
 
 <!-- ambient: night, suspense, neon -->
 
-Back in her flat, she locks the door and crosses to the window. An open cigarette pack waits on the sill. She lights one, leans into the night, and draws the smoke deep enough to quiet the tremor in her hands.
+Back in her flat, she locks the door and crosses to the window. An open cigarette pack waits on the sill. She lights one, then ends the call so she can listen upstairs.
 
-Below, Suarmi refuses to sleep. Shop signs glow through balcony vines, a delivery scooter rattles across patched asphalt, and somewhere beyond the block two people argue over music leaking from an open window.
+Shop signs glow through balcony vines below her. A delivery scooter rattles across patched asphalt, and somewhere beyond the block two people argue over music leaking from an open window.
 
 Above her, Tsubaki’s window is dark.
 
-Most nights, Tsubaki leaned out from that window to complain that Mina’s ash was landing in her basil planter. She always stayed to talk until Mina finished the cigarette anyway.
+Most nights, Tsubaki leans out to complain about ash in her basil planter. Mina has pointed out that ash cannot fall upward. Tsubaki has never accepted this.
+
+Mina leans out farther.
+
+“I’m smoking,” she calls.
+
+The scooter turns the corner. Nobody answers her.
 
 Mina takes another drag and taps the ash outside. The ember falls, strikes a rusted bar, and bursts into sparks against the fire escape.
 
 The ladder runs past her window to the apartment above.
 
-“That is a terrible idea,” she whispers.
-
-Tsubaki still does not answer.
-
 Mina stubs out the cigarette and climbs through the window. The first rung is freezing. Rust flakes bite into her palms as she pulls herself onto the ladder.
 
-“Okay. Don’t look down.”
+Her foot slips on the second rung. She catches herself with both arms, striking her chin against the rail. For a while she cannot move in either direction.
 
-She looks down.
-
-The street yawns beneath her bare feet. Her stomach drops so violently she presses herself against the metal, knuckles aching around the rung.
-
-“Too high. That is—that is much too high.” She squeezes her eyes shut, then forces them open again. “Up, Mina. Just up.”
+There is a bent screw beside her hand. She watches it until she can lift one foot again.
 
 <!-- ambient: dark, danger, grief -->
 
-Two minutes later, she reaches Tsubaki’s window. It is open. Mina hooks both arms over the sill and hauls herself inside headfirst.
-
-The smell reaches her before her feet touch the floor: warm metal, smoke, and something thick enough to taste.
+At Tsubaki’s window, she pushes a knee past the basil planter and hauls herself over the sill. A few leaves break beneath her robe. The smell follows her into the room.
 
 Her heel lands in a dark, reflective puddle.
 
@@ -97,23 +91,21 @@ Mina’s stomach convulses. She drops to her knees and vomits, acid burning her 
 
 A large Styx pistol rests in Tsubaki’s hand.
 
-“You did it yourself,” Mina says, though the words barely leave her mouth.
+“Tsuba?”
+
+Mina has never called her that. It was her husband’s name for her, audible through the ceiling whenever dinner was ready.
 
 <!-- ambient: dark, grief -->
 
-Her legs barely hold when she forces herself upright. She catches the edge of the large desk in the corner and finds a single sheet of paper beneath her hand. Not a window. Not projected text. Ink.
+Mina grips the desk to pull herself up. A sheet of paper sticks to her wet palm.
 
 _I’ll be joining you soon, my love. —Tsuba_
 
-“Tsubaki... why?”
+She tries to lay it back where she found it. A red thumbprint covers part of the signature. She wipes at it with her cuff, then stops.
 
-Mina grips the repaired cuff of her bathrobe. Tsubaki had mended it at Mina’s kitchen table last week, complaining that Mina treated every possession like it was temporary.
+Something square presses between the fingers of Tsubaki’s other clenched hand: a storage card.
 
-She lowers the note. Something square presses between the fingers of Tsubaki’s other clenched hand: a storage card.
-
-Every part of Mina wants to back away. But Tsubaki had held onto it even at the end.
-
-Mina crouches beside her. The smell swells again. She breathes through her mouth and works at the rigid fingers until the blood-stained card comes free. Tsubaki’s skin is already cold.
+Mina crouches beside her, keeping her eyes on the hand. She works the card loose and nearly drops it. Blood has made the edges slippery.
 
 At the chair beside the window, Mina slots the card into her interface’s I/O memory-card port. A window opens across her vision.
 
@@ -121,23 +113,27 @@ At the chair beside the window, Mina slots the card into her interface’s I/O m
 
 _Your husband couldn’t pay his debts. That doesn’t mean you’re off the hook. We’re coming for you. —KLx_
 
-Mina pulls out the card. Her gaze moves from the message to Tsubaki, then to the ruin left by the Styx pistol.
+Mina reads the message twice. Last week, while mending the robe, Tsubaki asked whether she still worked nights. Mina said yes and complained about her supervisor until Tsubaki changed the subject.
+
+She starts a third call to HPD.
 
 Voices rise in the hall.
 
-For one stupid, hopeful second, Mina thinks HPD came after all. Then the footsteps stop outside Tsubaki’s door. No knock. No announcement.
+She turns toward the door. Someone has come.
 
-She stands and dismisses the message window. The storage card is still pinched between her fingers as she backs away from the door.
+“Unit five,” a man says in the hall.
+
+Mina closes her mouth. She has not given the dispatcher an apartment number.
+
+She pulls out the card and backs toward the window. The call is still connecting.
 
 <!-- ambient: dark, danger, emergency -->
-
-KRAAASH!
 
 The door bursts inward. Three men step across the splintered wood. Two carry pistols. The third wears a suit, his empty hands hanging loose at his sides. Pitch-black eyes settle on Mina; white irises contract around her like targeting reticles.
 
 She does not have time to scream.
 
-His fist crosses the room faster than she can raise her arms. Something cracks inside her face. White pain wipes out the apartment, followed by the hot rush of blood over her lips. The blow throws her backward. Her skull strikes the floor, and the ceiling rolls sideways.
+He crosses the room before she reaches the window. Mina raises a hand. His fist breaks through it and strikes her face. Her skull hits the floor; for several seconds, she cannot find the window at all.
 
 “She followed the husband after all,” one gunman mutters.
 
@@ -153,12 +149,12 @@ A boot pins Mina’s wrist. The suited man’s irises flare, and a white grid sw
 
 <!-- ambient: dark, grief, mist -->
 
-Mina’s fingers twitch against the floor. She cannot lift her hand. Blood runs from her chin into the collar of her bathrobe, thick and coppery on her tongue.
+The boot moves from her wrist. Mina tries to push the card beneath her sleeve. Her fingers scrape across the floor without closing.
 
-_Emergency tier. Clean interface. Keep the ports intact._
+The call connects.
 
-They had not spared her. They were pricing her.
+“Your incident has been logged,” the voice says inside her head. “Please remain in your unit.”
 
-She tries to hold onto the thought, to the card still trapped beneath her fingertips, to anything at all.
+Someone takes hold of the collar of her robe. The repaired cuff catches on her hand as they turn her over.
 
-The room goes black.
+“Please remain in your unit.”
