@@ -21,11 +21,11 @@ tags: [Sodeine, "Katoshi Garden Station", Matzuki, Jinji, Inose]
 
 <!-- ambient: night, neon -->
 
-“So, are you guys planning on going to that party in K3? Some people I know invited me, and they said it’s going to be amazing. Like, *really* huge. They’re probably going to use an entire floor of that megabuilding,” Jinji says.
+“They’ve got a whole floor in K3,” Jinji says. “For one party. We could go after the presentation.”
 
-“You do know we have to present our project tomorrow, right?” Matzuki adjusts his glasses. “Or did you forget the part where we need a passing grade?”
+“We have to finish it first.” Matzuki adjusts his glasses. “Your slides still have the old figures.”
 
-“I mean, we could use a break, don’t you think, binbo boy?” Inose pats the crushed cigarette pack in his jacket pocket. “Fine. We finish the presentation first. After that, all three of us are going out. No excuses.”
+“I’ll fix the slides,” Inose says, patting the crushed cigarette pack in his jacket pocket. “You can buy me a drink, binbo boy.”
 
 “Don’t call me that.” Matzuki’s voice rises, but there is no real bite behind it.
 
@@ -45,25 +45,27 @@ Jinji drags his feet down the station steps. “Personally, I think we’re the 
 
 “Then why are you still on our team?” Inose asks.
 
-“Because I need a good grade...” Jinji glances away. “And maybe because I like hanging around you people.”
+“You two already know how to do everything.”
 
-The last part barely escapes his lips.
+“You could learn,” Matzuki says.
 
-For a moment, none of them says anything.
+“I label things. I’m good at labels.”
+
+Inose catches Matzuki’s eye. Neither mentions the mislabeled sample that cost them most of Tuesday.
 
 <!-- ambient: night, forest, moonlight -->
 
-Inose almost smiles. He looks away before either of them can catch it. Without another word, he takes the lead and walks into the vast station. Glass domes stretch high above them, their steel frames slowly being reclaimed by vines that weave naturally across the structure. Moonlight filters through the glass, casting a pale glow over the otherwise dim station.
+Inose takes the lead into the station. Vines weave through the steel frames of its glass domes. Moonlight reaches the platform through gaps in the leaves.
 
 “Damn,” Inose says, spinning beneath one of the domes. “This place is beautiful at night.”
 
 Matzuki looks toward a row of dead ceiling lights and the maintenance barriers stacked against the eastern wall. A yellow notice reads: **EAST SERVICE ROOMS — LOCK REPAIRS IN PROGRESS.**
 
-“The lights have been broken since I started studying here,” he says. “There is a difference between beautiful and neglected.”
+“That whole row was out last week,” he says. “Did they even try fixing it?”
 
 Jinji studies the arrival display. “Eighteen minutes? This is supposed to be one of the busiest stations in Sodeine.”
 
-“The Taka University interchange is busy,” Matzuki replies. “Katoshi Garden serves the old botanical campus. At three in the morning, we should be grateful a train comes at all.”
+“That’s the interchange. This is the old campus stop.” Matzuki sits on the bench beneath the display. “Wake me when it gets here.”
 
 “Our poor man’s Orbit,” Jinji mutters.
 
@@ -115,7 +117,7 @@ Jinji hammers his fist against the panel. “Hey! Can you hear me? Are you okay?
 
 Inose drags him back. “Are you crazy?”
 
-Matzuki stands several steps behind them, shaking. A rumor from the university clinics returns to him: patients who stopped feeling pain, stopped recognizing the people around them, and kept moving long after their bodies should have failed.
+Matzuki stands several steps behind them, shaking. He remembers the warning passed around the university clinics: a patient who tore his own shoulder apart trying to get out of a restraint and still needed four people to hold him.
 
 “Spiraling,” he whispers. “So it’s true.”
 
@@ -131,13 +133,11 @@ His fingers curl against the broken glass. He lifts his head, and for the first 
 
 His gaze drifts toward the TakaLabs advertisement.
 
-“Life is relentless beauty,” he says, his voice mechanical and strangely melodic. “It shines brightest beyond the boundaries of its frame.”
-
-He studies his blood-covered hands. “Beyond limits,” he whispers, satisfied.
+“Life beyond limits,” he says, matching the advertisement’s rising jingle. He repeats the last two words while looking at his bleeding hands.
 
 “Run!” Inose shouts.
 
-“Don’t leave me, my shining beauties!” the man calls after them.
+“Wait,” the man calls. “Wait, I haven’t—”
 
 The three students run. Something whistles through the air behind them.
 
@@ -155,7 +155,7 @@ At its far end, one gray door marked **SECURITY** stands open by several centime
 
 Matzuki kicks the wedge away, squeezes inside, and pulls the door shut. A heavy mechanical deadbolt sits beneath the broken electronic lock. He throws it into place.
 
-The security post runs along the platform wall, narrow and lined with eight inactive monitors. A broad one-way window overlooks most of the station. From the platform, its electrochromic outer layer displays a looping advertisement; from inside, it is meant to give security staff a clear view while the observation room remains dark.
+Eight inactive monitors line the narrow security post. Beside them, a one-way window overlooks the platform. Matzuki has walked past its advertisement for years without knowing there was a room behind it.
 
 A contact window flickers to life in his vision. With a shaking gesture, he selects the HPD emergency line.
 
@@ -173,7 +173,11 @@ The dispatcher’s voice changes immediately. “Are you inside a secured room?�
 
 “You’re locking them in?”
 
-“The refuge bays are reinforced and connected to emergency ventilation. Direct your friends to the nearest one if you can do so without opening your door. A suspected Spiraling event has also been forwarded to the national hazard channel. A response team is on its way.”
+“Get them to a blue door. Can you contact them? Stay inside your room.”
+
+“I can’t see them.”
+
+“The national hazard channel has been notified. A response team is on its way.”
 
 “Wait—”
 
@@ -189,9 +193,7 @@ He flicks the first switch.
 
 <!-- ambient: dark, monitor, flicker -->
 
-The station goes dark.
-
-One bank of lights dies after another until only the advertisements remain, glowing on an independent emergency circuit. The containment countdown continues on its own local safety controller.
+One bank of station lights dies after another. The advertisements stay lit. So does the containment countdown in Matzuki’s vision.
 
 “Goddammit.”
 
@@ -221,7 +223,7 @@ On the sixth, he finally sees them. Jinji and Inose are crouched behind an aband
 
 The man follows the trail.
 
-He does not hurry. He wanders from bench to bench, looking beneath each one as if playing a game with children. Sometimes he disappears outside the cameras’ view, leaving Matzuki with nothing but the soft slap of bare footsteps through the microphones.
+He wanders from bench to bench, looking beneath each one. Sometimes he disappears outside the cameras’ view, leaving Matzuki with nothing but the soft slap of bare footsteps through the microphones.
 
 The footsteps stop.
 
@@ -253,13 +255,13 @@ The man stops.
 
 His head turns toward the glass.
 
-Matzuki freezes. The window should be opaque from the platform. The advertisement is brighter than the room, and the monitor hoods are designed to keep their light from reaching it. Still, the man’s yellow eyes settle exactly where Matzuki is sitting.
+Matzuki freezes. A sticker beneath the monitors warns staff to keep the room lights off. They are off. The man’s yellow eyes settle exactly where he is sitting.
 
 In the glass, the man’s bloody grin hangs over Matzuki’s pale reflection.
 
 _He can’t see me. The glass is one-way. He can’t see me... right?_
 
-The man leans closer until his forehead almost touches the advertisement. His gaze does not wander. It presses through the window and into Matzuki, as if staring past his face and directly into whatever is hiding behind it.
+The man leans closer until his forehead almost touches the advertisement. Matzuki cannot look away to reach the monitor dimmer.
 
 One blackened fingernail taps the glass.
 
@@ -273,7 +275,7 @@ Behind him, one of the cart’s wheels squeaks.
 
 His eyes snap toward the sound.
 
-Jinji hauls Inose upright, and they stagger from their hiding place. The man turns away from the glass and follows them, still walking, as if he knows they cannot move fast enough to escape him.
+Jinji hauls Inose upright, and they stagger from their hiding place. The man turns away from the glass and follows them.
 
 Jinji has an arm locked around Inose’s waist. Inose’s injured leg drags behind them, leaving a broken red trail across the tiles.
 
@@ -299,9 +301,7 @@ Jinji changes direction, dragging Inose toward a blue door set into the wall.
 
 The man steps between them and the refuge bay.
 
-Matzuki tightens his grip on the microphone. His next words betray that someone is watching.
-
-The refuge icon glows green on the station map. The door is open. Matzuki hits the controls anyway. The refuge stays open. The shutters stay down. Nothing on the console can move the man out of the doorway.
+The refuge icon glows green on the station map. Matzuki hits the controls again. The door stays open behind the man.
 
 “I’m the one talking to you. Leave them and come find me.”
 
@@ -323,15 +323,11 @@ The man strolls toward them through the artificial rain.
 
 Jinji turns, trying to pull him away. His heel slips. For one desperate second he keeps Inose upright by strength alone; then the man seizes Inose by the hair and wrenches him backward. Jinji clings to his friend’s waist until the attacker swats him aside. He strikes a containment shutter and drops hard.
 
-“Oh, don’t look like that,” the man says.
-
 Synthetic muscle cables draw taut beneath the skin of his forearms. His reinforced ankle locks with a metallic click. He plants one foot hard enough to craze the tile and wrenches Inose upright by the hair.
 
 One arm hooks beneath Inose’s jaw. The other hand braces against his shoulder.
 
-“Heads up.”
-
-Jinji understands the joke a heartbeat before a wet chain of cracks races down Inose’s neck.
+Inose grips the arm beneath his jaw. His heel scrapes across the tiles, looking for purchase. Then a wet chain of cracks races down his neck.
 
 <!-- ambient: rain, grief, emergency -->
 
@@ -341,7 +337,7 @@ For a second, Matzuki cannot understand what the monitors are showing. One feed 
 
 Matzuki folds over the console and vomits. When he forces himself upright, Inose’s body is still twitching on one of the monitors.
 
-He hits the refuge control again. Green. He tries the platform speakers, the deluge override, the sealed stairwell. Every system answers except the one he needs.
+He hits the refuge control again. Green. He tries the deluge override, then the stairwell release. Both ask for an authorization code. He types his student number before he realizes what he is doing.
 
 Jinji scrambles into the corner beside the shutter, slips in the bloody water, and vomits between his knees.
 
@@ -349,19 +345,13 @@ Jinji scrambles into the corner beside the shutter, slips in the bloody water, a
 
 <!-- ambient: rain, danger, emergency -->
 
-The man looks up at the camera, Inose’s head hanging from his hand.
-
-“You see it too, little security guard?” he asks. “Let me help you see him better.”
-
-He hurls the head toward the camera.
-
-“Catch!”
+The man looks up at the camera, Inose’s head hanging from his hand. He lifts it toward the lens, waits, then throws it.
 
 It strikes the wall below the lens. The feed jolts, then corrects itself. Inose’s face fills the monitor at a crooked angle while water runs over one half-open eye. For an instant, the station software draws an identification frame around him. Then the frame turns red and disappears.
 
-The man laughs. “Oh, no. You can’t.”
+“Did you see?” he asks the camera.
 
-He turns back to Jinji. “I’ll make your friend watch.”
+Jinji moves against the shutter. The man turns toward him.
 
 “No!” Matzuki grabs the microphone again. His mouth tastes of vomit and blood where he has bitten his tongue. “Leave him alone. Please. You can take me instead.”
 
@@ -391,9 +381,9 @@ His body goes limp. When the man removes his hand, blood runs down the dented sh
 
 For several seconds, the only sounds in the station are the deluge and the alarm.
 
-The man wipes his hand across Jinji’s shirt. Then he looks toward the eastern service rooms and begins to hum again.
+The man wipes his hand across Jinji’s shirt, then looks up at the camera.
 
-“I’m coming for you, little watcher,” he sings.
+“Are you still there?”
 
 Matzuki releases the microphone.
 
@@ -407,7 +397,7 @@ The man reaches the service corridor.
 
 Then he disappears from every camera.
 
-Matzuki slides from the chair and crouches beneath the console. There is nowhere else to hide. The maintenance crew has opened the lock housing, but the walls and floor remain solid concrete. The unfinished repair left the door open for him; now it has left him with only one mechanical deadbolt between himself and the platform.
+Matzuki slides from the chair and crouches beneath the console. He presses his back against the concrete wall and watches the deadbolt.
 
 Wet footsteps enter the corridor outside.
 
@@ -431,8 +421,6 @@ Matzuki opens the HPD status window in his vision.
 
 Fourteen minutes.
 
-The deadbolt will not survive fourteen minutes.
-
 A dark shape glides across the one-way window. The man has circled back onto the platform. He walks past without stopping.
 
 Matzuki holds his breath until pain spreads through his chest.
@@ -451,7 +439,7 @@ Then a bloody hand slaps against the other side.
 
 Matzuki bites down on a scream.
 
-The man rises slowly from below the window until his face fills the glass. He must have crouched beneath it and waited for Matzuki to look. The exterior advertisement flickers across his skin, turning the blood he dragged across the platform gold and green.
+The man rises slowly from below the window until his face fills the glass. The advertisement flickers across his skin, turning the blood gold and green.
 
 He places one fingertip against the exact position of Matzuki’s reflected eye.
 
@@ -491,7 +479,7 @@ A low vibration rolls through one of the glass domes above the station.
 
 The man goes still.
 
-An unmarked gray AT hovers directly over the eastern dome. A ring of shaped cutters flashes across the curved glass. Four magnetic clamps catch the severed disk before it can fall and winch it clear of the station. Moonlight pours through the opening. Four cables drop from the aircraft, and armored figures descend through the dome, boots first, their silhouettes briefly suspended against the moon.
+An unmarked gray AT hovers over the eastern dome. A circle flashes across the glass, and a severed disk lifts toward the aircraft. Four armored figures descend on cables through the opening.
 
 Their helmets have no HPD markings. Each shoulder carries the same white flower emblem as the TakaLabs advertisement.
 
@@ -505,25 +493,15 @@ The man looks from one helmet to the next. His ruined smile widens.
 
 Then he charges them.
 
-One armored figure draws a compact, boxy pistol roughly the size of a machine pistol. Its short barrel cracks with a magnetic pulse. The first projectile clears the muzzle; a heartbeat later, its own motor ignites with an insect-like whine. The pistol barely moves in the figure’s hand.
+Four shots crack from a compact pistol. The man twists aside. White trails bend through the rain after him.
 
-The man twists aside. The projectile banks after him. He changes direction again, moving with enough force to crack a tile beneath his heel, but the round corrects with him.
+Matzuki ducks below the console. Something strikes the shutter with a force he feels through the floor. When he looks up, the man’s head is in the water. His body is still moving toward the squad.
 
-Three more guided projectiles launch from the pistol. They spread across the station to avoid one another, their motors painting brief white curves through the rain before all four turn back toward the same target.
-
-The man reaches the first squad member.
-
-The rounds reach him a fraction of a second later.
-
-The first round tears through the man’s jaw and ruins whatever he was about to say. The second strikes beneath his left eye; the yellow glow jerks sideways and goes dark as the guidance motor drives into his skull.
-
-The final two rounds meet at the reinforced column in his neck from opposite directions. His head separates and strikes the containment shutter before dropping into the shallow water.
-
-His headless body takes two more steps before collapsing.
+It takes two more steps before collapsing.
 
 For several seconds, nobody moves. A yellow light inside the ruined eye flickers once beneath the water and goes out.
 
-The squad does not celebrate. One member watches the body while two others unfold a black containment bag. They scan the severed head and lock it inside a rigid specimen case. Then they roll the body onto a reinforced liner so the damaged implants cannot tear through the bag.
+One member watches the body while two others unfold a black containment bag. They scan the severed head and lock it inside a rigid specimen case. Matzuki tries to stand. His knees strike the underside of the console.
 
 “Specimen temperature is falling,” one of them says.
 
@@ -539,7 +517,7 @@ Another message replaces it:
 
 <!-- ambient: rain, grief, monitor -->
 
-Matzuki stares at the empty feeds. The only record of what happened is gone.
+Matzuki presses the playback key. The transfer notice remains.
 
 The helmet of the fourth squad member turns toward the one-way window. A thin sensor line passes over the glass and pauses where Matzuki is crouching.
 
@@ -549,13 +527,11 @@ The helmet of the fourth squad member turns toward the one-way window. A thin se
 
 The containment status changes from HPD red to government-priority white. The squad attaches the sealed bag and specimen case to separate recovery cables. The body rises first, then the case holding the severed head, both disappearing through the cut opening into the AT.
 
-Nobody calls out to the survivor.
-
-Nobody checks Jinji or Inose.
+Matzuki waits for someone to come to the door. One squad member steps around Jinji to reach his cable.
 
 Matzuki remains beneath the console as the four figures reconnect their harnesses and rise through the dome. The aircraft turns, its downdraft driving rain and loose leaves in circles across the station, and then accelerates into the night.
 
-He keeps counting after the sound has disappeared. Numbers are easier than looking through the window.
+He starts counting when the aircraft lifts away and keeps going after the sound has disappeared.
 
 At three hundred, he crawls out from beneath the console.
 
@@ -621,4 +597,4 @@ As they pull away, a university reminder appears in Matzuki’s vision:
 
 He dismisses it with a trembling hand.
 
-Behind him, the damaged arrival display remains frozen at **MIKITA LINE — 04 MINUTES**, promising a train none of them will take.
+Behind him, the damaged arrival display remains frozen at **MIKITA LINE — 04 MINUTES**.

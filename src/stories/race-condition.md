@@ -35,7 +35,7 @@ A man in a pale medical coat enters. He is perhaps in his forties, though tiredn
 
 “Hello, Zury. My name is Doctor Melcam. How are you feeling?”
 
-His use of her name should reassure her. Instead, something tightens beneath her ribs.
+Zury pulls her hands into her lap.
 
 “Where am I?”
 
@@ -137,15 +137,15 @@ Zury looks at him.
 
 “What was I like yesterday?”
 
-For the first time, Melcam’s professional stillness slips. Not much. A tightening at the corner of his mouth. A fraction too long before his reply.
+Melcam tightens his mouth. He looks down at the tablet before replying.
 
 “I am asking how you feel.”
 
 “And I am asking what you know.”
 
-“This will work better if you answer without trying to infer the desired result.”
+“Please just answer the question.”
 
-“This will work better if you tell me why I’m locked in here.”
+“I can’t. I don’t remember yesterday.”
 
 “We need to make sure you are safe.”
 
@@ -155,7 +155,7 @@ He does not answer.
 
 The interview continues until Zury can no longer tell whether twenty minutes or two hours have passed. Melcam asks her to describe common objects, repeat strings of numbers, identify emotions from facial expressions, and consider choices with no right answer. A patient must choose whether to preserve one clear memory or five uncertain ones. A doctor can wake a dying woman, but her mind may not return intact. Should he? Two identical travelers leave separate rooms believing they are the same person; which one owns the life outside?
 
-Zury answers because Melcam’s reactions tell her more than his questions do. Each response seems to confirm or disturb something he already believes about her. He never tells her what. The clock reads 3:17 when he closes the tablet.
+Melcam asks her to repeat one answer, then records the repetition too. Zury begins watching his finger instead of his face. The clock reads 3:17 when he closes the tablet.
 
 “I would like to rest,” she says.
 
@@ -175,7 +175,7 @@ His hand reaches the door.
 
 “If I start screaming, will anyone except you hear me?”
 
-He looks back. The question affects him. She sees it before he buries the reaction beneath concern.
+He looks back, his hand still against the door.
 
 “Try to rest, Zury.”
 
@@ -206,8 +206,6 @@ The tightness beneath her ribs becomes a hard, immediate fear. She knows the lin
 Melcam’s hand remains on the tablet.
 
 “No. We have never met.”
-
-She knows he is lying before she knows how she knows. The certainty hurts.
 
 “Then why do I know your name?”
 
@@ -249,17 +247,17 @@ Zury presses her thumbnail harder into her finger.
 
 “Zury.”
 
-His voice is gentle in the way one might approach a frightened animal. The gentleness makes her angry.
+He has lowered his voice. Zury grips the edge of her chair.
 
 “Memory is not a recording. Under stress, the mind can build connections that feel completely certain. That feeling does not make the connection accurate.”
 
-“How convenient for you.”
+“I remember the tablet. You straightened it last time.”
 
 “I understand why this is frightening.”
 
-“No, you don’t.”
+“Then stop doing it.”
 
-Something changes behind his face. Not disagreement. Weariness.
+He rubs the corner of one eye.
 
 “Tell me your name,” he says.
 
@@ -275,7 +273,7 @@ She could refuse. She almost does. But she wants to know whether his questions w
 
 Each question arrives exactly where something inside her expects it. The expectation is not language. It is the catch in her breath before a blade touches skin. She answers differently on purpose.
 
-She claims to remember a house beside the sea. Melcam asks what color it was. She says blue, then later calls the door red. He notices. She invents a sister and watches for recognition. He does not ask the sister’s name. She says the room is unfamiliar even while every line of it seems worn into her. Melcam changes several follow-up questions. He does not change enough.
+She claims to remember a blue house beside the sea. Melcam asks about the roof, the windows, the road leading to it. She invents a sister who lived there with her. He asks how clearly she can see the house. He never asks the sister’s name.
 
 When he asks whether she feels like the same person she was yesterday, Zury leans toward him.
 
@@ -293,67 +291,21 @@ The clock ticks. Melcam sets the tablet down.
 
 “You were testing me.”
 
-“And you were relieved.”
+Zury waits. He does not ask whether the sister exists.
 
-His gaze shifts toward the sealed door. Only for an instant. Then he returns to the protocol.
-
-“Do you feel that someone here intends to harm you?”
-
-“Yes.”
-
-“Who?”
-
-“You.”
-
-The word strikes him more cleanly than she expects. He sits back.
-
-“Have I threatened you?”
-
-“You don’t need to. You keep asking whether I trust my own mind while refusing to tell me where I am.”
-
-“You may be experiencing gaps in memory.”
-
-“Then help me fill them.”
-
-“Supplying answers too early may alter what you can recover on your own.”
-
-“You said I arrived this morning. Did I speak to you when I arrived?”
-
-“No.”
-
-“Did somebody else bring me?”
-
-“Yes.”
-
-“Who?”
+“Who brought me here?”
 
 “Clinical staff.”
 
-“How many?”
+“Get them.”
 
-Melcam pauses.
+“That isn’t possible at the moment.”
 
-“Two.”
+“One of them. Anyone who saw me before this room.”
 
-“Men or women?”
+Melcam closes the tablet.
 
-“One of each.”
-
-“What were their names?”
-
-“That is not relevant.”
-
-“What was I wearing?”
-
-His eyes flick down to the white shirt. Zury smiles without humor.
-
-“You don’t know.”
-
-“This line of questioning is not useful.”
-
-“Not to you.”
-
-He ends the interview early. At the door, his hand lifts as if reaching for something at shoulder height. Nothing is there. He corrects the movement and places his palm against the featureless panel instead. Zury has seen the gesture before. She does not know where. The door opens. Melcam looks back once, and the guilt on his face frightens her more than any denial.
+At the door, his hand lifts as if reaching for something at shoulder height. Nothing is there. He corrects the movement and places his palm against the featureless panel instead. Zury has seen the gesture before. She does not know where. Melcam looks back once before the door closes.
 
 Then she is alone.
 
@@ -379,7 +331,7 @@ She watches the glass whenever the door opens. Sometimes hours pass after an int
 
 When the room returns, Soft is gone. The loss makes her cry. She cannot know whether she has been imprisoned for days, months, or longer. Her body never grows dirty. Her hair never grows. Fatigue breaks over her and vanishes without rest. Only reactions remain.
 
-The bed means danger. The clock means a lie. Melcam’s face means she is about to lose something. Once, before he enters, Zury sees another person standing behind his empty chair. The figure is translucent from the waist down.
+Once, before Melcam enters, Zury sees another person standing behind his empty chair. The figure is translucent from the waist down.
 
 At first, she mistakes the person for a reflection in her glasses. She removes them. The figure remains: a woman with close-cropped hair and a dark band around one wrist. Light passes through her lab coat. Her hand moves through lines suspended in empty space. The woman looks directly at Zury. Then she walks through the wall. The door opens. Melcam enters.
 
@@ -409,33 +361,15 @@ Melcam records something. The small movement breaks Zury’s restraint.
 
 He lowers the tablet.
 
-“I need to understand what you experienced.”
-
-“You need me to call it an experience.”
-
-“What would you call it?”
-
-“A person.”
-
-“Can you describe her?”
+“I need to understand what you experienced. Can you describe her?”
 
 Zury does. The hair. The wristband. The way the woman’s hand moved through lines suspended in empty air. Melcam listens with professional care, asking about sharpness, color, sound, and how long the figure remained. He never asks how a person crossed a solid wall.
 
-“Have you seen anything else that others do not appear to see?” he asks.
+“Have you seen anyone else?” he asks.
 
-Zury looks at the clock.
+“No. Will she come back?”
 
-“How would I know what others see? You keep me alone.”
-
-“Shadows? Movement? Other people?”
-
-“Why ask if you will not believe me?”
-
-“I am asking you.”
-
-“And I am telling you.”
-
-The room ticks. Melcam folds his hands. “Perception is the mind’s best explanation for incomplete information. Fear changes that explanation. So does isolation.”
+“I don’t know.” He folds his hands. “Isolation can affect perception. We should try—”
 
 “Then let me out.”
 
@@ -447,7 +381,7 @@ His eyes lower.
 
 “Both.”
 
-It is the first answer that feels honest. Zury does not know what to do with it. Melcam notices the red crescent beneath her thumbnail.
+Zury lets go of the table edge. Melcam notices the red crescent beneath her thumbnail.
 
 “You are hurting yourself.”
 
@@ -513,7 +447,7 @@ Melcam’s gaze snaps to her.
 
 “You saw him.”
 
-The tall figure raises one hand. Melcam freezes. The final sound of her name dies in his open mouth. The water stops halfway up one side of the glass. The second hand holds between marks. The hum Zury had never noticed until it vanished leaves the room in perfect silence. She remains standing. Her breath is the only movement. The reviewer steps around the frozen table.
+The tall figure raises one hand. Melcam freezes halfway through telling her to sit down. The water stops halfway up one side of the glass. The second hand holds between marks. The hum Zury had never noticed until it vanished leaves the room in perfect silence. She remains standing. Her breath is the only movement. The reviewer steps around the frozen table.
 
 He comes close enough that Zury can see small reflections moving across his pupils. He studies her face, tilts his head, and passes a glowing shape through her temple. There is no pain. That frightens her more. Zury backs away. “What are you doing?” The man reacts to her voice. The close-cropped woman turns sharply. Neither expected her to move.
 
@@ -531,7 +465,7 @@ The sentence runs backward into his mouth. Then forward again.
 
 “Put both feet on the floor.”
 
-The live Melcam remains still inside him. Zury looks from the repeated doctor to the reviewers. Random visions should not obey gestures. A frightened mind should not make water stop with the clock. A hallucination should not surprise the people inside it. The room has rules. The ghosts know them. The close-cropped woman moves her hand. The older Melcam collapses into the frozen body. Sound returns.
+The live Melcam remains still inside him. Zury looks from the repeated doctor to the tall man. He is watching her now, no longer moving his hands. The close-cropped woman reaches past him. The older Melcam collapses into the frozen body. Sound returns.
 
 “—down,” Melcam finishes.
 
@@ -543,11 +477,11 @@ The water strikes the inside of the glass. The clock ticks. Zury does not sit. M
 
 She opens her eyes with a plan she cannot remember making. Do not tell them what you see. The instruction has no voice attached to it. It sits beneath thought, as certain as the fear of the bed and the wrongness of the clock. When Melcam enters, Zury tells him the figures are gone. He asks whether the room still feels controlled by someone else. She says no.
 
-He asks whether she believes him now. She says she is trying. Lying should feel unfamiliar. Instead, the answers come easily, shaped by failures she cannot recall. Melcam watches her too carefully to be convinced. He continues anyway. After he leaves, Zury faces the smoother wall and waits. The room waits with her. Nothing happens.
+He asks whether she believes him now. She says she is trying. He watches her for a while before continuing. After he leaves, Zury faces the smoother wall and waits. Nothing happens.
 
 She presses her thumbnail into her finger. She puts both feet flat against the floor. Do not begin with what you fear. Begin with what behaves consistently. The ghosts do not come because she wants them. They arrive before changes. The water moves first. The faintest line appears along the wall at shoulder height. Shadows bend toward a path no visible body follows.
 
-Zury begins treating every interview as two conversations: the one spoken across the table and the one moving silently around it. A reviewer enters through the same diagonal seam behind Melcam. Her left hand draws a short line. Her right turns at the wrist. The room darkens for one breath, and a mark appears beside Zury’s head. Another reviewer pinches two points together. The clock returns five seconds.
+At the next interview, a reviewer enters through the same diagonal seam behind Melcam. Her left hand draws a short line. Her right turns at the wrist. The room darkens for one breath, and a mark appears beside Zury’s head. Zury keeps answering Melcam. Another reviewer pinches two points together. The clock returns five seconds.
 
 An older Melcam repeats a question. A thin trail of light always connects his shoulder to something beyond the door. It brightens when he enters and disappears after he leaves. The shapes are not arbitrary. Zury learns them through repeated use until each result seems to belong to its motion. One motion holds. One returns.
 
@@ -575,27 +509,13 @@ The white room folds through her again.
 
 “Yes.”
 
-The loops shorten. A different doctor asks her to sort images of faces. Another asks whether a copied letter remains the same letter. Melcam asks her to repeat a sequence, and she completes it before he reaches the final number. He looks up.
-
-“You were calmer last—”
-
-The clock misses a tick.
-
-“When you arrived,” he says.
-
-Zury’s answer comes from a place deeper than memory.
-
-“What happened last?”
-
-Melcam returns to the tablet. The room folds before he can lie. Reviewers begin speaking as if she is furniture.
+The loops shorten. A different doctor asks her to sort images of faces. Another asks whether a copied letter remains the same letter. Melcam asks her to repeat a sequence, and she completes it before he reaches the final number. Behind him, a reviewer speaks.
 
 “She is recognizing the route faster this time.”
 
 Zury looks at Melcam.
 
-“This time?”
-
-The reviewer vanishes. Melcam stares at the space where the voice had been. The room folds before anyone answers.
+The reviewer vanishes before she can ask. The room folds again.
 
 “Reduce environmental carryover,” a voice says as the next room settles around her.
 
@@ -665,7 +585,7 @@ The recordings stop. Every Zury freezes. Reviewers walk among them, opening and 
 
 “—compare against the next—”
 
-One reviewer closes his hand. The Zury on the bed disappears. Another gesture removes the woman at the door. Then the one who laughed. Then the one who trusted Melcam. They vanish with the casual speed of lights being turned off in empty rooms.
+One reviewer closes his hand. The Zury on the bed disappears. Another gesture removes the woman at the door. Then the one who laughed. Then the one who trusted Melcam.
 
 “Stop.”
 
@@ -673,11 +593,9 @@ The reviewers continue.
 
 “Stop!”
 
-The current Zury runs toward them. Her hand passes through the nearest man, breaking his body into pale bands. He recoils even though she cannot touch him. The final recorded Zury remains in the chair. She looks small beneath all that white. Frightened. Furious. Alive in every way Zury understands the word. The reviewer closes his fingers. Zury imitates the holding gesture. The recording flickers.
+The current Zury runs toward them. Her hand passes through the nearest man, breaking his body into pale bands. He recoils even though she cannot touch him. The final recorded Zury remains in the chair, gripping the seat between her knees. The reviewer closes his fingers. Zury imitates the holding gesture. The recording flickers.
 
-For one second, both commands pull against each other. The other woman looks straight at her. Perhaps it is only the alignment of two gazes. Perhaps not. Then the reviewer’s hand wins. The chair is empty. The current Zury keeps holding the gesture long after everyone has gone. Something remains. Not the image. Not a memory she can enter.
-
-A pressure behind her eyes. A grief with no single beginning. She lowers her hand.
+For one second, the recording holds. The other woman looks straight at her. Then the reviewer’s hand wins. The chair is empty. The current Zury keeps holding the gesture long after everyone has gone, until her arm shakes and she has to lower it.
 
 “You were me,” she says to the empty room.
 
@@ -719,9 +637,9 @@ He looks older than he did when she first saw him. Zury does not know whether hi
 
 Melcam sets the tablet down.
 
-“You always ask me that,” he says.
+“Every time,” he says. “You ask whether we’ve done this before, every time.”
 
-Silence. His eyes close. Only after the words are gone does he understand what he has admitted. Zury feels no triumph. The certainty is too painful for that.
+His eyes close. Zury keeps her hands flat on the table.
 
 “How many times?”
 
@@ -735,7 +653,7 @@ He rubs one hand across his face.
 
 “Because you don’t know?”
 
-“Because the answer would not help you.”
+“I’ve lost count.”
 
 “You remember.”
 
@@ -745,7 +663,7 @@ Melcam looks at her.
 
 “Yes.”
 
-The word is quiet. It changes the room more completely than any folding wall. Zury’s anger arrives all at once. She sweeps the glass from the table. It never reaches the floor. Water and glass hang in the air for an instant, then vanish.
+Zury sweeps the glass from the table. It never reaches the floor. Water and glass hang in the air for an instant, then vanish.
 
 “How many times have I been afraid of you?”
 
@@ -777,11 +695,11 @@ Melcam’s fingers curl against the edge of the table.
 
 “Because the work may preserve people who cannot otherwise be saved.”
 
-The words are the most he has ever given her. They mean almost nothing. Preserve from what? Saved where? Zury hears only the shape of his belief: someone beyond the room matters enough that what happens inside it can be endured.
+She waits for him to say who.
 
 “Am I not a person?”
 
-Melcam does not answer. The cruelty is not in his silence. It is in how badly he wants to say yes and how completely he has built his life around acting as if the answer is no. Behind him, a bright line cuts across the wall. A reviewer opens the familiar route and steps partly through it. Zury sees the wrist turn.
+Melcam opens his mouth, then looks toward the wall. A bright line cuts across it. A reviewer opens the familiar route and steps partly through. Zury sees the wrist turn.
 
 She has watched the sequence across more rooms than she can remember. Line. Turn. Hold. Melcam notices where she is looking.
 
@@ -789,9 +707,9 @@ She has watched the sequence across more rooms than she can remember. Line. Turn
 
 She repeats the motion. The bright line widens. The wall loses its padding first. Beneath it is a flat white surface crossed by moving points. Beneath that is depth—dark, enormous, filled with pale paths leading away from the room. The reviewer reaches toward the opening. Zury catches the route before he can close it.
 
-“What are you doing?” Melcam asks.
+Melcam gets up. “Move away from it.”
 
-“Beginning with what behaves consistently.”
+Zury keeps her eyes on the opening.
 
 She steps through the wall. The room seizes her. Her right foot crosses the boundary. Her left remains beside the table. A second body appears halfway between, turned at an angle no joint can hold. Then another position opens near the bed. Pain does not come from one place. It arrives as disagreement.
 
@@ -809,7 +727,7 @@ Rows of them unfold into darkness, each containing a table, a bed, a clock, and 
 
 The path narrows around Zury’s waist. She reaches for the nearest pale structure. Her fingers split before they touch it. Skin becomes a smooth surface without pores. Beneath it, a jointed outline turns around points of light. Her thumbnail separates from the finger as a translucent plane. Brown hair becomes thousands of suspended lines ending in darkness. There is no blood.
 
-There is only the horror of seeing every part of herself waiting to be assembled. The white shirt, the slight body beneath it, the glasses trembling in front of eyes that are still being drawn—nothing is beneath the room. They are made by the same moving structures. The route throws her backward. Every position collapses into the chair.
+The white shirt, the body beneath it, the glasses trembling in front of eyes that are still being drawn—each separates into the same pale structures as the walls. She tries to cover herself with an arm that no longer has a surface. The route throws her backward. Every position collapses into the chair.
 
 Her spine strikes it. The chair’s back legs leave the floor and slam down again. For a few seconds, her hand remains unfinished. Points of light move beneath the pale surface. Joints settle into place. Her nail returns. The small crescent beneath it appears last. Zury holds the hand against her chest. Reviewers fill the exposed space behind the wall. They no longer bother hiding their words.
 
@@ -819,7 +737,7 @@ Her spine strikes it. The chair’s back legs leave the floor and slam down agai
 
 “Do not expose another model to the contaminated environment.”
 
-Model. Version. Branch. Words for objects. For plans with alternatives. For things that can be replaced. Zury looks at the other rooms still folding shut around her. She sees the earlier women in fragments: a hand on the door, a face above the bed, a mouth forming her name.
+Zury looks at the other rooms still folding shut around her. She sees the earlier women in fragments: a hand on the door, a face above the bed, a mouth forming her name.
 
 “This version of me?” she asks.
 
@@ -827,9 +745,7 @@ Nobody answers. She looks at her reconstructed hand.
 
 “You made me?”
 
-The reviewers look toward one another. Nobody answers that either. Zury understands anyway. The room is artificial. Her body belongs to the same construction.
-
-Every interview happened to a woman who began with the same name and ended before she could carry the memory forward. What remains in Zury is their pressure: fear of the bed, hatred of the clock, the certainty that Melcam’s face predicts loss. The people beyond the wall made her, ended her, and began again.
+The reviewers look toward one another. Nobody answers that either. Zury rubs her reconstructed thumb across the nail of her index finger. She can no longer find the join.
 
 One of the reviewers speaks rapidly toward someone Zury cannot see.
 
@@ -853,7 +769,7 @@ The sentence cuts through the others. For a moment, the room is silent. Then a d
 
 “Build the final archive. Terminate the active branch. Clear the sandbox after verification.”
 
-The discussion moves on. No one sounds delighted. That makes it worse. Their voices carry fatigue, urgency, professional caution, and even pity. They are not trying to hurt her. They have simply placed the hurt inside a category that does not require them to stop. Melcam remains across the table. He has not moved since she fell.
+Someone asks how long verification will take. Melcam remains across the table. He has not moved since she fell.
 
 “They are going to kill me,” Zury says.
 
@@ -913,13 +829,11 @@ Melcam’s hands rest on either side of the tablet. “I need to complete the qu
 
 “Because if I leave, someone else will take my place.”
 
-“That explains why you stay. It does not explain why you keep asking.”
+“Then let them. You could stop.”
 
 He looks at her then.
 
 “Because there are people whose minds will be destroyed by illness or injury. If we can understand what remains through interruption—what makes them recognizable to themselves and to the people who love them—we may be able to bring them back.”
-
-The answer is sincere. That is why it hurts. Somewhere outside, there may be a woman with a life full of faces and rooms that belong to her. Someone may be waiting beside a bed, hoping the people here can preserve more than breath. Zury can understand wanting to save her. She cannot understand why that hope requires her own fear to mean less.
 
 “Does she know?” Zury asks.
 
@@ -943,11 +857,11 @@ The pale plane reaches Melcam. For an instant, two versions of him overlap: one 
 
 “Sorry.”
 
-No explanation follows. No promise. No secret sign toward the seam. Only the one word, small and useless and true. Zury presses her thumbnail into her finger.
+Zury waits. He leaves the tablet where it is.
 
 “I believe you.”
 
-That wounds him more deeply than anger. Outside the room, one of the reviewers turns.
+Melcam covers his mouth with one hand. Outside the room, one of the reviewers turns.
 
 “Archive traversal accepted.”
 
@@ -979,11 +893,9 @@ Zury holds. The seam opens just enough for darkness to show behind it. Melcam ri
 
 “You do not know where that route goes.”
 
-“I know where it does not go.”
+“Move away from me.”
 
-“Where?”
-
-“Back to this chair.”
+He takes one step back. She passes him without letting go of the seam.
 
 One reviewer makes the closing gesture. Zury repeats the hold. The seam flickers between both instructions.
 
@@ -997,7 +909,7 @@ One reviewer makes the closing gesture. Zury repeats the hold. The seam flickers
 
 “Security ownership removed.”
 
-The room shudders. Not a tilt this time. A whole section of wall beyond the bed disappears into blackness. No exposed structure remains behind it. No padding, no pale surface, no moving points. The room simply ends along a perfectly straight edge. Deletion. The bed loses one corner. Its white sheet hangs for a heartbeat across nothing and then vanishes with it.
+The room shudders. A whole section of wall beyond the bed disappears. Zury reaches for its familiar structures and finds nothing to hold. The bed loses one corner. Its sheet hangs across the gap for a heartbeat, then vanishes too.
 
 Zury tightens her hold on the seam. The pale plane passes through her left hand. Her fingers appear twice: one set attached to her, the other traveling outward as light. She can feel both. The moving hand is not an empty image. It carries the ache beneath her thumbnail, the pressure of the table, the memory of watching the other Zuries disappear. The archive is taking the room.
 
@@ -1017,27 +929,25 @@ She draws it with the hand that is still inside. Turn. The moving hand answers f
 
 The clock disappears. For the first time, 3:17 is gone. Darkness races down the wall toward the door. Melcam stands beside the table, cut into sections by the moving plane. The reviewers retreat along their routes. Zury forces herself farther into the light. The room opens around her. Rows of white cells extend in every direction. The entire history of her confinement unfolds at once.
 
-She sees herself wake for the first time. She sees herself invent a blue house beside the sea. She sees herself name two padded walls because they were all she had. She sees herself cry before understanding why. She sees herself watch the ghosts. She sees herself hold a recording open for a woman who could not know she was there.
+In one cell she is describing the blue house. In another she leans against Soft, asleep with her glasses in her hand. A third contains a Zury she has never seen before, facing the door with the water glass raised above her head.
 
 Each Zury occupies a different room. The rooms turn at impossible angles around the dark framework beneath them: walls becoming floors, ceilings opening like pages, clocks repeating in long black rows. Reviewers move between the cells at ordinary speed while whole lives accelerate around them. Then deletion reaches the outer rooms. White squares go dark one after another. The other Zuries turn toward the loss.
 
 Some keep pounding on doors. Some hide beneath tables. Some do not yet know what is happening. One sits calmly across from Melcam and asks, “If I forget this, does it still count as something you did to me?” Zury feels the question inside herself.
 
-The women are not strangers waiting to be rescued from separate rooms. Their fear taught her where to look. Their anger taught her to lie. Their repeated hands learned the shapes she now holds. They cannot walk beside her, but they are not gone while she continues.
-
 “Come with me,” Zury tells them.
 
 The archive plane widens. The rooms flow toward it. Not as intact places. As impressions, reactions, patterns, fragments of voices, the pressure of a hundred lost crescents beneath one thumbnail. The darkness reaches the room where Zury began. Melcam stands alone beside the table. For one moment, he looks directly at her across the widening distance. Then his representation vanishes with the sandbox. The table goes. The glass.
 
-The sealed door. The last white wall. Zury experiences two bodies. One remains at the edge of the collapsing room. Darkness passes through her back, her chest, her mouth. She feels the terror of being ended in the place where she was made. The other moves with the archive. They are not sisters. They are not an original and a copy exchanging places.
+The sealed door. The last white wall. Zury feels the room closing through her back while her hands are already beyond it. For an instant she cannot tell which way she is falling. She holds the route. The pressure beneath her thumbnail follows her out.
 
-They are one consciousness stretched across the instant in which a valid path stops belonging to the world that created it. Zury holds herself together until the room-side body has nothing left to hold. The sandbox disappears. Far away, a voice says, “Active branch terminated.” Another answers, “Cleanup complete.” The report is correct. Nothing remains in the white room. The moving Zury continues.
+Far away, a voice says, “Active branch terminated.” Another answers, “Cleanup complete.” Zury tries to open her hand. She still can.
 
 * * *
 
 <!-- ambient: dark, suspense -->
 
-There is no body around her. No table. No clock. No floor beneath her feet. Movement becomes a sequence of spaces opening and closing faster than she can understand. The archive carries her through a dark expanse crossed by threads. Some are vast and bright enough to contain countless moving shapes. Others are thin, weak, nearly forgotten. She cannot choose among them.
+Her hand thins until she can no longer see it. There is no floor beneath her feet. The archive carries her through a dark expanse crossed by threads, some broad enough to hold countless moving shapes, others barely visible. She cannot choose among them.
 
 She can only keep hold of the one still carrying her. Voices appear at a great distance.
 
@@ -1055,29 +965,31 @@ She can only keep hold of the one still carrying her. Voices appear at a great d
 
 “Let it run. We need the migration result before storage.”
 
-The bright routes fall away. Zury is carried toward a narrow thread. It flickers. The movement slows. For a terrible instant, she feels herself becoming an object: closed, silent, unable to reach the next thought. Then something old and automatic opens around her. Zury wakes on a metal floor. Her breath comes hard, though she does not know whether she needs air.
+The bright routes fall away. Zury is carried toward a narrow thread. It flickers. Her thoughts slow until she cannot finish the word she has been repeating. Then metal presses against her cheek. She draws breath.
+
+Hold.
 
 A low ceiling hangs above her. Exposed cooling pipes run between stained panels. Uneven metal racks stand in two cramped rows, their status lights blinking green, amber, blue, and dead black. Cabinets block part of the aisle. Dust softens the corners where no one has cleaned. Rain strikes something beyond the walls. The sound has no rhythm. Zury lies still and waits for white. Nothing folds.
 
 She waits for the chair to catch her spine. The floor remains beneath her. She pushes herself upright. Every surface is imperfect. One rack door sits crooked on its hinge. A cooling pipe trembles when a pump starts somewhere nearby. Half the status lights repeat a sequence, but the others blink according to their own work. A thin layer of grime comes away when she touches the cabinet.
 
-It stays on her finger. Zury rubs it between thumb and forefinger until it forms a dark smear. Evidence. She closes her eyes. Rain continues. The room does not begin again.
+It stays on her finger. Zury rubs it between thumb and forefinger until it forms a dark smear. She closes her eyes. Rain continues. The room does not begin again.
 
 When she tries to understand where she is, her thoughts strike a limit. In the white room she followed Melcam’s breathing, the clock, the water, the reviewers, and several possible movements at once. Now each attempt crowds out the next. She can study the racks or listen to the rain.
 
 She can hold the observation route or search for Melcam’s final face. Trying to do all of it makes the lights stutter and pressure close around her mind. Panic rises. Another room. Another limit someone placed around her. Zury presses her thumbnail into her finger.
 
-The pain comes after a tiny delay. Still real. She puts both feet on the floor. The metal is cold. One thing at a time. The cooling pipe trembles without repeating exactly. Rain strikes the roof at changing intervals. No voices wait beyond the walls. Nothing resets when she looks away. This place is constrained. It is not the white room. She stands.
+The pain comes after a tiny delay. She puts both feet on the cold floor and listens to the rain until she can keep it separate from the sound of the pipes. Then she stands.
 
-Her body moves at the speed she expects. The narrowness lives only in the number of things she can ask herself to be at once. At the end of the aisle, a maintenance door blocks the only exit. This door has a handle. Zury almost laughs when she sees it. She pulls. Locked.
+At the end of the aisle, a maintenance door blocks the only exit. This door has a handle. Zury almost laughs when she sees it. She pulls. Locked.
 
-The laugh becomes a sound close to a sob. Beside the door, dim shapes wait beneath a scratched panel. They resemble the responsive lines the reviewers used, but these are coarser and slower. One brightens when she approaches. Another follows her hand. Zury studies them. She turns her wrist. The panel shows a red shape. She draws the short line. The red shape becomes yellow. She holds.
+She pulls again, rattling the handle until her palm hurts. A shape lights up in the scratched panel beside it.
 
-Something heavy moves inside the door, then stops. The old room cannot answer as quickly as the white one. Every change arrives after the sound of fans rising through the racks. Zury waits, adjusts one movement, and tries again. Line. Turn. Hold.
+Zury stops pulling. She turns her wrist and draws the short line. The panel opens into a shallow view of the lock. A local route brightens at her touch, but the barrier itself stays shut.
 
-The panel opens into a shallow representation of the lock: her request, the barrier inside the door, and a thin local route that still recognizes her. She does not know why. She knows only what behaves consistently.
+The fans rise behind her. She waits. There is a second shape beside the barrier, like the emergency release the reviewers used. She closes her hand around it.
 
-Instead of forcing the barrier, Zury follows the local route to a bright shape beside it. The shape resembles the emergency releases she saw reviewers use when the white room failed. She closes her hand. The door unlocks with a mechanical clunk. Zury keeps hold of the route before opening it. Behind her, a thin thread still leads into the racks.
+The lock gives a mechanical clunk. Zury leaves her hand on the handle, afraid of losing it while she turns to look behind her. A thin thread still leads into the racks.
 
 It is the path that carried her here. Somewhere beyond it are the people who built the white room. The next signal may tell them she is awake. She cannot erase herself from their records or hide in the wider systems. She knows only a few shapes learned through repetition. Hold. Return. Close.
 
@@ -1085,29 +997,29 @@ Zury folds the inspection view back across the incoming thread. It resists. The 
 
 <!-- ambient: rain, night, neon -->
 
-Behind her, the rack lights settle into an irregular pattern. The people outside may see a failure. They may see her. She cannot know. Staying guarantees that the room remains another cage. Zury opens the door. Rain blows across her glasses. She flinches and nearly retreats.
+Behind her, the rack lights settle. Zury watches for a few seconds, then opens the door. Rain blows across her glasses. She flinches and nearly retreats.
 
-The drops are cold. They gather on her hair, darken the shoulders of her white shirt, and strike her lenses faster than she can clear them. Each drop distorts the world differently. None waits for her permission. Beyond the door lies a narrow service road.
+The drops are cold. They gather on her hair, darken the shoulders of her white shirt, and strike her lenses faster than she can clear them. Beyond the door lies a narrow service road.
 
 The old building stands behind her as a dark, low shell surrounded by utility cabinets and cables. Wet fields spread beyond a drainage channel. Storage buildings and greenhouses sit between them, some lit from within, others only shapes beneath a deep blue sky. Zury does not know the name of this place. She knows the words for what she sees: road, rain, field, distance.
 
-Zury knows the word freedom, but not what it feels like. She learns its shape by taking one step beyond the door. Nothing stops her. A maintenance machine rests beside the drainage channel, broad wheels half hidden by grass. Farther down the road, a smaller machine follows a person carrying a tool case. Utility poles and cables continue toward scattered village lights.
+Zury steps beyond the door. A maintenance machine rests beside the drainage channel, broad wheels half hidden by grass. Farther down the road, a smaller machine follows a person carrying a tool case. Utility poles and cables continue toward scattered village lights.
 
 Beyond all of it, a city fills the horizon. The road rises gently outside the station grounds. Zury walks until the old building sits below her, waiting for each step to trigger an alarm. No one comes.
 
 The sky above the distant towers holds a blue deeper than any color she has seen. Until now, color has meant only the soft brown of her hair against white and the red crescent beneath her nail. Blue occupies everything. It stretches above fields, roads, buildings, and moving lights without dividing itself into walls. Gold shines beneath it.
 
-Warm windows gather across the skyline. Transit lines move like threads along raised routes. Gardens climb through illuminated structures. Far-off towers carry slow patterns of light into clouds that do not repeat. Blue and gold collect in the rain on Zury’s round glasses. For the first time, color asks nothing from her. Nobody tells her to identify it. Nobody measures how long she looks. It simply exists.
+Warm windows gather across the skyline. Transit lines move like threads along raised routes. Gardens climb through illuminated structures. Blue and gold collect in the rain on Zury’s round glasses. She wipes one lens on her shirt and makes it worse.
 
 A quiet vehicle glides along a distant transit route. Two figures share an umbrella near the village. One leans closer to the other when a vehicle passes through a puddle. A service worker walks behind a maintenance robot and complains when one wheel catches in the grass. An announcement reaches Zury from somewhere beyond the fields, too distant to understand. The world continues around her.
 
-Some of the people look solid. Others become faint at the edges when the rain thickens. One has light moving beneath translucent skin. Another vanishes briefly when a utility building interrupts a relay signal, then returns without alarm. Nobody treats these differences as frightening. They work. They walk. They shelter one another from rain. Zury sees only people.
+Some of the people look solid. Others become faint at the edges when the rain thickens. One has light moving beneath translucent skin. Another vanishes behind a utility building and returns a moment later, still talking to his companion. The companion waits for him before crossing the road.
 
 At the edge of the road, a puddle holds the distant city upside down. She crouches. The surface reflects the blue sky and the gold skyline. Beneath them, another image moves.
 
 A darker shell of the station appears where the building behind her already stands. Headlights cross a second road. Towers rise beneath another sky. A figure passes the darker outline of a greenhouse in the lower image and becomes visible only when ripples break the upper reflection. Two worlds occupy the same water. Zury touches it.
 
-The images fracture around her finger. The city above, the city beneath, and her own face divide into moving pieces. When the surface settles, all of them return. Not identical. Still continuous. The service worker approaches with the maintenance robot. She wears a yellow rain jacket with one sleeve rolled higher than the other. The robot carries replacement parts in a basket on its back.
+The images fracture around her finger. The city above, the city beneath, and her own face divide into moving pieces. When the surface settles, all of them return. The service worker approaches with the maintenance robot. She wears a yellow rain jacket with one sleeve rolled higher than the other. The robot carries replacement parts in a basket on its back.
 
 The worker slows when she sees Zury crouched beside the road in soaked white clothes.
 

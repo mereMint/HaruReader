@@ -39,23 +39,19 @@ He dismisses it.
 
 By the time the first light reaches the mountains, he is already pulling on his boots. The house stays dark while he leaves. The front-door hinges squeal. Outside, the AlgaHydra engine of his pickup turns over twice before catching.
 
-The truck is older than most of the machines working his land. Most of its blue paint has bleached toward gray. Old scratches show the darker color underneath, and he has never seen a reason to repaint it. One side mirror is held in place by black repair tape. The dashboard still has physical buttons because, according to him, buttons continue working when companies decide an interface is no longer supported.
+The truck’s blue paint has bleached toward gray. One mirror is held on by repair tape. The farmer adjusts it through the open window and gives the engine a little throttle.
 
 The pickup rolls away from the village and onto the dirt road between the rice fields.
 
 Water lies flat across the terraces, catching the orange edge of sunrise between rows of rice. Farther out, agricultural machines move between them on thin articulated legs, their broad bodies stepping over irrigation channels without touching the crops. Smaller units glide half-submerged through the water, pulling weeds into baskets beneath their shells.
 
-A swarm of survey drones passes above the truck. Their rotors make only a soft buzz above the cab. Blue scanning lines move across the fields below them, checking leaf color, water chemistry, and signs of disease before the day becomes too bright.
-
-The nearest NCCR relay tower stands against the foothills, its signal lights fading as the morning mist lifts. It carries field data and swarm schedules into the ring. Every machine still keeps a slower local controller for the days the village connection chokes.
-
-When the connection does choke, he fixes what he can by hand.
+A survey swarm passes above the cab, following routes through the nearest NCCR relay tower. Its lights blink against the foothills. On bad connection days the field machines fall back to their local controllers, and he spends the afternoon doing what the service contractor calls optional manual intervention.
 
 The truck reaches the western edge of his land ten minutes later.
 
-Field Unit 04 stands beside the road with one arm hanging motionless above the rice. The machine is nearly four meters tall, built like a broad white insect with mud up to its joints. Its working arm usually checks irrigation gates, replaces damaged crop supports, and removes plants marked by the survey swarm. Now the arm hangs limp, and the status strip along its side flashes an irritated red.
+Field Unit 04 stands beside the road, a broad white insect nearly four meters tall. Its working arm hangs over the rice. The irrigation gate beneath it is still shut.
 
-The farmer parks beside it and climbs out.
+He parks beside it and climbs out, checking the water level before he opens the machine.
 
 “Let’s see what killed you.”
 
@@ -77,13 +73,9 @@ He replaces the damaged connectors from the box in his truck and restarts the un
 
 While closing the panel, something catches the edge of his glove.
 
-He reaches between the replacement cables and the thick inner wall. His fingers close around a piece of flattened metal.
+He reaches between the replacement cables and the thick inner wall. His fingers close around a piece of metal. He pulls it free and turns it over in his palm.
 
-The farmer pulls it free.
-
-A bullet rests in his palm.
-
-It passed through the outer electronics, destroyed the connectors, and stopped against the machine’s reinforced central casing.
+A bullet.
 
 He studies it for a moment, then looks toward the forest beside the road.
 
@@ -93,9 +85,7 @@ Dark spots mark the dirt near the machine.
 
 He crouches and presses the leather tip of his glove into one of the spots.
 
-The blood is almost dry around the edge but still wet in the center.
-
-More drops lead away from the road. They cross a strip of grass, disappear beneath a broken irrigation pipe, and continue toward the bushes at the forest line. Drag marks run beside them. One foot moved normally. The other barely moved at all.
+More drops cross the grass beneath a broken irrigation pipe. Beside them, one long drag mark leads toward the forest.
 
 The farmer returns to the pickup and reaches behind the seat.
 
@@ -103,15 +93,7 @@ The shotgun has been there since crop thieves started stealing licensed seed cul
 
 <!-- ambient: forest, suspense, mist -->
 
-He checks the chamber, closes the truck door quietly, and follows the blood.
-
-The trail grows heavier near the trees.
-
-Branches are bent inward. Mud has been pushed into long smears as if someone crawled the final meters on their elbows. A piece of dark fabric hangs from a thorn.
-
-The farmer stops beside a thick bush.
-
-He raises the shotgun and pushes the branches apart with the barrel.
+He checks the chamber, closes the truck door quietly, and follows the blood. A piece of dark fabric hangs from a thorn. The farmer pushes the branches apart with the shotgun barrel.
 
 <!-- ambient: forest, danger, mist -->
 
@@ -129,35 +111,27 @@ The man opens one eye.
 
 “Depends on who you are.”
 
-“I’m the farmer who found you bleeding beside a machine someone shot.” The farmer lowers the shotgun a few centimeters. “That makes you involved, even if the bullet wasn’t yours. Get up.”
+“This is my field.” The farmer lowers the shotgun a few centimeters. “Can you stand?”
 
 The man lets out a weak laugh. It becomes a cough before it can finish.
 
-“How nice of you, gramps. Always thinking about the health of others.”
+“If I say no, are you leaving?”
 
-“Keep talking and I’m leaving you here.”
+The farmer looks at the amount of blood under him and puts the shotgun aside.
 
-The farmer puts the shotgun over his shoulder and offers his hand.
+He offers his hand.
 
-The wounded man studies him for several seconds. His eyes move toward the road, then the trees, checking for anyone else.
+The wounded man studies him for several seconds. His eyes move toward the road, then the trees, checking for anyone else. Finally, he lowers the pistol.
 
-Finally, he lowers the pistol.
+He grabs the farmer’s forearm and tries to stand. His right leg folds beneath him immediately. The farmer catches him before his face reaches the ground and pulls one arm across his shoulders.
 
-He grabs the farmer’s forearm and tries to stand.
+“Arm over my shoulder. There.”
 
-His right leg folds beneath him immediately.
+“Sorry about the shoes.”
 
-The farmer catches him before his face reaches the ground and pulls one arm across his shoulders.
+The farmer looks down. “Keep the good leg under you.”
 
-“Easy.”
-
-“I am being easy.”
-
-“You’re bleeding on my shoes.”
-
-“Then stop wearing nice shoes to work.”
-
-“They were nice before I found you.”
+He retrieves the shotgun and shifts most of the man’s weight onto his back.
 
 <!-- ambient: forest, suspense -->
 
@@ -167,31 +141,23 @@ The stranger’s weight grows heavier with every meter. Twice, his injured leg d
 
 The farmer tightens his grip.
 
-“Stay awake.”
+“Eyes open. Look at the truck.”
 
-“I’m awake.”
-
-“You stopped moving.”
-
-“I was thinking.”
-
-“Do that later.”
+The man lifts his head. They take another step.
 
 They reach the truck.
 
 The farmer lowers him against the rear wheel and pulls a faded emergency kit from beneath the passenger seat. Most of the labels inside have yellowed. A basic medical stim lies in the top compartment beside bandages, disinfectant, a manual tourniquet, and a sealed packet of pain suppressors.
 
-The wounded man notices the date printed on the injector.
+The wounded man squints at the date on the injector.
 
-“That stuff expired?”
+“That expired?”
 
-“Only by two years.”
+The farmer turns it over, sees the date, and hesitates.
 
-The farmer drives it into his thigh.
+“Fine,” the man says. “Go on.”
 
-The injector clicks. For several seconds, nothing happens.
-
-Then the shaking in his hands begins to ease. His pupils focus, though the change is slower and weaker than the label promises. His hands stop shaking, but his jaw stays tight and sweat beads along his forehead.
+The injector clicks against his thigh. After several seconds, his eyes focus on the farmer again.
 
 The farmer cuts open the side of his shirt.
 
@@ -201,23 +167,13 @@ The farmer presses a clotting pad against the worst one.
 
 The man’s hand closes around his wrist.
 
-“Careful.”
+“Wait.”
 
-“I am being careful.”
+“I have to stop the bleeding.”
 
-“That feels like revenge for the machine.”
+The man nods, but it takes him another breath to let go.
 
-“That comes later.”
-
-He wraps the bandage tightly around the man’s body. Fresh red spreads through the first layer before the clotting compound begins to work.
-
-“This isn’t gonna fix you,” the farmer says.
-
-“I know.”
-
-“It’s gonna keep your insides inside until we reach the village.”
-
-The farmer helps him into the bed of the pickup. A folded blanket lies between a crate of tools and several irrigation valves. The man lowers himself onto it with his pistol against his chest.
+The farmer wraps the bandage around him and keeps pressure on the pad until the bleeding slows. Then he helps him into the bed of the pickup. A folded blanket lies between a crate of tools and several irrigation valves. The man lowers himself onto it with his pistol against his chest.
 
 “I’m bringing you to the temple,” the farmer says. “The doctor there will take care of you, son.”
 
@@ -241,7 +197,7 @@ The man’s eyes drift shut.
 
 The farmer walks toward the driver’s door.
 
-“I’m adding that to the bill.”
+“Jim, then. Keep your hand on that pad.”
 
 * * *
 
@@ -251,13 +207,7 @@ Jim lies beneath the open sky and watches the fields move past him.
 
 The sun rises above the wooded mountains, turning the water between the rice plants into sheets of gold. Long-legged harvest platforms step through the terraces in the distance. Seed drones carry rectangular containers beneath their bodies, moving from one farm to another along invisible routes coordinated through the relay tower. A group of children in school uniforms cycles along an elevated path above an irrigation channel, waving at the farmer’s truck as it passes.
 
-One of them points at Jim.
-
-Jim lifts two fingers in greeting.
-
-The movement sends a hot pull through his side.
-
-He lowers his hand.
+One of them points at Jim. Jim lifts two fingers in greeting. The movement sends a hot pull through his side. He lowers his hand.
 
 <!-- ambient: warm, forest -->
 
@@ -279,9 +229,9 @@ A dark red circle has appeared along his side.
 
 “Then drive faster.”
 
-The farmer presses the accelerator. The old engine climbs in pitch, and the truck gains speed.
+The farmer presses the accelerator. Jim keeps watching the patch of sky above the cab. Every time it tilts he thinks he is about to fall out, though his body has not moved.
 
-He turns on the radio.
+The farmer turns on the radio.
 
 A cheerful song fills the cab for several seconds before an emergency-news tone interrupts it.
 
@@ -317,23 +267,11 @@ He shakes his head.
 
 Jim watches a survey drone descend toward a diseased patch of rice.
 
-“Security doesn’t stop bad people.”
+“Do you know anyone at that university?” Jim asks.
 
-The farmer looks at him through the mirror.
+“My neighbor’s grandson. Different campus.” The farmer reaches for his contact list, then takes his hand away. “I’ll call when we get there.”
 
-“No?”
-
-“It records what they did.”
-
-The farmer stays quiet for a moment.
-
-“You sound like you know a lot about bad people.”
-
-Jim closes his eyes again.
-
-“I meet a lot of interesting people.”
-
-The farmer watches him in the mirror, but Jim does not offer anything else.
+Jim keeps his eyes on the fields until the radio goes back to music.
 
 <!-- ambient: warm, forest -->
 
@@ -343,15 +281,11 @@ Old tiled roofs sit between newer prefabricated homes and agricultural warehouse
 
 The temple stands near the center of the village behind a low stone wall and a row of cedar trees.
 
-It is old enough that nobody agrees on the exact year it was built. Dark timber holds up a broad tiled roof. The main hall faces a courtyard with a koi pond, two stone lanterns, and a wooden bell tower. An inn was added along the eastern side generations later, its upper rooms once used by pilgrims and traveling merchants.
-
-The doctor converted the inn into the village medical station without changing more of the temple than necessary.
-
-The old common room is now a reception area. Two guest rooms became treatment rooms. The rear dining room became a cramped operating room, and the kitchen still serves both the clinic and anyone staying at the temple. The medical equipment looks temporary even after years of use: portable monitors on old cabinets, oxygen bottles secured to wooden pillars, paper appointment files beneath a reception display, and steel instruments stored where bedding once sat.
+The main hall faces a courtyard with a koi pond, stone lanterns, and a wooden bell tower. Along its eastern side, a former pilgrims’ inn has become the village clinic. Oxygen bottles are strapped to timber pillars. Appointment files fill shelves built for folded bedding. A pot of porridge steams behind the reception counter.
 
 The two white medical robots moving across the courtyard are the most advanced things on the property.
 
-They arrived through a national rural modernization grant that paid for the machines once and never covered the replacement limbs, surgical cartridges, software licenses, or specialist maintenance needed to keep them useful.
+The modernization grant paid for both machines. Their replacement parts come out of the clinic’s medicine budget.
 
 One carries a folded stretcher beneath its arms. The other follows with a diagnostic case built into its torso. Both wear narrow strips of dark temple cloth around their necks so children find them less frightening.
 
@@ -363,17 +297,11 @@ Genzo Morita climbs out.
 
 A young woman behind the reception window startles so hard that she drops her tablet.
 
-She cannot be much older than twenty. Her medical badge is clipped slightly crooked to a pale clinic jacket.
+Her badge hangs crooked from a pale clinic jacket.
 
 **NAMI SEKI — JUNIOR NURSE / RECEPTION**
 
-A nurse’s emergency pouch hangs from her belt as if someone told her she might need it but not what to do when she does.
-
-She looks at Jim.
-
-Then at the blood.
-
-Then toward the rear of the inn.
+She bends to pick up the tablet, sees the blood dripping from the truck, and leaves it on the floor.
 
 “Doctor Kuroda!”
 
@@ -403,79 +331,65 @@ The stretcher rolls into the old inn.
 
 <!-- ambient: warm, clinical, monitor -->
 
-The reception room smells of disinfectant, cedar, and rice porridge from the kitchen. A wooden counter divides the entrance from a row of mismatched chairs. A child with a wrapped wrist sits beside his mother while an elderly man sleeps beneath a borrowed blanket. Prayer plaques share the wall with vaccination notices. An old appointment display hangs beneath a beam blackened by incense smoke from the adjoining temple hall.
-
-The first treatment room contains a narrow bed, a manual instrument cart, an aging wall scanner, and a cabinet repaired with a different kind of wood than the rest. The second room is smaller and mostly used for routine checks.
-
-The operating room at the back is barely large enough for the table, two people, and one medical robot.
+A child with a wrapped wrist pulls his feet onto his chair as the stretcher passes. The diagnostic robot catches a shoulder on the narrow treatment-room door. Nami turns it sideways and guides it through.
 
 Doctor Reina Kuroda enters while pushing her sleeves above the elbows.
 
-She is in her early thirties, with tied-back hair, tired eyes, and the controlled expression of someone who has learned that panic only wastes time. A ring of old temple keys hangs beside her medical ID.
+Her hair is tied back with a strip cut from a surgical cap. A ring of old temple keys knocks against her medical ID as she walks.
 
 She looks at the blood dripping from the stretcher.
 
 “Genzo, what happened?”
 
-“Found him beside my western field,” the farmer says. “Someone shot my machine and left him next to it.”
+“Western field. Three holes that I could see. I used the clotting pad and the stim from the truck.”
 
-Jim opens one eye.
+“Which stim?”
 
-“Your machine got between me and the people shooting from the road.”
-
-The farmer points at him.
-
-“There. Involved.”
+Genzo takes the empty injector out of his pocket. Kuroda reads it and passes it to Nami without comment.
 
 The doctor cuts through the ruined bandages.
 
-“Someone really didn’t like you.”
+“Any implants I need to know about?”
 
-Jim looks up at her.
+“Old mesh. Right side.”
 
-“I’m growing on them.”
+“How old?”
+
+“I wasn’t awake for it.”
 
 The diagnostic robot opens its chest case. A compact imaging arm unfolds and passes over Jim’s torso. The wall monitor takes several seconds to assemble the scan, filling the screen one blurred layer at a time.
 
-The doctor watches the loading icon with visible hatred.
+The loading icon keeps turning. Kuroda reaches for the manual probe.
 
-“In Sodeine, the trauma beds map every vessel before the patient finishes complaining.”
+“This takes a minute,” Nami tells Jim.
 
-“Sounds impersonal.”
+“I’ve got several.”
 
-“Here I have a scanner older than my receptionist and two robots the city hospital retired before she started school.”
-
-From the doorway, Nami looks offended.
-
-“I’m twenty-one.”
-
-The doctor does not turn.
-
-“Thank you. That makes the scanner worse.”
+Neither woman answers. Nami loosens his fingers from the stretcher rail so the robot can get at his arm.
 
 <!-- ambient: clinical, suspense, monitor -->
 
 The scan finally resolves.
 
-Three wound tracks appear across Jim’s body. One bullet passed through above the hip. Another tore across the thigh. The final bullet lodged beside the liver and a strip of old synthetic surgical mesh. It missed the organ itself, but a small vessel beside it is still leaking.
+The bullet has lodged beside his liver and the old surgical mesh. A vessel near it is leaking.
 
-The doctor points to it.
+Kuroda points at the scan. “I can close this for transport. You’ll need a hospital afterward.”
 
-“This one is the problem.”
+“How far?”
 
-“Can you remove it?”
+“An hour. Are you allergic to anything?”
 
-“I can keep you from dying on my table while I try.”
+Jim shakes his head.
 
-“You were shot several times and slept in a bush. Do not mistake an attempt for a promise.”
+“Nami, call for transport. Tell them we need blood.”
 
-The robot cleans the wound while the doctor prepares the small operating room. Most of the work is manual. The machine holds tools, maintains suction, and tracks his pressure, but the doctor still has to open the wound, separate damaged tissue, and find the bullet through the blood.
+They wheel him into the operating room. Kuroda puts a local block around the wound and waits for Jim to stop flinching before she opens it. The robot holds suction. Its damaged speaker repeats the pressure reading until she silences it.
 
 Jim watches the ceiling beams.
 
 “The gun stays with Genzo,” the doctor says.
 
-Jim does not argue. The monitor has begun to pulse yellow in time with the pain beneath his ribs.
+Jim does not argue. He watches the numbers on the monitor until they blur.
 
 The farmer waits near the door with the pistol inside his coat and the shotgun resting against his shoulder. Jim turns toward him, but pain closes around his ribs before he can speak.
 
@@ -483,43 +397,19 @@ The doctor pushes him flat.
 
 “Stop moving.”
 
-The diagnostic robot warns that Jim’s pressure is dropping.
+The monitor turns yellow. Kuroda asks for more fluid, then a smaller clamp. Nami puts the wrong one into her hand. She exchanges it without looking up.
 
-The doctor injects a fast regional neural block around the damaged nerves. The robot connects a bag of synthetic plasma expander mixed with an oxygen-carrying emulsion, then squeezes the fluid into him faster than the old pump likes. She places a temporary clamp on the leaking vessel.
+The bullet drops into a tray.
 
-It is not elegant. It is the kind of emergency work meant to keep a patient stable during transport, not return him to his feet.
-
-The imaging arm flickers.
-
-The doctor strikes the side of its casing with two fingers.
-
-The scan returns.
-
-She reaches deeper with the clamp.
-
-The bullet comes free.
-
-It strikes the metal tray with a small, clean sound.
-
-Jim turns his head.
-
-“Can I keep that?”
+“Can I keep that?” Jim asks.
 
 “No.”
 
-“It is evidence, not a souvenir.”
+Kuroda fits clotting mesh around the leaking vessel and uses the clinic’s last foam cartridge to seal the wound for transport. The surface membrane holds. She watches it through three breaths before taking her hands away.
 
-The doctor threads clotting mesh around the damaged vessel, then fills the remaining gaps with temporary surgical foam. The foam expands through the wound in narrow channels, sealing smaller leaks while the mesh reinforces the damaged vessel. She closes the surface with a pressure membrane. The monitor still marks the repair in yellow.
+“Lie still. If this opens again, I don’t have another cartridge.”
 
-**TEMPORARY CLOSURE — SURGICAL REVISION REQUIRED.**
-
-“This is not healed,” she says. “It is closed. There is a difference.”
-
-“How long?”
-
-“If you stay still, it should hold long enough to reach a hospital.”
-
-Jim glances at the nearest window.
+Jim turns his head toward the window.
 
 <!-- ambient: clinical, suspense -->
 
@@ -591,11 +481,7 @@ Nami closes the door and hurries into the operating room.
 
 “There are six,” she says. Her voice shakes. “They asked about him. I told them no, but I looked at the room. I think they saw me look.”
 
-“You did fine,” the doctor says.
-
-“I did not.”
-
-“You came back and warned us. That is the useful part.”
+“Stay with me, Nami. What else did you see?”
 
 Nami takes one breath. Then another.
 
@@ -635,21 +521,23 @@ Blood blooms beneath the pressure membrane.
 
 The doctor forces him down again.
 
-“You cannot fight six people.”
+“There’s a rear door,” he says. “Give me my gun.”
 
-“I’m not planning to.”
+“You won’t reach the gate.”
 
-“What are you planning?”
+“They might follow me.”
 
-“Making sure I never have to fight more than one.”
+Kuroda keeps her hand on his chest. “And if they don’t?”
+
+He looks past her toward Nami. The men have seen her face.
 
 The farmer removes Jim’s pistol from his coat.
 
 The doctor looks at him.
 
-“Do not encourage him.”
+“Genzo.”
 
-“The people outside already brought encouragement.”
+“You heard the dispatcher.” He lays the pistol on the table, out of Jim’s reach until she lets him sit up.
 
 Jim checks the magazine.
 
@@ -671,17 +559,11 @@ Jim shakes his head.
 
 Jim holds out his hand.
 
-The farmer gives him the shotgun anyway.
+The farmer gives him the shotgun.
 
-“You damage my truck, my machine, or anything else I own, you pay.”
+“Safety sticks,” Genzo says. “Push it all the way.”
 
-Jim looks around the old inn.
-
-“What about this place?”
-
-The doctor tears open a sealed injector.
-
-“This place belongs to me,” she says. “Try to leave some of it standing.”
+The doctor takes an injector out of the transport kit. She checks Jim’s monitor before opening it.
 
 She presses the injector against his thigh.
 
@@ -693,23 +575,19 @@ Jim catches her wrist.
 
 “How long?”
 
-“Twelve minutes before the useful effect drops. Maybe fifteen if your body likes me.”
+“About twelve minutes.”
 
 “And after?”
 
-“Your blood pressure falls, your hands shake, and everything you are ignoring arrives at once.”
-
-“This will keep you upright. It will not make you stronger, faster, or less shot.”
+“Your blood pressure falls. Your hands shake.” She looks at the monitor again. “You’ll still need help to stand.”
 
 She injects him.
 
 Heat spreads through his leg and stomach. His muscles stop feeling distant. The pain remains, but it moves behind a hard edge where he can work around it.
 
-The doctor holds up one finger.
+“You do what I tell you,” she says. “If I say get down, you get down.”
 
-“If you tear the foam, I cannot replace your liver with village kindness.”
-
-Jim nods. The motion costs more than it should.
+Jim nods.
 
 <!-- ambient: dark, suspense, monitor -->
 
@@ -725,11 +603,9 @@ The doctor turns to her.
 
 “Take the patients to the shelter.”
 
-The old safe room lies beneath the inn’s rear storage floor. It was rebuilt from a wartime cellar and later reinforced for storms, fires, and infrastructure failures. The interior release motor failed three months ago. A replacement has been sitting behind two city-priority orders and one hospital procurement appeal ever since.
+The shelter is beneath the inn’s storage room. Its inner release motor has been broken for three months; the replacement is still waiting behind city-priority orders. Kuroda takes the outer-lock key from her ring.
 
-For now, the rule is simple: once the shelter is sealed from outside, nobody inside can reopen it.
-
-The doctor must stay outside to seal and later release it manually. The inner brace only reinforces the door; it cannot release the outer lock.
+“I’ll have to stay up here to let you out.”
 
 Nami swallows.
 
@@ -745,7 +621,7 @@ Nami swallows.
 
 The doctor looks into her eyes.
 
-“Then you do not open the door. No matter what voice you hear.”
+“Keep the inner brace locked. Call me.”
 
 Nami nods.
 
@@ -771,15 +647,13 @@ Then toward the men outside.
 
 He gives Jim two spare shotgun shells.
 
-“You pay for those too.”
-
-“Add them to the machine.”
+“Two more,” he says. “That’s all I’ve got.”
 
 The farmer goes with Nami.
 
 The doctor locks the rear shelter wheel after them. The old mechanism turns with a deep metal grind. The status light changes from yellow to green.
 
-The wheel remains exposed in the storage room. There is no way to guard it, monitor Jim’s temporary repair, and guide him through the temple at the same time. She takes the medical bag because the other two choices are worse.
+She tries the wheel once to make sure it holds, then takes her medical bag back to Jim.
 
 <!-- ambient: dark, suspense -->
 
@@ -787,9 +661,7 @@ A second knock reaches the reception room.
 
 Harder.
 
-The doctor lifts a medical bag.
-
-Jim checks the doorways.
+Jim checks the doorways while Kuroda shifts the medical bag onto her shoulder.
 
 “The inn has the reception room, two treatment rooms, operating room, and kitchen. Temple hall through there?”
 
@@ -797,19 +669,15 @@ She points to a short enclosed passage beside the reception counter.
 
 “Main hall, altar storage, priest’s room, and the bell courtyard. Old service passage runs behind the altar. Heating crawlspace beneath the hall connects to the inn kitchen.”
 
-“Any part of this place built after people learned what straight lines are?”
+Jim looks at the linen cupboard between the treatment rooms.
 
-“No.”
+“That goes through?”
 
-“Good.”
+She opens it for him.
 
 <!-- ambient: dark, suspense, monitor -->
 
-The small drone appears in the upper corner of the reception room.
-
-Its dark lens rotates.
-
-Jim steps behind the treatment-room door before it sees his face.
+The small drone appears in the upper corner of the reception room. Its dark lens rotates. Jim steps behind the treatment-room door before it sees his face.
 
 The doctor lowers the room lights.
 
@@ -839,13 +707,9 @@ A calm voice answers through the earpiece.
 
 “Stay together. Drone first.”
 
-Not the boss, then.
+Jim recognizes the voice. He lowers himself against the wall, making Kuroda crouch to hear him.
 
-A field lieutenant, probably—someone trusted to clean up the boss’s problems before they reach the person at the top.
-
-Jim looks at the doctor.
-
-She understands enough.
+“The one at the gate. He won’t leave without me.”
 
 The diagnostic robot waits beside the operating table.
 
@@ -855,29 +719,15 @@ The doctor taps its side and points toward an empty stretcher.
 
 The robot unfolds its arms and begins pushing the stretcher through the second treatment room.
 
-The drone sees movement through the half-open door.
-
-It follows.
-
-The two gunmen follow the drone.
+The drone sees movement through the half-open door. It follows. The two gunmen follow the drone.
 
 Jim and the doctor move the other way through the narrow linen cupboard connecting the operating room to the first treatment room. Every step has to be placed carefully. The old boards complain beneath Jim’s weight.
 
-The drone enters the operating room.
-
-The empty stretcher stops beneath the imaging lamp.
-
-The lens turns.
+The drone enters the operating room. The empty stretcher stops beneath the imaging lamp. The lens turns.
 
 Jim reaches through the service hatch and drops a thick lead-lined imaging apron over it.
 
-The rotors scream beneath the fabric.
-
-He slams a metal instrument basin over the bundle and puts his knee on top.
-
-The drone strikes the basin three times.
-
-Then the sound stops.
+The rotors scream beneath the fabric. He slams a metal instrument basin over the bundle and puts his knee on top. The drone strikes the basin three times. Then the sound stops.
 
 Outside, the operator swears over the radio.
 
@@ -889,11 +739,7 @@ The lieutenant answers immediately.
 
 Too late.
 
-The man in front has already entered the operating room.
-
-He sees the covered basin.
-
-He raises his pistol.
+The man in front has already entered the operating room. He sees the covered basin and raises his pistol.
 
 The diagnostic robot turns between them.
 
@@ -901,9 +747,7 @@ The diagnostic robot turns between them.
 
 <!-- ambient: danger, monitor, emergency -->
 
-The gunman fires.
-
-The round tears through the robot’s shoulder. One white arm drops, but the other follows its emergency programming and clamps around his weapon wrist.
+The gunman fires. The round tears through the robot’s shoulder. One white arm drops, but the other follows its emergency programming and clamps around his weapon wrist.
 
 The gunman tries to pull free.
 
@@ -913,9 +757,7 @@ The man drops onto one leg.
 
 Jim hooks the pole behind his elbow and leans his weight into it. He is not strong enough to overpower the augmented wrist. He only has to keep the gun pointed away.
 
-Rural medicine has taught Doctor Kuroda how to restrain frightened harvest workers and augmented patients twice her weight. It has not taught her to enjoy it.
-
-She comes from the other side and drives a sedative injector beneath the man’s jaw.
+Kuroda gets behind him, braces his head against her shoulder, and presses a sedative injector beneath his jaw.
 
 He turns toward her.
 
@@ -923,21 +765,21 @@ He turns toward her.
 
 The injector empties.
 
-His body loses coordination before it loses anger.
+His legs keep pushing after his hands have gone slack.
 
 Jim guides him to the floor rather than letting him crash.
 
 The doctor checks his pulse.
 
-“Alive.”
+“He’s breathing.”
 
-“How long?”
+“How long do we have?”
 
-“Forty minutes for someone normal.”
+“I don’t know. Tie his hands.”
 
 Synthetic muscle lines show beneath the man’s neck.
 
-Jim removes his radio and pistol. A small three-stroke mark is burned into the underside of the radio casing.
+Jim binds his wrists with a restraint strap, removes his radio and pistol, and takes a ceramic knife from his boot. He pockets the knife and sets the stolen pistol on the operating table. A small three-stroke mark is burned into the radio casing.
 
 The doctor recognizes it.
 
@@ -945,7 +787,7 @@ The doctor recognizes it.
 
 “Clicks,” Jim says. “Not the friendly kind.”
 
-“Thirty,” the doctor says.
+She rolls the man onto his side and checks his airway before following Jim.
 
 The second gunman hears the struggle.
 
@@ -955,11 +797,7 @@ He enters the first treatment room with his weapon raised.
 
 Jim and the doctor are already back inside the linen cupboard.
 
-The gunman finds nobody.
-
-He sees the blood on the floor.
-
-Then the empty doorway to reception.
+The gunman finds nobody. He follows the blood toward reception.
 
 He speaks into his radio. “Rook is down. I’m checking front.”
 
@@ -971,47 +809,33 @@ Then his fist lands beneath Jim’s ribs.
 
 The pressure membrane peels away. Blood spreads hot beneath Jim’s shirt, soaking the same bandage Doctor Kuroda had just closed. His leg folds against the medicine cabinet.
 
-The doctor rolls an examination stool into the gunman’s ankles. As he falls into the reception desk, Jim takes the ceramic knife from the first man’s boot and drives it through coat and sleeve into the wooden counter.
+The doctor rolls an examination stool into the gunman’s ankles. As he falls into the reception desk, Jim pulls the ceramic knife from his pocket and drives it through coat and sleeve into the wooden counter.
 
-Jim hits him with the metal appointment bell.
-
-The first strike opens the skin above his eyebrow.
-
-The second caves in the thin casing around one artificial eye.
+Jim hits him with the metal appointment bell. The first strike opens the skin above his eyebrow. The second caves in the thin casing around one artificial eye.
 
 The man still reaches for the gun.
 
-Jim takes his pistol and fires once into his chest.
+Jim draws his own pistol and fires once into his chest.
 
-The sound is smaller than the shotgun.
-
-It is still loud enough to end the quiet.
+For a moment, the appointment bell is all Jim can hear, ringing where he dropped it.
 
 The gunman collapses beneath the reception counter. Blood runs across the old floor and gathers around a stack of appointment forms.
 
-Jim remains standing only because one hand holds the desk.
+Jim remains standing only because one hand holds the desk. The doctor pulls his shirt away from the pressure membrane.
 
-The doctor pulls his coat open.
+She presses a fresh pad over the damaged closure. Jim watches her work, then looks at the man beneath the desk.
 
-The pressure membrane is dark red.
+“I couldn’t hold him.”
 
-“You tore it.”
+“Lift your arm.”
 
-“I noticed.”
-
-“Your twelve minutes have barely started.”
-
-Jim opens his mouth. Whatever answer normally lives there does not come. He looks at the dead man instead.
-
-She presses a fresh clotting pad over the damage and pulls the wrap tight enough to steal half his breath.
+He does. She tightens the wrap.
 
 The radio speaks from the floor.
 
 “Pair one. Report.”
 
-Jim picks it up.
-
-He presses the transmit key.
+Jim picks it up. He presses the transmit key.
 
 “Still checking.”
 
@@ -1019,43 +843,37 @@ The lieutenant stays silent for a beat.
 
 Then the drone operator says, “That isn’t Rook.”
 
-Jim turns the radio off.
+Jim releases the transmit key. The lieutenant has already started issuing orders.
 
-His little gamble bought less than a second.
-
-Outside, the lieutenant begins giving orders.
-
-Jim counts the voices and the bodies. Four remain active, including the lieutenant. Too many exits, not enough people to cover them in pairs. The next orders make the priority clear: contain Jim first, protect the crew second.
+Four voices remain on the radio, including the lieutenant’s.
 
 “North man, enter the main hall. Rear man, take the inn kitchen and shelter stair. Moth, stay on the gate and watch exits. Nobody fires toward the shelter unless confirmed.”
 
 The doctor hears the last sentence.
 
-“He knows there are civilians.”
+“They know about the shelter.”
 
-“He knows civilians become police reports.”
-
-Jim checks his ammunition.
+Jim holds the radio closer while he checks his ammunition.
 
 Three pistol rounds.
 
-The shotgun is empty. He feeds in one of the farmer’s spare shells and keeps the last in his pocket. A loose metal cap from the damaged medicine cabinet lies near his boot. He picks it up and slips it into the same pocket.
+The shotgun is empty. He feeds in one of the farmer’s spare shells and keeps the last in his pocket. Before leaving, he pulls the knife out of the counter.
 
 The doctor looks toward the shelter.
 
 “Why are they doing this?”
 
-“Because I took something.”
+“I held a harbor gate shut when they needed it open.”
 
-“What?”
+“Why?”
 
-“Eleven minutes from a harbor transfer. Long enough for someone else to leave.”
+“Someone was trying to get out.”
 
-“Someone?”
+Kuroda looks toward the shelter. “Did they?”
 
-Jim checks the chamber of the shotgun.
+“Yes.”
 
-“That is the useful part.”
+“Then help me keep this one shut.”
 
 Nami’s voice whispers through the shelter intercom.
 
@@ -1081,77 +899,37 @@ The doctor looks at the bullet hole in her medical robot.
 
 Jim and the doctor leave reception through the enclosed passage to the main hall.
 
-They do not run.
-
-Jim cannot.
-
-The stimulant keeps his muscles responsive, but each step pushes fresh warmth beneath the bandage. The doctor keeps one hand near his elbow without touching unless he starts to lean.
+Kuroda has to match her pace to his. Halfway through the passage he leans against the wall, then pushes away before she can ask him to stop.
 
 <!-- ambient: dark, suspense -->
 
-The temple hall is darker than the inn. Morning light enters through paper screens and breaks across rows of floor cushions. The bronze incense burner rests before the altar. A long prayer rope hangs beside the donation box. Cedar pillars divide the room into deep strips of shadow.
+Morning light passes through paper screens onto rows of floor cushions. The bronze incense burner stands before the altar, beside a donation box and a long prayer rope. Kuroda lifts a panel behind the altar and points Jim into the heating crawlspace.
 
-Footsteps enter through the western door.
+He lowers himself between the pipes. She replaces the panel, leaving a finger’s width open.
 
-The first searcher moves slowly. He checks behind every screen and opens the altar cabinets with the muzzle of his pistol. He moves like the man the lieutenant chose because he knows how to clear rooms.
+Boots cross the hall. The searcher stops beside the altar.
 
-Jim watches through the narrow service opening behind the altar.
+Jim looks at the hatch. His hand has left a red smear on its edge.
 
-The doctor points toward the floor panel.
-
-The heating crawlspace.
-
-Jim lowers himself through it. His injured leg barely fits. Warm pipes run beside his shoulder, and dust sticks to the blood on his hands. Above him, the searcher’s steps cross the boards one at a time.
-
-The man stops beside the altar.
-
-He has seen the fresh smear near the hatch.
-
-Jim kicks the old heating valve.
-
-Steam bursts from a cracked joint beneath the floor. The searcher turns toward the hiss, but he does not fire blindly.
-
-He kneels and aims into the hatch.
-
-Jim drives the panel upward into his forearm.
+The pistol barrel comes through the gap.
 
 <!-- ambient: dark, danger -->
 
-The shot tears through the altar roof. Doctor Kuroda loops the prayer rope over his gun arm and braces it around a cedar pillar while Jim climbs out and knocks the pistol loose with the donation-box lid.
+Jim drives the panel upward. The shot tears through the altar roof. Kuroda catches the gun arm in a loop of prayer rope and pulls it around a pillar. The searcher drags her toward him. Jim hauls himself out of the opening, catches the loose rope at the man’s feet, and pulls.
 
-The searcher kicks Jim across the cushions. The fresh wrap shifts; the repaired vessel gives another warning pulse beneath his ribs, and his injured leg refuses to catch him.
+The man falls throat-first against the incense burner. He lands on his knees, coughing, and reaches for the pistol.
 
-The man charges the doctor. Jim catches the loose prayer rope from the floor and pulls it across his ankle. His throat strikes the bronze rim of the incense burner with a sound deeper than the gunshot.
+Jim lifts the bronze lid. Kuroda has seen what he is about to do, but she is still tangled in the rope.
 
-He drops to his knees, coughing blood.
-
-Still alive.
-
-Still reaching.
-
-Jim takes the bronze lid in both hands and brings its edge down behind the man’s ear.
-
-The body folds against the altar steps.
-
-For a moment, nobody moves.
-
-Doctor Kuroda checks his neck.
+The lid strikes behind the man’s ear. His hand opens.
 
 <!-- ambient: dark, grief -->
 
-“No pulse.”
+Kuroda kneels beside him. She feels for a pulse, shifts her fingers, tries again.
 
-Jim lets the lid fall. His hands have begun to shake again.
+“Leave it,” Jim says.
 
-He sits against the altar and waits for the room to stop narrowing.
-
-“How long?” she asks.
-
-He looks at the tremor in his fingers.
-
-He cannot make them still. “Not enough.”
-
-<!-- ambient: dark, danger, suspense -->
+She checks the other side of his neck before letting go. When she stands, Jim holds out his arm for help. She takes a moment to untangle the rope first.
 
 A heavy impact sounds from the rear inn.
 
@@ -1159,25 +937,9 @@ Metal groans.
 
 The second searcher has reached the shelter door.
 
-The doctor stands.
+A second impact follows. Kuroda helps Jim through the service gap behind the altar. They have to turn sideways around the heating pipes.
 
-Jim does not.
-
-She offers her arm.
-
-He takes it.
-
-They move through the service passage behind the altar. The passage is not a modern corridor. It is an old gap between the temple hall and the inn wall, widened around heating pipes and electrical lines. They have to turn sideways around one support beam.
-
-Another impact reaches them.
-
-The safe-room door is beneath the rear storage room. Its outer lock housing is old, but the steel door and inner brace are strong.
-
-The searcher has found the weak part.
-
-He fires into the manual wheel.
-
-Metal fragments strike the walls.
+A gunshot comes from the storage room.
 
 Nami screams over the intercom, then catches herself.
 
@@ -1185,141 +947,49 @@ The doctor presses the reply key while moving.
 
 “Stay away from the door. Keep everyone behind the inner wall.”
 
-The status light changes from green to yellow.
+The shelter light turns yellow. Through the open kitchen doorway, Kuroda can see a man aiming at the outer-lock wheel.
 
-Jim looks at the floor.
+Jim points at the floor. She nods and helps him down into the crawlspace again.
 
-“The crawlspace continues?”
+“Hatch beside the stairs,” she whispers.
 
-“Under the kitchen. Hatch beside the shelter stairs.”
+Genzo’s voice comes over the intercom. “Left edge first. I haven’t fixed it yet.”
 
-The intercom clicks.
-
-Genzo’s voice comes through from behind the shelter door.
-
-“That hatch swells when the weather changes. Lift the left edge before you push.”
-
-Jim looks toward the speaker.
-
-“You memorized the floors?”
-
-“I’ve repaired them.”
-
-Jim lowers himself again.
-
-The doctor catches the back of his coat.
-
-“You have maybe six minutes before the stimulant drops.”
-
-Jim searches for something easy to say. Nothing survives the child crying behind the steel door.
-
-“I know,” he says anyway.
-
-Jim disappears beneath the floor.
-
-The crawlspace narrows near the kitchen. He drags himself forward on his elbows. Blood marks the pipes behind him.
-
-Above, the searcher fires into the wheel again.
-
-The outer handle jumps.
+Jim drags himself beneath the kitchen. At the far end, light comes through a split in the hatch. He can see the searcher’s boot moving above it. Beyond the steel door, a child keeps asking why they cannot turn the light back on.
 
 Jim reaches the hatch.
 
-He lifts the left edge first, then drives the panel upward.
+He lifts the left edge and drives the panel up into the searcher’s chin. The pistol fires into the ceiling. Jim catches the man’s weapon hand against the doorframe with the ceramic knife.
 
-It strikes the searcher beneath the chin.
+The man punches him with the other hand. Jim falls before he can get his feet out of the hatch. The searcher tears free of the knife and comes down on top of him.
 
-The man falls against the shelter door.
+A reinforced forearm closes across Jim’s throat. He cannot shift it. His heel knocks against the hatch, once, then again.
 
-Jim climbs out and drives the ceramic knife through the man’s weapon hand into the wooden frame.
+Kuroda brings the storage-room security bar down across the searcher’s wrist. The grip breaks. Jim rolls, trapping the damaged arm beneath him. When the man reaches for his pistol, Kuroda kicks it down the stairs.
 
-The pistol fires into the ceiling.
+Jim takes the bar from her. One blow behind the ear stops the man moving.
 
-The searcher punches Jim with his free hand.
+Kuroda crouches beside both of them. Jim is breathing. The other man is not.
 
-The impact drives the damaged tissue against the temporary repair.
+The intercom clicks.
 
-Part of the foam seal gives way beneath the bandage, and bleeding resumes.
+“Doctor?” Nami says.
 
-Jim hits the floor.
+“We’re here.”
 
-The man rips his hand from the knife. Skin and blood remain around the blade.
+“Is anyone hurt?”
 
-He reaches for the damaged wheel.
+Kuroda looks at Jim. He is trying to get his legs under him and failing.
 
-The doctor enters with the long wooden security bar normally used to brace the storage doors during storms.
-
-She swings low.
-
-The bar catches behind his knees.
-
-He falls onto Jim.
-
-The searcher’s forearm closes across Jim’s throat. Thin black actuator lines rise beneath his skin.
-
-Jim cannot pull it away.
-
-The edge of his vision darkens.
-
-The doctor pushes the security bar through the spokes of the locking wheel and turns with both hands.
-
-The wheel spins.
-
-One metal handle strikes the searcher’s augmented wrist.
-
-The grip breaks.
-
-Jim traps the arm beneath his chest and drives the man’s face into the stone floor.
-
-The searcher reaches for the dropped pistol.
-
-Jim reaches for the security bar. His blood-slick fingers close too late, and it rolls beyond his hand.
-
-He hooks it back with his wrist, grips it in both hands, and slams the end across the searcher’s wrist.
-
-Bone breaks.
-
-The hand folds at the wrong angle.
-
-The man still tries to rise.
-
-Jim hits him once behind the ear.
-
-The end of the security bar lands with a short, heavy crack. The man collapses and does not breathe again.
-
-The doctor checks his neck and finds no pulse.
-
-Jim stays on the floor beside him.
-
-The stimulant monitor on the doctor’s tablet shifts from yellow to red.
-
-**EFFECTIVE WINDOW ENDING.**
-
-Behind the shelter door, a child begins crying again.
-
-Nami speaks through the intercom.
-
-“Is he gone?”
-
-“Yes,” the doctor says.
-
-A pause.
-
-“Is Jim okay?”
-
-The doctor looks at him.
-
-“No.”
-
-Jim keeps his eyes shut. The answer is accurate.
+“Stay inside.”
 
 Before they move, he pulls the ceramic knife from the damaged frame and wipes the handle on the dead man’s coat.
 
-The doctor pulls him against the wall and replaces the soaked outer wrap. She has no second foam cartridge. The clinic’s emergency stock allowed one.
+Kuroda leans Jim against the storage shelves. Blood comes through the torn closure when he breathes in. She presses a pad against it and puts his hand over hers.
 
-“In a city hospital, they would already be printing a vascular patch.”
+“Hold that.”
 
-Jim watches her hands work. The clotting pad darkens from the center before she finishes tying it.
+He cannot keep enough pressure on it. She moves his other hand over the first.
 
 The radio on the dead searcher comes alive.
 
@@ -1343,55 +1013,33 @@ They hear the rear kitchen door open.
 
 <!-- ambient: danger, monitor, emergency -->
 
-The drone operator enters with a compact rifle and the direct-feed visor lowered over his eyes. With the drone gone, the visor falls back to close-range thermal and motion sensors built into his own equipment. The old walls break the picture into shifting fragments.
+The operator enters through the kitchen with a compact rifle. A direct-feed visor covers his eyes. Kuroda sees him through the serving hatch and pushes Jim down behind the counter.
 
-Jim cannot stand without the storage shelves.
+She signals the damaged medical robot. “Patient transfer.”
 
-Doctor Kuroda looks toward the damaged medical robot waiting in the passage.
-
-“Patient transfer.”
-
-The robot pushes an empty stretcher through the kitchen doorway.
-
-The operator fires. Rounds tear through the mattress and the robot’s torso. The machine rolls another meter before one wheel locks.
+It rolls an empty stretcher into the doorway. Gunfire tears through the mattress and its white torso. A wheel locks, leaving it across the entrance.
 
 “Mobility failure,” it announces.
 
-Jim and the doctor slip through the serving hatch into the old dining room. Jim’s right hand shakes too badly to close around the pistol, so he opens the towel sterilizer instead.
+The operator climbs over it. Jim tries to lift his pistol, but his hand will not close around the grip.
 
-Steam fills the doorway. The operator fires through it, bursting bowls and the kitchen window. Jim skims a serving tray across the floor; the visor follows the noise, wasting the rest of the magazine.
+The towel sterilizer is beside his knee. He wrenches it open and shoves the hot rack across the counter. Steam clouds the operator’s visor. Kuroda catches the rifle barrel in a folded towel and forces it toward the ceiling.
 
-Jim moves during the reload—not fast, only early—and folds the rifle against the doorframe with the tray. The answering elbow sends him into the counter. His injured leg gives, and this time it does not recover beneath him.
+Jim reaches for the iron rice pot. He has to use both hands. The first blow glances off the visor. The second breaks it.
 
-Doctor Kuroda shoves the heavy iron rice pot across the floor.
+The operator lets go of the rifle and draws his sidearm. Kuroda pins his wrist against the counter. A stack of bowls falls beneath his elbow, and his next twist drags her palm across the broken ceramic. She screams but keeps hold.
 
-Jim catches one handle and swings. The base cracks the visor. Its false horizon rolls sideways.
-
-The operator still reaches his sidearm.
-
-Jim tries to catch the wrist and misses. His fingers do not close in time.
-
-Doctor Kuroda traps the weapon arm against the counter. The augmented elbow twists, dragging her palm across a broken ceramic edge. She cries out but keeps the muzzle away from Jim.
-
-He pulls the ceramic knife from his coat and drives it beneath the lower edge of the armor.
+Jim drops the pot. The knife is still in his coat. He finds it with his left hand and drives it beneath the man’s armor.
 
 <!-- ambient: dark, grief, monitor -->
 
-The operator’s strength leaves in pieces. First the gun. Then the knees. Then the breath.
+The operator slides beside the rice cooker. Kuroda takes the sidearm from his hand before checking his neck.
 
-He slides beside the rice cooker.
+Jim sits on the floor. He cannot remember deciding to.
 
-Doctor Kuroda checks his neck.
+Blood drips from Kuroda’s palm. She tries to open a strip of skin film with her teeth. Jim takes the packet and holds one corner while she tears it. They sit beside each other until she has covered the cut.
 
-“Dead.”
-
-Blood runs across her palm. She closes the cut with a strip of skin film and wraps it one-handed.
-
-The rice cooker continues humming.
-
-Neither of them makes a joke.
-
-She catches Jim before he falls.
+The rice cooker clicks to its warming cycle.
 
 Only the lieutenant remains outside.
 
@@ -1405,209 +1053,111 @@ His voice carries from the courtyard.
 
 The lieutenant steps through the gate in a dark coat worn open over segmented body armor. Reinforced actuators run from his right wrist to the shoulder. Both eyes are artificial, their pale irises adjusting as they map the broken screens, bodies, and blood across the courtyard.
 
-“The boss stays in Suarmi,” the lieutenant says. “He sends me when somebody turns a correction into public work.”
+“The boss wants you back in Suarmi,” the lieutenant says. “I told him I’d bring you.”
 
 Jim leans against the kitchen doorframe.
 
-He says nothing. One hand is clamped over the bandage; the other will not stop shaking.
+One hand is clamped over the bandage; the other will not stop shaking.
 
-“You stole from him.”
+“You held us there eleven minutes,” the lieutenant says. “You know what that cost?”
 
-“I left.”
+Jim has to swallow before answering.
 
-“You took something when you left.”
-
-“Eleven minutes.”
-
-The lieutenant waits.
-
-Jim’s voice loses some of its humor.
-
-“A harbor gate stayed closed. Someone got away.”
+“Yes.”
 
 The lieutenant draws his pistol.
 
-“You keep making jokes because you are frightened.”
+Jim checks his magazine. Three rounds, if he can hold the pistol steady enough to use them.
 
-Jim checks his own magazine.
+“Send the doctor out,” the lieutenant says.
 
-Three rounds.
+Kuroda shifts beside him.
 
-“No. I make jokes because silence gives people confidence.”
+“Stay down,” Jim whispers.
+
+“I know.”
 
 The lieutenant begins clearing the courtyard from pillar to pillar. He uses the stone lanterns and pond wall as cover and refuses every narrow doorway Jim could turn into a trap.
 
 Doctor Kuroda pulls Jim behind the kitchen wall.
 
-“You cannot win a gunfight.”
+“Stay here,” she says. “Let him come through the door.”
 
-“I don’t need to.”
+Jim watches the lieutenant work his way behind another pillar.
 
-“He has armor.”
-
-“So I use the bullets to make everything after them less fair.”
+“He won’t.”
 
 She opens her medical bag.
 
 There is no second stimulant. Only pressure pads, pain suppressors, and one emergency vasoconstrictor.
 
-“This may preserve pressure in your brain and heart by starving everything else,” she says. “It is not treatment.”
+She hesitates over the injector. Jim puts out his arm.
+
+“After this, I have pads,” she says. “That’s all.”
 
 She injects it and tightens the bandage.
 
 His hands keep shaking.
 
-The temple bell hangs above the eastern side of the courtyard. Its heavy wooden striker is held back by a manual catch beneath the tower stairs. The western walkway narrows beside the pond. One stepping stone near the center shifts under weight because the foundation washed out during the last rainy season.
+Kuroda looks past the courtyard to the bell tower. Its heavy wooden striker is drawn back on a catch beneath the stairs. When she reaches for Jim’s sleeve, he almost pulls away.
 
-Doctor Kuroda points.
+“The bell,” she whispers. “If you can get him up there.”
 
-“Cedar pillars stop ordinary rounds. Paper walls do not. Second pond stone moves. Bell catch is below the first stair.”
+Jim follows her gaze. There are three pillars between the kitchen and the pond. Beyond the pond, the stairs.
 
-Jim takes the shotgun.
+“The second stone is loose,” she says. “Go around.”
 
-One shell remains loaded.
+He takes the shotgun and leans against the doorframe until the courtyard stops tilting.
 
-The lieutenant passes the main hall.
+The lieutenant sees his shoulder. A shot splinters the frame beside it.
 
-Jim throws the dead operator’s empty magazine through a paper screen on the opposite side.
+Jim fires from behind the first pillar. The first bullet strikes the lieutenant’s shoulder armor. The second fractures the chest plate. The third goes into the ground; Jim cannot stop his hand from jerking low.
 
-The lieutenant turns and fires three controlled shots through the empty room.
+The pistol locks empty. He drops it and moves toward the pond while the lieutenant is still behind cover.
 
-Jim leaves the kitchen behind a cedar pillar. He moves whenever the lieutenant’s line of sight is blocked, one slow step at a time.
+Stone breaks beside his foot. He steps backward onto the loose slab. It tips, and he falls into the water with the shotgun beneath him.
 
-The edge of his coat appears.
-
-The lieutenant fires.
-
-The cedar catches the round.
-
-Jim leans out and answers with his pistol.
-
-The first bullet cracks the armor over the right shoulder. The second fractures the chest plate. The third misses because the tremor pulls his hand low.
-
-The pistol locks empty.
-
-The lieutenant notices the shaking.
-
-“The road should have killed you.”
-
-Jim drops the weapon.
-
-“It had help.”
-
-He pulls the loose metal cap from his pocket and throws it toward the bell tower.
-
-The artificial eyes flick toward the sound.
-
-Jim crosses to the pond.
-
-The lieutenant corrects almost immediately and fires again. Stone breaks beside Jim’s foot. The unstable slab tilts, and his injured leg fails beneath him.
-
-He falls into the shallow water.
-
-The shotgun disappears under the lilies.
-
-The lieutenant approaches the edge.
+For a moment he stays there, face against the lilies. Getting up seems beyond him. Then the lieutenant’s shadow crosses the water.
 
 “Still breathing?”
 
-Jim reaches beneath the water.
+Jim rolls and fires. The shell hits the fractured chest plate, driving the lieutenant back from the edge. Jim tries to reload, but the spare shell slips from his fingers into the pond.
 
-He rises and fires.
+The lieutenant fires once more. The shot tears through Jim’s sleeve, and the slide locks back. He drops the pistol and catches the shotgun before Jim can swing it. The stock breaks against the pond wall. Jim strikes him with the broken end, splitting one artificial eye.
 
-The last shell strikes the fractured chest plate. Ceramic breaks inward. The lieutenant staggers, and his pistol clicks empty.
+Jim keeps the broken stock and drives its jagged end into the inside of the lieutenant’s knee. The reinforced arm catches Jim by the shirt and throws him through a paper screen.
 
-He drops the weapon and closes the distance.
+He lands beside the altar. The stairs are still several meters away.
 
-Jim swings the shotgun. The stock catches the side of his head and cracks one artificial eye.
+Across the hall, Kuroda crawls behind the altar toward the bell catch. The lieutenant turns at the movement.
 
-The lieutenant tears the weapon away and snaps it against the pond wall.
+Jim strikes the broken stock against the stair rail. Once is all he can manage.
 
-Jim keeps the broken stock.
+The lieutenant looks back at him.
 
-He drives it into the inside of the lieutenant’s knee. The joint buckles, but the reinforced arm catches Jim by the coat and throws him through a paper screen.
+Jim uses the railing to pull himself up. The lieutenant limps after him and catches his ankle on the third stair. Jim kicks backward, loses a shoe, and reaches the platform on his hands and knees.
 
-Jim strikes the main-hall floor and rolls into the altar steps.
+The next blow drives him against the bronze bell. A low note rolls across the courtyard. He drops the stock and reaches for the rope hanging beside his shoulder. His fingers will not close.
 
-Doctor Kuroda runs behind the altar toward the bell stairs.
+The lieutenant grabs his shirt.
 
-The lieutenant turns toward her.
+Jim loops the rope around his own forearm, throws a turn over the reinforced wrist, and falls sideways around the tower post. The rope catches. A seam opens in the actuator housing, leaking blood and clear lubricant onto the wood.
 
-Jim tries to rise. His right hand slips off the altar rail.
+The lieutenant punches with his free hand. Jim ducks. The fist strikes bronze, leaving two fingers bent back against the knuckles.
 
-“You came all this way,” he says. “Finish your own work.”
+Below, Kuroda pulls the catch. Her cut palm slips. She wraps her sleeve around the lever and pulls again.
 
-The lieutenant turns back.
+Jim sees the striker move and lets himself fall.
 
-Pride is not stupidity.
+The heavy beam drives the lieutenant into the bell. For a moment there is nothing but the note, loud enough to hurt. The lieutenant folds over Jim, grasping for the rope that still binds his reinforced arm.
 
-It is close enough.
+Jim gets a loop over his head and drops backward onto the stairs. The damaged knee gives way. The loop tightens, but Jim’s hand opens before he can take another turn.
 
-Jim climbs the bell stairs. His hand slips from the railing twice. By the time he reaches the platform, he cannot fully close his fingers.
+Kuroda catches the free length. She winds it around the stair support and puts her weight against it. Jim braces beside her. The lieutenant tries to stand, dragging them both a few centimeters up the stairs.
 
-The lieutenant follows.
+Kuroda looks at Jim. He is watching the lieutenant’s hand.
 
-Jim attacks before another clean hit can land. The broken stock strikes the weapon wrist, then the throat.
-
-On the third swing, it falls from his hand.
-
-The lieutenant drives him into the bronze bell.
-
-A low note rolls through the temple.
-
-The next punch lands in Jim’s side. His breath disappears and his knee hits the platform.
-
-“You could have stayed useful,” the lieutenant says.
-
-The bell rope hangs beside Jim’s shoulder.
-
-He cannot grip it.
-
-He loops it around his forearm instead and throws the other end across the lieutenant’s reinforced wrist.
-
-“People keep helping.”
-
-Jim steps onto the low railing and swings around the tower post. His weight pulls the reinforced arm sideways.
-
-The actuator housing strains beneath the skin. A seam opens along the forearm. Blood and clear lubricant run together across the hand.
-
-The lieutenant punches with his free fist.
-
-Jim ducks.
-
-The fist strikes the bell.
-
-Bone breaks before bronze does.
-
-Below them, Doctor Kuroda reaches the manual catch.
-
-Her cut palm slips from the lever.
-
-She wraps part of her sleeve around the handle and pulls again.
-
-The catch releases.
-
-The heavy wooden striker swings across the platform.
-
-Jim drops flat.
-
-The beam hits the fractured chest armor and drives the lieutenant into the bell. One deep note rolls over the village.
-
-As he falls away from the bronze, Jim throws the loose bell rope around his throat and drops backward onto the tower steps.
-
-The lieutenant claws at the loop. His broken hand cannot grip. The reinforced arm pulls against the rope around the post.
-
-Jim’s fingers fail completely.
-
-Doctor Kuroda catches the free length and winds it once around the stair support.
-
-Together, they use the timber as a pulley.
-
-The lieutenant tries to stand.
-
-The damaged knee folds.
-
-The rope tightens.
+They hold.
 
 <!-- ambient: dark, grief -->
 
@@ -1619,47 +1169,37 @@ Doctor Kuroda checks the lieutenant’s neck.
 
 Nothing.
 
-Above them, the bell continues moving. Each slow strike rolls across the courtyard and out over the rice fields.
+The bell rings out across the rice fields. Kuroda keeps hold of the rope long after the sound has faded.
 
 Jim sits beside the body.
 
 The stimulant is gone. The vasoconstrictor is fading. His hands shake hard enough that his teeth begin to click.
 
-The doctor climbs the stairs.
+Kuroda moves up beside him and pulls back the bandage. Jim tries to look down, but she puts his head against her shoulder.
 
-She looks at the blood covering him.
+“Stay there.”
 
-“You tore everything.”
+He makes a small movement with his hand. She cannot tell what he wants.
 
-Jim looks down at the bandage.
+“Jim?”
 
-“You can close it again.”
+“You said get down.”
 
-“I have one damaged robot, old foam, and a village medical budget that gets reviewed every quarter and funded never.”
+“Yes. You did.”
 
-“That sounded personal.”
+She keeps pressure on the wound and calls Nami over the intercom. The words take three attempts before she can get them out in the right order.
 
-“It became personal before you dented my incense lid.”
-
-Jim tries to stand.
-
-His injured leg folds.
-
-The doctor catches him, but his weight pulls both of them to their knees.
-
-The damaged medical robot reaches the courtyard. One arm hangs from its shoulder. Bullet holes mark its white torso and the temple cloth around its neck.
+The damaged medical robot drags its locked wheel into the courtyard. One arm hangs from its shoulder. Bullet holes mark its white torso and the temple cloth around its neck.
 
 It scans Jim.
 
 “Severe blood loss detected.”
 
-Jim rests his head against the doctor’s shoulder. He is too tired to answer it.
+Jim does not lift his head.
 
 <!-- ambient: warm, grief -->
 
-The first HPD siren carries into the village.
-
-It is still far away.
+The first HPD siren carries into the village. It is still far away.
 
 The shelter intercom crackles.
 
@@ -1669,7 +1209,7 @@ Nami speaks first.
 
 The doctor looks across the temple.
 
-Paper walls hang in torn strips. Steam escapes from beneath the main hall. Medicine and blood run beneath the inn’s reception desk. Porridge covers the kitchen wall. Blood thins into red clouds between the lilies in the koi pond. The bell continues ringing above everything.
+Paper walls hang in torn strips. Medicine and blood run beneath the reception desk. Porridge covers the kitchen floor. In the pond, one lily has caught against the broken shotgun barrel.
 
 “The shooting is,” she says.
 
@@ -1703,13 +1243,9 @@ They find one attacker alive but deeply sedated in the small operating room.
 
 They find five others across the inn, temple hall, shelter stair, kitchen, and bell tower.
 
-One officer photographs the failed shelter release and adds the delayed replacement order to the incident record before anyone can dismiss it as unrelated.
+An officer helps Kuroda open the damaged outer lock. Nami brings the second robot up from the shelter, and together they carry Jim back to the operating room. Kuroda has both hands inside the wound before the remaining villagers reach the courtyard.
 
-They find the doctor operating on Jim for the second time that morning.
-
-Every firearm, radio, spent casing, and bloodstained piece of clothing receives an evidence marker. Jim’s pistol joins the stolen weapons in a locked tray beside the patrol vehicles.
-
-The safe-room door opens only after officers confirm the grounds are clear and the doctor turns the damaged outer wheel by hand. Villagers return slowly.
+An officer collects the weapons while another photographs the failed shelter release. He asks who ordered the replacement. Nobody is free to answer him yet.
 
 Nami comes out first.
 
@@ -1725,9 +1261,9 @@ Nami looks toward the destroyed reception room.
 
 The farmer stands beside her.
 
-“You lied long enough.”
+“You got us downstairs.”
 
-That seems to matter.
+She folds the paper and puts it in her pocket.
 
 At the rear vehicle, an evidence officer scans the three-stroke mark on one of the recovered radios. The public case tablet identifies no registered organization. Her private interface identifies it immediately.
 
@@ -1741,121 +1277,45 @@ She marks the evidence sync as a network failure and closes the upload task.
 
 Inside the operating room, Nami replaces Doctor Kuroda’s hurried strip of skin film and properly seals the cut beneath a fresh layer and two gloves. The diagnostic robot holds instruments with its remaining arm while the doctor works. The old wall scanner loses the image twice. The fluid pump makes a sound it should not make. The doctor keeps going.
 
-Jim lies beneath fresh bandages around his stomach, hip, and thigh.
+Fresh bandages cover Jim’s hip and thigh. Nami holds a light over the reopened wound beneath his ribs.
 
 An HPD officer waits near the doorway.
 
-“We need his full name,” she says.
+“We need his full name,” the officer says.
 
-“Jim,” the doctor replies without looking up.
+“Jim,” Kuroda replies.
 
 “Family name?”
 
-“He charges extra for that.”
+“I don’t have one for you.”
 
-The officer looks toward the farmer.
+Jim opens his eyes at the sound of his name. The officer steps forward, but Kuroda puts up her uninjured hand.
 
-He shrugs.
+“When I’m finished.”
 
-“That’s what he said.”
+“He can’t leave.”
 
-Jim opens his eyes.
-
-The officer steps closer.
-
-“Jim, I need to ask you—”
-
-“No,” the doctor says.
-
-The officer stops.
-
-“He has lost a dangerous amount of blood, undergone two emergency procedures, and used a transport stimulant to remain upright while protecting everyone in this temple. You can ask questions after I decide he has enough pressure to lie properly.”
-
-The officer looks through the broken wall toward the villagers sweeping glass from the courtyard before anyone asks them to.
-
-She lowers her tablet.
-
-“You’re not under arrest while she is operating. You are, however, not leaving. An officer will remain outside.”
-
-Jim looks at the blood-soaked bandages and closes his eyes again.
-
-The doctor increases the sedative.
-
-His hand falls.
-
-“No, you aren’t.”
+Kuroda looks at the open wound, then back at the officer. After a moment, the officer moves out of her light.
 
 The officer steps into the corridor and takes up position beside the door.
 
-The farmer unfolds a handwritten paper beside Jim’s head.
+After Kuroda closes the wound, Genzo sits beside the door with a sheet of paper on his knee. He has written down the machine parts he replaced that morning. He adds the truck blanket, looks at his shoes, and adds those too.
 
-**Field Unit 04 electronics panel.**
+Across the room, Jim stirs beneath a clean sheet.
 
-**Two connectors.**
+“Is that mine?” he asks.
 
-**One inner cable.**
+Genzo holds up the bill.
 
-**Truck blanket cleaning.**
+“Don’t worry about it now.”
 
-**One pair of shoes.**
+Jim shuts his eyes. A moment later he opens them again.
 
-At the bottom sits a total large enough to be insulting and small enough to be real.
+“The people downstairs?”
 
-Jim reads it through half-closed eyes.
+“All out. Nami checked.”
 
-“You’re charging me for the shoes?”
-
-“You bled on them.”
-
-“You wore them into a field.”
-
-“They survived the field.”
-
-The doctor places her own list beside it.
-
-It is longer.
-
-**Reception counter.**
-
-**Treatment-room cabinet.**
-
-**Diagnostic robot shoulder and torso.**
-
-**Medication stock.**
-
-**Operating-room ceiling.**
-
-**Main-hall donation box.**
-
-**Incense burner lid.**
-
-**Shelter lock housing.**
-
-**Kitchen window.**
-
-**Rice cooker cleaning and iron pot.**
-
-**Koi pond filter.**
-
-**Bell rope inspection.**
-
-Jim looks from one bill to the other.
-
-“You planned this.”
-
-“We met this morning,” the doctor says.
-
-The farmer folds his arms.
-
-“Plenty of time.”
-
-Jim points weakly toward the bullet tray.
-
-“Can I at least keep that?”
-
-The doctor covers him with a clean blanket.
-
-“Still no.”
+Jim nods. Genzo folds the bill and leaves it on the bedside cabinet, beneath the tray holding the bullet.
 
 <!-- ambient: warm -->
 
@@ -1865,13 +1325,11 @@ Agricultural drones return to their routes over the fields. The relay tower’s 
 
 Near the reception door, Nami straightens her crooked badge before helping an elderly patient back into a chair. She does not look down to check it again.
 
-The farmer places the repair bill on Jim’s chest.
+Genzo takes out his contact list at last. His neighbor answers on the second ring.
 
-“Don’t die before you pay.”
+“Your grandson,” he says. “He’s home?”
 
-Jim closes his eyes.
-
-“No promises, gramps.”
+He listens, rubbing a dried patch of blood from his thumb. Across the room, Jim’s eyes close.
 
 The doctor checks the monitor beside him.
 
@@ -1879,12 +1337,8 @@ A steady waveform moves across the old display.
 
 “He has a chance,” she says.
 
-The farmer looks at Jim, then at the blood on his shoes.
+Genzo finishes the call and closes his contact window. He stays in the chair while Kuroda changes the fluid bag.
 
-“Good enough.”
+The monitor misses a beat. Both of them look up.
 
-An evidence officer seals Jim’s pistol inside a case and records its serial number.
-
-The farmer watches it leave.
-
-“I’m still charging him for the machine.”
+The next one comes.
